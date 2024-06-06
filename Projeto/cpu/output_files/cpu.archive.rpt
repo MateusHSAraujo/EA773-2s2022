@@ -1,0 +1,130 @@
+Archive Project report for cpu
+Fri Nov 18 10:15:24 2022
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Fri Nov 18 10:15:24 2022 ;
+; Revision Name          ; cpu                                   ;
+; Top-level Entity Name  ; cpu                                   ;
+; Family                 ; Cyclone II                            ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/cpu.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'cpu.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/altera/13.0sp1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4449 megabytes
+    Info: Processing ended: Fri Nov 18 10:15:24 2022
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++--------------------------------------------------------------------------------------------------------+
+; Files Archived                                                                                         ;
++--------------------------------------------------------------------------------------------------------+
+; File Name                                                                                              ;
++--------------------------------------------------------------------------------------------------------+
+; c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf                                                ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/complementa.bdf                       ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/decodificador_ULA.bdf                 ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/meio_somador.bdf                      ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/somador_4_bits.bdf                    ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/somador_completo.bdf                  ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/ULA.bdf                               ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/zera.bdf                              ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod16_restored/contador_mod16.bdf         ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod16_restored/transmite_entrada.bdf      ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod256/contador_mod_256.bdf               ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_1_bit.bdf  ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_4_bits.bdf ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/bus_tristate/bus_tristate.bdf                      ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/bus_ula/bus_ula.bdf                                ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/decodificador_7seg/bus_decodificador_7seg.bdf      ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/decoderBIN_ONEH/decoderBIN_ONEH.bdf                ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_dsv1111.vwf              ;
+; cpu.bdf                                                                                                ;
+; cpu.qpf                                                                                                ;
+; cpu.qsf                                                                                                ;
+; decod_inst_art.bdf                                                                                     ;
+; decod_inst_dsv.bdf                                                                                     ;
+; decod_inst_dsv_calc_LDCNT.bdf                                                                          ;
+; decod_inst_signal_register.bdf                                                                         ;
+; decod_inst_trf.bdf                                                                                     ;
+; decod_inst_trf_interno.bdf                                                                             ;
+; incremental_db/compiled_partitions/cpu.db_info                                                         ;
+; mux8x4.bdf                                                                                             ;
+; mux16x4.bdf                                                                                            ;
+; mux16x8.bdf                                                                                            ;
+; Testemux8x4.bdf                                                                                        ;
+; Testemux16x4.bdf                                                                                       ;
+; Testemux16x8.bdf                                                                                       ;
+; WaveformDecod_inst_art.vwf                                                                             ;
+; WaveformDecod_inst_dsv.vwf                                                                             ;
+; WaveformDecod_inst_dsv0000.vwf                                                                         ;
+; WaveformDecod_inst_dsv0001.vwf                                                                         ;
+; WaveformDecod_inst_dsv0010.vwf                                                                         ;
+; WaveformDecod_inst_dsv0011.vwf                                                                         ;
+; WaveformDecod_inst_dsv0100.vwf                                                                         ;
+; WaveformDecod_inst_dsv0101.vwf                                                                         ;
+; WaveformDecod_inst_dsv0110.vwf                                                                         ;
+; WaveformDecod_inst_dsv0111.vwf                                                                         ;
+; WaveformDecod_inst_dsv1000.vwf                                                                         ;
+; WaveformDecod_inst_dsv1001.vwf                                                                         ;
+; WaveformDecod_inst_dsv1010.vwf                                                                         ;
+; WaveformDecod_inst_dsv1011.vwf                                                                         ;
+; WaveformDecod_inst_dsv1100.vwf                                                                         ;
+; WaveformDecod_inst_dsv1101.vwf                                                                         ;
+; WaveformDecod_inst_dsv1110.vwf                                                                         ;
+; WaveformDecod_inst_dsv1111.vwf                                                                         ;
+; WaveformDecod_inst_trf.vwf                                                                             ;
+; WaveformDecod_inst_trf_interno.vwf                                                                     ;
+; WaveformMux8x4.vwf                                                                                     ;
+; WaveformMux16x4.vwf                                                                                    ;
+; WaveformMux16x8.vwf                                                                                    ;
+; WaveformTESTE.vwf                                                                                      ;
++--------------------------------------------------------------------------------------------------------+
+
+

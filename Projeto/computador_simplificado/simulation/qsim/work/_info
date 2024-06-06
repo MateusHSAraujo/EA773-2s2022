@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Projeto\computador_simplificado\simulation\qsim
+vcomputador_simplificado
+Z1 !s100 [IOJjin5Ok]>EH:4c<^gJ0
+Z2 IM0Pea]ed4nf1<ak0`30T01
+Z3 V<I28M_c0@em<EbZB=kDjX2
+Z4 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Projeto\computador_simplificado\simulation\qsim
+Z5 w1668776311
+Z6 8computador_simplificado.vo
+Z7 Fcomputador_simplificado.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|computador_simplificado.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1668776312.142000
+Z12 !s107 computador_simplificado.vo|
+!s101 -O0
+vcomputador_simplificado_vlg_check_tst
+!i10b 1
+!s100 >MP^iB9oh4MfNQ9>fK5622
+I]mEMnhlilZg]RjSN3ZneI0
+Z13 Vb2P0dmU@E]]U2_7Sf[GGl3
+R4
+Z14 w1668776310
+Z15 8computador_simplificado.vt
+Z16 Fcomputador_simplificado.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z17 !s108 1668776312.235000
+Z18 !s107 computador_simplificado.vt|
+Z19 !s90 -work|work|computador_simplificado.vt|
+!s101 -O0
+R10
+vcomputador_simplificado_vlg_sample_tst
+!i10b 1
+Z20 !s100 5<4Zg>5Sz_o3[C79SE9nh3
+Z21 IQJAf@3cgENJdOh8C^_?J33
+Z22 Vf`H:h;YfJbbKY]5f5^h?^2
+R4
+R14
+R15
+R16
+L0 29
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+vcomputador_simplificado_vlg_vec_tst
+!i10b 1
+!s100 kN^fIo92cDNXJlKYFTL4Y1
+Ij>ATPDUGSH]=2j=LPhPZ[3
+Z23 Vi1o=7l5mS6;kL36nlF_G62
+R4
+R14
+R15
+R16
+L0 1049
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10

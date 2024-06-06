@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab5\Circuito_de_teste_RAM\simulation\qsim
+vteste_RAM
+Z1 I=7:T^S34zZ=Mb3YzKz0`60
+Z2 VS:7AJQXBd<?S_^bRAWc7d3
+Z3 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab5\Circuito_de_teste_RAM\simulation\qsim
+Z4 w1666293717
+Z5 8teste_RAM.vo
+Z6 Fteste_RAM.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 nteste_@r@a@m
+!i10b 1
+Z10 !s100 U1LzL[_KkNZLZ1]D_kDkX2
+!s85 0
+Z11 !s108 1666293717.750000
+Z12 !s107 teste_RAM.vo|
+Z13 !s90 -work|work|teste_RAM.vo|
+!s101 -O0
+vteste_RAM_vlg_check_tst
+!i10b 1
+!s100 YeV4;2GVCI1K`B?efHfk?3
+I:MLbD]bzmRge_GROg[;VI3
+Vc=8caQ50aVTQ:Nn3aIX_F0
+R3
+Z14 w1666293716
+Z15 8teste_RAM.vt
+Z16 Fteste_RAM.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z17 !s108 1666293717.803000
+Z18 !s107 teste_RAM.vt|
+Z19 !s90 -work|work|teste_RAM.vt|
+!s101 -O0
+R8
+nteste_@r@a@m_vlg_check_tst
+vteste_RAM_vlg_sample_tst
+!i10b 1
+!s100 T;lO<BHJJlGEL;:C;`EBi0
+IV:NfT?Y1OM0aNA[_f>J`13
+V[=]CCXO^SlTYiK]31:4h^3
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+nteste_@r@a@m_vlg_sample_tst
+vteste_RAM_vlg_vec_tst
+!i10b 1
+!s100 nY[>Ho97XX]a9fN?5nfe`0
+I^V>_S;F]hT?OTl83NWYU_0
+VT::?1L2gfQG9DOMQYODl61
+R3
+R14
+R15
+R16
+L0 435
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+nteste_@r@a@m_vlg_vec_tst

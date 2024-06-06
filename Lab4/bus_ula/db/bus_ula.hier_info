@@ -1,0 +1,89 @@
+|Block1
+o[0] <= registrador_4_bits:inst.q[0]
+o[1] <= registrador_4_bits:inst.q[1]
+o[2] <= registrador_4_bits:inst.q[2]
+o[3] <= registrador_4_bits:inst.q[3]
+LD => registrador_4_bits:inst.LD
+clr => registrador_4_bits:inst.CLR
+CLK => registrador_4_bits:inst.CLK
+e => bus_tristate:inst2.e
+i[0] => bus_tristate:inst2.in[0]
+i[1] => bus_tristate:inst2.in[1]
+i[2] => bus_tristate:inst2.in[2]
+i[3] => bus_tristate:inst2.in[3]
+
+
+|Block1|registrador_4_bits:inst
+q[0] <= registrador_1_bit:inst12.qi
+q[1] <= registrador_1_bit:inst11.qi
+q[2] <= registrador_1_bit:inst10.qi
+q[3] <= registrador_1_bit:inst.qi
+LD => registrador_1_bit:inst12.LD
+LD => registrador_1_bit:inst11.LD
+LD => registrador_1_bit:inst10.LD
+LD => registrador_1_bit:inst.LD
+x[0] => registrador_1_bit:inst12.xi
+x[1] => registrador_1_bit:inst11.xi
+x[2] => registrador_1_bit:inst10.xi
+x[3] => registrador_1_bit:inst.xi
+CLR => registrador_1_bit:inst12.CLR
+CLR => registrador_1_bit:inst11.CLR
+CLR => registrador_1_bit:inst10.CLR
+CLR => registrador_1_bit:inst.CLR
+CLK => registrador_1_bit:inst12.CLK
+CLK => registrador_1_bit:inst11.CLK
+CLK => registrador_1_bit:inst10.CLK
+CLK => registrador_1_bit:inst.CLK
+
+
+|Block1|registrador_4_bits:inst|registrador_1_bit:inst12
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|Block1|registrador_4_bits:inst|registrador_1_bit:inst11
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|Block1|registrador_4_bits:inst|registrador_1_bit:inst10
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|Block1|registrador_4_bits:inst|registrador_1_bit:inst
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|Block1|bus_tristate:inst2
+out[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => inst3.DATAIN
+in[1] => inst2.DATAIN
+in[2] => inst1.DATAIN
+in[3] => inst.DATAIN
+e => inst3.OE
+e => inst2.OE
+e => inst1.OE
+e => inst.OE
+
+

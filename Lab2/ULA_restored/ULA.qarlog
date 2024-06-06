@@ -1,0 +1,39 @@
+Quartus II Archive log --	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/ULA.qarlog
+
+Archive:	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/ULA.qar
+Date:		Thu Sep 15 18:23:58 2022
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/ULA.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/ULA.qpf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/ULA.qsf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/ULA_teste.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/WaveformComplementa.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/WaveformDecodificador.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/WaveformMeioSomador.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/WaveformSomador4Bits.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/WaveformSomadorCompleto.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/WaveformTesteS4bits.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/WaveformULAADD.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/WaveformULAADDC.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/WaveformULACMPL.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/WaveformULADEC.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/WaveformULAINC.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/WaveformULANEG.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/WaveformULASUB.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/WaveformZera.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/assignment_defaults.qdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/complementa.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/db/ULA.sim.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/decodificador_ULA.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/incremental_db/compiled_partitions/ULA.db_info
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/meio_somador.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/somador_4_bits.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/somador_completo.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/teste.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/zera.bdf
+	======= Total: 28 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

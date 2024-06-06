@@ -1,0 +1,19 @@
+Quartus II Archive log --	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/decodificador_7seg/bus_decodificador_7seg.qarlog
+
+Archive:	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/decodificador_7seg/bus_decodificador_7seg.qar
+Date:		Wed Oct 05 11:49:50 2022
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/decodificador_7seg/WaveformDisplay.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/decodificador_7seg/Waveformteste.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/decodificador_7seg/bus_decodificador_7seg.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/decodificador_7seg/bus_decodificador_7seg.qpf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/decodificador_7seg/bus_decodificador_7seg.qsf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/decodificador_7seg/bus_decodificador_7seg_Teste.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/decodificador_7seg/incremental_db/compiled_partitions/bus_decodificador_7seg.db_info
+c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

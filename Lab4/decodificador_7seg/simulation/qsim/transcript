@@ -1,0 +1,50 @@
+# do bus_decodificador_7seg.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bus_decodificador_7seg
+# 
+# Top level modules:
+# 	bus_decodificador_7seg
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bus_decodificador_7seg_vlg_sample_tst
+# -- Compiling module bus_decodificador_7seg_vlg_check_tst
+# -- Compiling module bus_decodificador_7seg_vlg_vec_tst
+# 
+# Top level modules:
+# 	bus_decodificador_7seg_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.bus_decodificador_7seg_vlg_vec_tst 
+# Loading work.bus_decodificador_7seg_vlg_vec_tst
+# Loading work.bus_decodificador_7seg
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading work.bus_decodificador_7seg_vlg_sample_tst
+# Loading work.bus_decodificador_7seg_vlg_check_tst
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# ERROR! Vector Mismatch for output port seg[4] :: @time = 1000000.000 ps
+#      Expected value = 0000000
+#      Real value = 0110000
+# ERROR! Vector Mismatch for output port seg[5] :: @time = 1000000.000 ps
+#      Expected value = 0000000
+#      Real value = 0110000
+# ERROR! Vector Mismatch for output port seg[0] :: @time = 1250000.000 ps
+#      Expected value = 0000000
+#      Real value = 0011001
+# ERROR! Vector Mismatch for output port seg[3] :: @time = 1250000.000 ps
+#      Expected value = 0000000
+#      Real value = 0011001
+# ERROR! Vector Mismatch for output port seg[1] :: @time = 1500000.000 ps
+#      Expected value = 0000000
+#      Real value = 0010010
+# ERROR! Vector Mismatch for output port seg[6] :: @time = 2000000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111000
+# ERROR! Vector Mismatch for output port seg[2] :: @time = 3250000.000 ps
+#      Expected value = 0000000
+#      Real value = 1000110
+#           7 mismatched vectors : Simulation failed !
+# ** Note: $finish    : bus_decodificador_7seg.vt(262)
+#    Time: 4 us  Iteration: 0  Instance: /bus_decodificador_7seg_vlg_vec_tst/tb_out

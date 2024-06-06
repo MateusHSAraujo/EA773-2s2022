@@ -1,0 +1,208 @@
+$comment
+	File created using the following command:
+		vcd file decoderBIN_ONEH.msim.vcd -direction
+$end
+$date
+	Sat Oct 22 16:06:33 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module decoderBIN_ONEH_vlg_vec_tst $end
+$var reg 1 ! enable $end
+$var reg 4 " x [3:0] $end
+$var wire 1 # y [15] $end
+$var wire 1 $ y [14] $end
+$var wire 1 % y [13] $end
+$var wire 1 & y [12] $end
+$var wire 1 ' y [11] $end
+$var wire 1 ( y [10] $end
+$var wire 1 ) y [9] $end
+$var wire 1 * y [8] $end
+$var wire 1 + y [7] $end
+$var wire 1 , y [6] $end
+$var wire 1 - y [5] $end
+$var wire 1 . y [4] $end
+$var wire 1 / y [3] $end
+$var wire 1 0 y [2] $end
+$var wire 1 1 y [1] $end
+$var wire 1 2 y [0] $end
+$var wire 1 3 sampler $end
+$scope module i1 $end
+$var wire 1 4 gnd $end
+$var wire 1 5 vcc $end
+$var wire 1 6 unknown $end
+$var tri1 1 7 devclrn $end
+$var tri1 1 8 devpor $end
+$var tri1 1 9 devoe $end
+$var wire 1 : enable~combout $end
+$var wire 1 ; inst5~0_combout $end
+$var wire 1 < inst5~1_combout $end
+$var wire 1 = inst5~2_combout $end
+$var wire 1 > inst5~3_combout $end
+$var wire 1 ? inst5~4_combout $end
+$var wire 1 @ inst5~5_combout $end
+$var wire 1 A inst5~6_combout $end
+$var wire 1 B inst5~7_combout $end
+$var wire 1 C inst5~8_combout $end
+$var wire 1 D inst5~9_combout $end
+$var wire 1 E inst5~10_combout $end
+$var wire 1 F inst5~11_combout $end
+$var wire 1 G inst5~12_combout $end
+$var wire 1 H inst5~13_combout $end
+$var wire 1 I inst5~14_combout $end
+$var wire 1 J inst5~15_combout $end
+$var wire 1 K inst5~16_combout $end
+$var wire 1 L inst5~17_combout $end
+$var wire 1 M inst5~18_combout $end
+$var wire 1 N inst5~19_combout $end
+$var wire 1 O inst5~20_combout $end
+$var wire 1 P inst5~21_combout $end
+$var wire 1 Q inst5~22_combout $end
+$var wire 1 R inst5~23_combout $end
+$var wire 1 S x~combout [3] $end
+$var wire 1 T x~combout [2] $end
+$var wire 1 U x~combout [1] $end
+$var wire 1 V x~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+b1000 "
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+1*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+x3
+04
+15
+x6
+17
+18
+19
+1:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+1I
+1J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0V
+0U
+0T
+1S
+$end
+#250000
+b1001 "
+1V
+03
+0I
+1G
+0J
+1H
+0*
+1)
+#500000
+b1011 "
+b1010 "
+0V
+1U
+13
+0G
+1E
+0H
+1F
+0)
+1(
+#750000
+b1011 "
+1V
+03
+0E
+1C
+0F
+1D
+0(
+1'
+#1000000
+b1111 "
+b1101 "
+b1100 "
+0V
+0U
+1T
+13
+0C
+1A
+0D
+1B
+0'
+1&
+#1250000
+b1101 "
+1V
+03
+0A
+1?
+0B
+1@
+0&
+1%
+#1500000
+b1111 "
+b1110 "
+0V
+1U
+13
+0?
+1=
+0@
+1>
+0%
+1$
+#1750000
+b1111 "
+1V
+03
+0=
+1;
+0>
+1<
+0$
+1#
+#2000000

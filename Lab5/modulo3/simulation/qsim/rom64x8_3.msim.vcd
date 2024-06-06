@@ -1,0 +1,284 @@
+$comment
+	File created using the following command:
+		vcd file rom64x8_3.msim.vcd -direction
+$end
+$date
+	Sun Oct 23 10:25:58 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module rom64x8_3_vlg_vec_tst $end
+$var reg 6 ! addr [5:0] $end
+$var reg 1 " SEL $end
+$var wire 1 # d [7] $end
+$var wire 1 $ d [6] $end
+$var wire 1 % d [5] $end
+$var wire 1 & d [4] $end
+$var wire 1 ' d [3] $end
+$var wire 1 ( d [2] $end
+$var wire 1 ) d [1] $end
+$var wire 1 * d [0] $end
+$var wire 1 + sampler $end
+$scope module i1 $end
+$var wire 1 , gnd $end
+$var wire 1 - vcc $end
+$var wire 1 . unknown $end
+$var tri1 1 / devclrn $end
+$var tri1 1 0 devpor $end
+$var tri1 1 1 devoe $end
+$var wire 1 2 SEL~combout $end
+$var wire 1 3 0a31|16a31|MS|inst|inst5~0_combout $end
+$var wire 1 4 0a31|16a31|MS|inst47~3_combout $end
+$var wire 1 5 0a31|16a31|MS|inst|inst5~1_combout $end
+$var wire 1 6 0a31|16a31|MS|inst47~4_combout $end
+$var wire 1 7 0a31|16a31|MS|inst47~6_combout $end
+$var wire 1 8 0a31|16a31|MS|inst47~5_combout $end
+$var wire 1 9 32a63|0a15|MS|inst3~3_combout $end
+$var wire 1 : 32a63|0a15|MS|inst3~7_combout $end
+$var wire 1 ; 0a31|16a31|MS|inst56~4_combout $end
+$var wire 1 < 0a31|16a31|MS|inst56~10_combout $end
+$var wire 1 = 32a63|0a15|MS|inst57~3_combout $end
+$var wire 1 > 32a63|0a15|MS|inst57~7_combout $end
+$var wire 1 ? 32a63|0a15|LS|inst14~9_combout $end
+$var wire 1 @ 0a31|16a31|LS|inst42~1_combout $end
+$var wire 1 A 0a31|16a31|LS|inst42~2_combout $end
+$var wire 1 B 0a31|16a31|LS|inst40~1_combout $end
+$var wire 1 C 0a31|16a31|LS|inst40~2_combout $end
+$var wire 1 D 0a31|16a31|MS|inst|inst5~2_combout $end
+$var wire 1 E 0a31|16a31|LS|inst37~1_combout $end
+$var wire 1 F addr~combout [5] $end
+$var wire 1 G addr~combout [4] $end
+$var wire 1 H addr~combout [3] $end
+$var wire 1 I addr~combout [2] $end
+$var wire 1 J addr~combout [1] $end
+$var wire 1 K addr~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b110000 !
+1"
+1*
+1)
+1(
+1'
+1&
+1%
+1$
+1#
+x+
+0,
+1-
+x.
+1/
+10
+11
+12
+03
+14
+05
+06
+07
+18
+19
+1:
+1;
+1<
+1=
+1>
+1?
+0@
+1A
+0B
+1C
+0D
+1E
+0K
+0J
+0I
+0H
+zG
+zF
+$end
+#250000
+b110001 !
+1K
+0+
+16
+15
+0E
+0*
+#500000
+b110011 !
+b110010 !
+0K
+1J
+1+
+06
+05
+1B
+1@
+1E
+0C
+1*
+0)
+#750000
+b110011 !
+1K
+0+
+1C
+0A
+1)
+0(
+#1000000
+b110111 !
+b110101 !
+b110100 !
+0K
+0J
+1I
+1+
+0C
+1A
+0?
+17
+16
+0B
+0@
+0=
+0;
+1C
+0)
+1(
+0'
+1)
+#1250000
+0"
+b110101 !
+02
+1K
+0+
+1?
+08
+z'
+z*
+z)
+z(
+z&
+z%
+z$
+z#
+#1500000
+b110111 !
+b110110 !
+0K
+1J
+1+
+1=
+09
+#1750000
+b110111 !
+1K
+0+
+#2000000
+b111111 !
+b111011 !
+b111001 !
+b111000 !
+0K
+0J
+0I
+1H
+1+
+07
+06
+13
+#2250000
+b111001 !
+1K
+0+
+17
+16
+03
+#2500000
+1"
+b111011 !
+b111010 !
+12
+0K
+1J
+1+
+0<
+18
+0=
+19
+0%
+1*
+1)
+1(
+1'
+1&
+1$
+1#
+#2750000
+b111011 !
+1K
+0+
+0>
+1<
+0&
+1%
+#3000000
+b111111 !
+b111101 !
+b111100 !
+0K
+0J
+1I
+1+
+0?
+1>
+1@
+1=
+1;
+0'
+1&
+#3250000
+b111101 !
+1K
+0+
+0A
+1?
+07
+06
+0(
+1'
+#3500000
+b111111 !
+b111110 !
+0K
+1J
+1+
+1A
+1B
+0@
+0C
+1(
+0)
+#3750000
+b111111 !
+1K
+0+
+1D
+1C
+17
+16
+0E
+1)
+0*
+#4000000

@@ -1,0 +1,1619 @@
+|ram
+o[0] <= o.DB_MAX_OUTPUT_PORT_TYPE
+o[1] <= o.DB_MAX_OUTPUT_PORT_TYPE
+o[2] <= o.DB_MAX_OUTPUT_PORT_TYPE
+o[3] <= o.DB_MAX_OUTPUT_PORT_TYPE
+SEL => decoderBIN_ONEH:inst5.enable
+addr[0] => decoderBIN_ONEH:inst5.x[0]
+addr[1] => decoderBIN_ONEH:inst5.x[1]
+addr[2] => decoderBIN_ONEH:inst5.x[2]
+addr[3] => decoderBIN_ONEH:inst5.x[3]
+R0W1 => ram1x4:inst.R0W1
+R0W1 => ram1x4:inst22.R0W1
+R0W1 => ram1x4:inst23.R0W1
+R0W1 => ram1x4:inst24.R0W1
+R0W1 => ram1x4:inst34.R0W1
+R0W1 => ram1x4:inst25.R0W1
+R0W1 => ram1x4:inst26.R0W1
+R0W1 => ram1x4:inst27.R0W1
+R0W1 => ram1x4:inst35.R0W1
+R0W1 => ram1x4:inst28.R0W1
+R0W1 => ram1x4:inst29.R0W1
+R0W1 => ram1x4:inst30.R0W1
+R0W1 => ram1x4:inst36.R0W1
+R0W1 => ram1x4:inst31.R0W1
+R0W1 => ram1x4:inst32.R0W1
+R0W1 => ram1x4:inst33.R0W1
+CLK => ram1x4:inst.CLK
+CLK => ram1x4:inst22.CLK
+CLK => ram1x4:inst23.CLK
+CLK => ram1x4:inst24.CLK
+CLK => ram1x4:inst34.CLK
+CLK => ram1x4:inst25.CLK
+CLK => ram1x4:inst26.CLK
+CLK => ram1x4:inst27.CLK
+CLK => ram1x4:inst35.CLK
+CLK => ram1x4:inst28.CLK
+CLK => ram1x4:inst29.CLK
+CLK => ram1x4:inst30.CLK
+CLK => ram1x4:inst36.CLK
+CLK => ram1x4:inst31.CLK
+CLK => ram1x4:inst32.CLK
+CLK => ram1x4:inst33.CLK
+i[0] => ram1x4:inst.i[0]
+i[0] => ram1x4:inst22.i[0]
+i[0] => ram1x4:inst23.i[0]
+i[0] => ram1x4:inst24.i[0]
+i[0] => ram1x4:inst34.i[0]
+i[0] => ram1x4:inst25.i[0]
+i[0] => ram1x4:inst26.i[0]
+i[0] => ram1x4:inst27.i[0]
+i[0] => ram1x4:inst35.i[0]
+i[0] => ram1x4:inst28.i[0]
+i[0] => ram1x4:inst29.i[0]
+i[0] => ram1x4:inst30.i[0]
+i[0] => ram1x4:inst36.i[0]
+i[0] => ram1x4:inst31.i[0]
+i[0] => ram1x4:inst32.i[0]
+i[0] => ram1x4:inst33.i[0]
+i[1] => ram1x4:inst.i[1]
+i[1] => ram1x4:inst22.i[1]
+i[1] => ram1x4:inst23.i[1]
+i[1] => ram1x4:inst24.i[1]
+i[1] => ram1x4:inst34.i[1]
+i[1] => ram1x4:inst25.i[1]
+i[1] => ram1x4:inst26.i[1]
+i[1] => ram1x4:inst27.i[1]
+i[1] => ram1x4:inst35.i[1]
+i[1] => ram1x4:inst28.i[1]
+i[1] => ram1x4:inst29.i[1]
+i[1] => ram1x4:inst30.i[1]
+i[1] => ram1x4:inst36.i[1]
+i[1] => ram1x4:inst31.i[1]
+i[1] => ram1x4:inst32.i[1]
+i[1] => ram1x4:inst33.i[1]
+i[2] => ram1x4:inst.i[2]
+i[2] => ram1x4:inst22.i[2]
+i[2] => ram1x4:inst23.i[2]
+i[2] => ram1x4:inst24.i[2]
+i[2] => ram1x4:inst34.i[2]
+i[2] => ram1x4:inst25.i[2]
+i[2] => ram1x4:inst26.i[2]
+i[2] => ram1x4:inst27.i[2]
+i[2] => ram1x4:inst35.i[2]
+i[2] => ram1x4:inst28.i[2]
+i[2] => ram1x4:inst29.i[2]
+i[2] => ram1x4:inst30.i[2]
+i[2] => ram1x4:inst36.i[2]
+i[2] => ram1x4:inst31.i[2]
+i[2] => ram1x4:inst32.i[2]
+i[2] => ram1x4:inst33.i[2]
+i[3] => ram1x4:inst.i[3]
+i[3] => ram1x4:inst22.i[3]
+i[3] => ram1x4:inst23.i[3]
+i[3] => ram1x4:inst24.i[3]
+i[3] => ram1x4:inst34.i[3]
+i[3] => ram1x4:inst25.i[3]
+i[3] => ram1x4:inst26.i[3]
+i[3] => ram1x4:inst27.i[3]
+i[3] => ram1x4:inst35.i[3]
+i[3] => ram1x4:inst28.i[3]
+i[3] => ram1x4:inst29.i[3]
+i[3] => ram1x4:inst30.i[3]
+i[3] => ram1x4:inst36.i[3]
+i[3] => ram1x4:inst31.i[3]
+i[3] => ram1x4:inst32.i[3]
+i[3] => ram1x4:inst33.i[3]
+
+
+|ram|ram1x4:inst
+out[0] <= bus_tristate:inst6.out[0]
+out[1] <= bus_tristate:inst6.out[1]
+out[2] <= bus_tristate:inst6.out[2]
+out[3] <= bus_tristate:inst6.out[3]
+SEL => inst5.IN0
+SEL => inst.IN0
+R0W1 => inst3.IN0
+R0W1 => inst.IN1
+CLK => registrador_4_bits:inst4.CLK
+i[0] => registrador_4_bits:inst4.x[0]
+i[1] => registrador_4_bits:inst4.x[1]
+i[2] => registrador_4_bits:inst4.x[2]
+i[3] => registrador_4_bits:inst4.x[3]
+
+
+|ram|ram1x4:inst|bus_tristate:inst6
+out[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => inst3.DATAIN
+in[1] => inst2.DATAIN
+in[2] => inst1.DATAIN
+in[3] => inst.DATAIN
+e => inst3.OE
+e => inst2.OE
+e => inst1.OE
+e => inst.OE
+
+
+|ram|ram1x4:inst|registrador_4_bits:inst4
+q[0] <= registrador_1_bit:inst12.qi
+q[1] <= registrador_1_bit:inst11.qi
+q[2] <= registrador_1_bit:inst10.qi
+q[3] <= registrador_1_bit:inst.qi
+LD => registrador_1_bit:inst12.LD
+LD => registrador_1_bit:inst11.LD
+LD => registrador_1_bit:inst10.LD
+LD => registrador_1_bit:inst.LD
+x[0] => registrador_1_bit:inst12.xi
+x[1] => registrador_1_bit:inst11.xi
+x[2] => registrador_1_bit:inst10.xi
+x[3] => registrador_1_bit:inst.xi
+CLR => registrador_1_bit:inst12.CLR
+CLR => registrador_1_bit:inst11.CLR
+CLR => registrador_1_bit:inst10.CLR
+CLR => registrador_1_bit:inst.CLR
+CLK => registrador_1_bit:inst12.CLK
+CLK => registrador_1_bit:inst11.CLK
+CLK => registrador_1_bit:inst10.CLK
+CLK => registrador_1_bit:inst.CLK
+
+
+|ram|ram1x4:inst|registrador_4_bits:inst4|registrador_1_bit:inst12
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst|registrador_4_bits:inst4|registrador_1_bit:inst11
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst|registrador_4_bits:inst4|registrador_1_bit:inst10
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst|registrador_4_bits:inst4|registrador_1_bit:inst
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|decoderBIN_ONEH:inst5
+y[0] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+y[7] <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+y[8] <= inst28.DB_MAX_OUTPUT_PORT_TYPE
+y[9] <= inst29.DB_MAX_OUTPUT_PORT_TYPE
+y[10] <= inst30.DB_MAX_OUTPUT_PORT_TYPE
+y[11] <= inst31.DB_MAX_OUTPUT_PORT_TYPE
+y[12] <= inst32.DB_MAX_OUTPUT_PORT_TYPE
+y[13] <= inst33.DB_MAX_OUTPUT_PORT_TYPE
+y[14] <= inst34.DB_MAX_OUTPUT_PORT_TYPE
+y[15] <= inst35.DB_MAX_OUTPUT_PORT_TYPE
+enable => inst35.IN0
+enable => inst34.IN0
+enable => inst33.IN0
+enable => inst32.IN0
+enable => inst31.IN0
+enable => inst30.IN0
+enable => inst29.IN0
+enable => inst28.IN0
+enable => inst27.IN0
+enable => inst26.IN0
+enable => inst25.IN0
+enable => inst24.IN0
+enable => inst23.IN0
+enable => inst22.IN0
+enable => inst21.IN0
+enable => inst1.IN0
+x[0] => inst20.IN0
+x[0] => inst.IN0
+x[0] => inst18.IN0
+x[0] => inst16.IN0
+x[0] => inst14.IN0
+x[0] => inst12.IN0
+x[0] => inst10.IN0
+x[0] => inst8.IN0
+x[0] => inst6.IN0
+x[1] => inst20.IN1
+x[1] => inst19.IN1
+x[1] => inst2.IN0
+x[1] => inst16.IN1
+x[1] => inst15.IN1
+x[1] => inst12.IN1
+x[1] => inst11.IN1
+x[1] => inst8.IN1
+x[1] => inst7.IN1
+x[2] => inst20.IN2
+x[2] => inst19.IN2
+x[2] => inst18.IN2
+x[2] => inst17.IN2
+x[2] => inst3.IN0
+x[2] => inst12.IN2
+x[2] => inst11.IN2
+x[2] => inst10.IN2
+x[2] => inst9.IN2
+x[3] => inst20.IN3
+x[3] => inst19.IN3
+x[3] => inst18.IN3
+x[3] => inst17.IN3
+x[3] => inst16.IN3
+x[3] => inst15.IN3
+x[3] => inst14.IN3
+x[3] => inst13.IN3
+x[3] => inst4.IN0
+
+
+|ram|ram1x4:inst22
+out[0] <= bus_tristate:inst6.out[0]
+out[1] <= bus_tristate:inst6.out[1]
+out[2] <= bus_tristate:inst6.out[2]
+out[3] <= bus_tristate:inst6.out[3]
+SEL => inst5.IN0
+SEL => inst.IN0
+R0W1 => inst3.IN0
+R0W1 => inst.IN1
+CLK => registrador_4_bits:inst4.CLK
+i[0] => registrador_4_bits:inst4.x[0]
+i[1] => registrador_4_bits:inst4.x[1]
+i[2] => registrador_4_bits:inst4.x[2]
+i[3] => registrador_4_bits:inst4.x[3]
+
+
+|ram|ram1x4:inst22|bus_tristate:inst6
+out[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => inst3.DATAIN
+in[1] => inst2.DATAIN
+in[2] => inst1.DATAIN
+in[3] => inst.DATAIN
+e => inst3.OE
+e => inst2.OE
+e => inst1.OE
+e => inst.OE
+
+
+|ram|ram1x4:inst22|registrador_4_bits:inst4
+q[0] <= registrador_1_bit:inst12.qi
+q[1] <= registrador_1_bit:inst11.qi
+q[2] <= registrador_1_bit:inst10.qi
+q[3] <= registrador_1_bit:inst.qi
+LD => registrador_1_bit:inst12.LD
+LD => registrador_1_bit:inst11.LD
+LD => registrador_1_bit:inst10.LD
+LD => registrador_1_bit:inst.LD
+x[0] => registrador_1_bit:inst12.xi
+x[1] => registrador_1_bit:inst11.xi
+x[2] => registrador_1_bit:inst10.xi
+x[3] => registrador_1_bit:inst.xi
+CLR => registrador_1_bit:inst12.CLR
+CLR => registrador_1_bit:inst11.CLR
+CLR => registrador_1_bit:inst10.CLR
+CLR => registrador_1_bit:inst.CLR
+CLK => registrador_1_bit:inst12.CLK
+CLK => registrador_1_bit:inst11.CLK
+CLK => registrador_1_bit:inst10.CLK
+CLK => registrador_1_bit:inst.CLK
+
+
+|ram|ram1x4:inst22|registrador_4_bits:inst4|registrador_1_bit:inst12
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst22|registrador_4_bits:inst4|registrador_1_bit:inst11
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst22|registrador_4_bits:inst4|registrador_1_bit:inst10
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst22|registrador_4_bits:inst4|registrador_1_bit:inst
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst23
+out[0] <= bus_tristate:inst6.out[0]
+out[1] <= bus_tristate:inst6.out[1]
+out[2] <= bus_tristate:inst6.out[2]
+out[3] <= bus_tristate:inst6.out[3]
+SEL => inst5.IN0
+SEL => inst.IN0
+R0W1 => inst3.IN0
+R0W1 => inst.IN1
+CLK => registrador_4_bits:inst4.CLK
+i[0] => registrador_4_bits:inst4.x[0]
+i[1] => registrador_4_bits:inst4.x[1]
+i[2] => registrador_4_bits:inst4.x[2]
+i[3] => registrador_4_bits:inst4.x[3]
+
+
+|ram|ram1x4:inst23|bus_tristate:inst6
+out[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => inst3.DATAIN
+in[1] => inst2.DATAIN
+in[2] => inst1.DATAIN
+in[3] => inst.DATAIN
+e => inst3.OE
+e => inst2.OE
+e => inst1.OE
+e => inst.OE
+
+
+|ram|ram1x4:inst23|registrador_4_bits:inst4
+q[0] <= registrador_1_bit:inst12.qi
+q[1] <= registrador_1_bit:inst11.qi
+q[2] <= registrador_1_bit:inst10.qi
+q[3] <= registrador_1_bit:inst.qi
+LD => registrador_1_bit:inst12.LD
+LD => registrador_1_bit:inst11.LD
+LD => registrador_1_bit:inst10.LD
+LD => registrador_1_bit:inst.LD
+x[0] => registrador_1_bit:inst12.xi
+x[1] => registrador_1_bit:inst11.xi
+x[2] => registrador_1_bit:inst10.xi
+x[3] => registrador_1_bit:inst.xi
+CLR => registrador_1_bit:inst12.CLR
+CLR => registrador_1_bit:inst11.CLR
+CLR => registrador_1_bit:inst10.CLR
+CLR => registrador_1_bit:inst.CLR
+CLK => registrador_1_bit:inst12.CLK
+CLK => registrador_1_bit:inst11.CLK
+CLK => registrador_1_bit:inst10.CLK
+CLK => registrador_1_bit:inst.CLK
+
+
+|ram|ram1x4:inst23|registrador_4_bits:inst4|registrador_1_bit:inst12
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst23|registrador_4_bits:inst4|registrador_1_bit:inst11
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst23|registrador_4_bits:inst4|registrador_1_bit:inst10
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst23|registrador_4_bits:inst4|registrador_1_bit:inst
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst24
+out[0] <= bus_tristate:inst6.out[0]
+out[1] <= bus_tristate:inst6.out[1]
+out[2] <= bus_tristate:inst6.out[2]
+out[3] <= bus_tristate:inst6.out[3]
+SEL => inst5.IN0
+SEL => inst.IN0
+R0W1 => inst3.IN0
+R0W1 => inst.IN1
+CLK => registrador_4_bits:inst4.CLK
+i[0] => registrador_4_bits:inst4.x[0]
+i[1] => registrador_4_bits:inst4.x[1]
+i[2] => registrador_4_bits:inst4.x[2]
+i[3] => registrador_4_bits:inst4.x[3]
+
+
+|ram|ram1x4:inst24|bus_tristate:inst6
+out[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => inst3.DATAIN
+in[1] => inst2.DATAIN
+in[2] => inst1.DATAIN
+in[3] => inst.DATAIN
+e => inst3.OE
+e => inst2.OE
+e => inst1.OE
+e => inst.OE
+
+
+|ram|ram1x4:inst24|registrador_4_bits:inst4
+q[0] <= registrador_1_bit:inst12.qi
+q[1] <= registrador_1_bit:inst11.qi
+q[2] <= registrador_1_bit:inst10.qi
+q[3] <= registrador_1_bit:inst.qi
+LD => registrador_1_bit:inst12.LD
+LD => registrador_1_bit:inst11.LD
+LD => registrador_1_bit:inst10.LD
+LD => registrador_1_bit:inst.LD
+x[0] => registrador_1_bit:inst12.xi
+x[1] => registrador_1_bit:inst11.xi
+x[2] => registrador_1_bit:inst10.xi
+x[3] => registrador_1_bit:inst.xi
+CLR => registrador_1_bit:inst12.CLR
+CLR => registrador_1_bit:inst11.CLR
+CLR => registrador_1_bit:inst10.CLR
+CLR => registrador_1_bit:inst.CLR
+CLK => registrador_1_bit:inst12.CLK
+CLK => registrador_1_bit:inst11.CLK
+CLK => registrador_1_bit:inst10.CLK
+CLK => registrador_1_bit:inst.CLK
+
+
+|ram|ram1x4:inst24|registrador_4_bits:inst4|registrador_1_bit:inst12
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst24|registrador_4_bits:inst4|registrador_1_bit:inst11
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst24|registrador_4_bits:inst4|registrador_1_bit:inst10
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst24|registrador_4_bits:inst4|registrador_1_bit:inst
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst34
+out[0] <= bus_tristate:inst6.out[0]
+out[1] <= bus_tristate:inst6.out[1]
+out[2] <= bus_tristate:inst6.out[2]
+out[3] <= bus_tristate:inst6.out[3]
+SEL => inst5.IN0
+SEL => inst.IN0
+R0W1 => inst3.IN0
+R0W1 => inst.IN1
+CLK => registrador_4_bits:inst4.CLK
+i[0] => registrador_4_bits:inst4.x[0]
+i[1] => registrador_4_bits:inst4.x[1]
+i[2] => registrador_4_bits:inst4.x[2]
+i[3] => registrador_4_bits:inst4.x[3]
+
+
+|ram|ram1x4:inst34|bus_tristate:inst6
+out[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => inst3.DATAIN
+in[1] => inst2.DATAIN
+in[2] => inst1.DATAIN
+in[3] => inst.DATAIN
+e => inst3.OE
+e => inst2.OE
+e => inst1.OE
+e => inst.OE
+
+
+|ram|ram1x4:inst34|registrador_4_bits:inst4
+q[0] <= registrador_1_bit:inst12.qi
+q[1] <= registrador_1_bit:inst11.qi
+q[2] <= registrador_1_bit:inst10.qi
+q[3] <= registrador_1_bit:inst.qi
+LD => registrador_1_bit:inst12.LD
+LD => registrador_1_bit:inst11.LD
+LD => registrador_1_bit:inst10.LD
+LD => registrador_1_bit:inst.LD
+x[0] => registrador_1_bit:inst12.xi
+x[1] => registrador_1_bit:inst11.xi
+x[2] => registrador_1_bit:inst10.xi
+x[3] => registrador_1_bit:inst.xi
+CLR => registrador_1_bit:inst12.CLR
+CLR => registrador_1_bit:inst11.CLR
+CLR => registrador_1_bit:inst10.CLR
+CLR => registrador_1_bit:inst.CLR
+CLK => registrador_1_bit:inst12.CLK
+CLK => registrador_1_bit:inst11.CLK
+CLK => registrador_1_bit:inst10.CLK
+CLK => registrador_1_bit:inst.CLK
+
+
+|ram|ram1x4:inst34|registrador_4_bits:inst4|registrador_1_bit:inst12
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst34|registrador_4_bits:inst4|registrador_1_bit:inst11
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst34|registrador_4_bits:inst4|registrador_1_bit:inst10
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst34|registrador_4_bits:inst4|registrador_1_bit:inst
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst25
+out[0] <= bus_tristate:inst6.out[0]
+out[1] <= bus_tristate:inst6.out[1]
+out[2] <= bus_tristate:inst6.out[2]
+out[3] <= bus_tristate:inst6.out[3]
+SEL => inst5.IN0
+SEL => inst.IN0
+R0W1 => inst3.IN0
+R0W1 => inst.IN1
+CLK => registrador_4_bits:inst4.CLK
+i[0] => registrador_4_bits:inst4.x[0]
+i[1] => registrador_4_bits:inst4.x[1]
+i[2] => registrador_4_bits:inst4.x[2]
+i[3] => registrador_4_bits:inst4.x[3]
+
+
+|ram|ram1x4:inst25|bus_tristate:inst6
+out[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => inst3.DATAIN
+in[1] => inst2.DATAIN
+in[2] => inst1.DATAIN
+in[3] => inst.DATAIN
+e => inst3.OE
+e => inst2.OE
+e => inst1.OE
+e => inst.OE
+
+
+|ram|ram1x4:inst25|registrador_4_bits:inst4
+q[0] <= registrador_1_bit:inst12.qi
+q[1] <= registrador_1_bit:inst11.qi
+q[2] <= registrador_1_bit:inst10.qi
+q[3] <= registrador_1_bit:inst.qi
+LD => registrador_1_bit:inst12.LD
+LD => registrador_1_bit:inst11.LD
+LD => registrador_1_bit:inst10.LD
+LD => registrador_1_bit:inst.LD
+x[0] => registrador_1_bit:inst12.xi
+x[1] => registrador_1_bit:inst11.xi
+x[2] => registrador_1_bit:inst10.xi
+x[3] => registrador_1_bit:inst.xi
+CLR => registrador_1_bit:inst12.CLR
+CLR => registrador_1_bit:inst11.CLR
+CLR => registrador_1_bit:inst10.CLR
+CLR => registrador_1_bit:inst.CLR
+CLK => registrador_1_bit:inst12.CLK
+CLK => registrador_1_bit:inst11.CLK
+CLK => registrador_1_bit:inst10.CLK
+CLK => registrador_1_bit:inst.CLK
+
+
+|ram|ram1x4:inst25|registrador_4_bits:inst4|registrador_1_bit:inst12
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst25|registrador_4_bits:inst4|registrador_1_bit:inst11
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst25|registrador_4_bits:inst4|registrador_1_bit:inst10
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst25|registrador_4_bits:inst4|registrador_1_bit:inst
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst26
+out[0] <= bus_tristate:inst6.out[0]
+out[1] <= bus_tristate:inst6.out[1]
+out[2] <= bus_tristate:inst6.out[2]
+out[3] <= bus_tristate:inst6.out[3]
+SEL => inst5.IN0
+SEL => inst.IN0
+R0W1 => inst3.IN0
+R0W1 => inst.IN1
+CLK => registrador_4_bits:inst4.CLK
+i[0] => registrador_4_bits:inst4.x[0]
+i[1] => registrador_4_bits:inst4.x[1]
+i[2] => registrador_4_bits:inst4.x[2]
+i[3] => registrador_4_bits:inst4.x[3]
+
+
+|ram|ram1x4:inst26|bus_tristate:inst6
+out[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => inst3.DATAIN
+in[1] => inst2.DATAIN
+in[2] => inst1.DATAIN
+in[3] => inst.DATAIN
+e => inst3.OE
+e => inst2.OE
+e => inst1.OE
+e => inst.OE
+
+
+|ram|ram1x4:inst26|registrador_4_bits:inst4
+q[0] <= registrador_1_bit:inst12.qi
+q[1] <= registrador_1_bit:inst11.qi
+q[2] <= registrador_1_bit:inst10.qi
+q[3] <= registrador_1_bit:inst.qi
+LD => registrador_1_bit:inst12.LD
+LD => registrador_1_bit:inst11.LD
+LD => registrador_1_bit:inst10.LD
+LD => registrador_1_bit:inst.LD
+x[0] => registrador_1_bit:inst12.xi
+x[1] => registrador_1_bit:inst11.xi
+x[2] => registrador_1_bit:inst10.xi
+x[3] => registrador_1_bit:inst.xi
+CLR => registrador_1_bit:inst12.CLR
+CLR => registrador_1_bit:inst11.CLR
+CLR => registrador_1_bit:inst10.CLR
+CLR => registrador_1_bit:inst.CLR
+CLK => registrador_1_bit:inst12.CLK
+CLK => registrador_1_bit:inst11.CLK
+CLK => registrador_1_bit:inst10.CLK
+CLK => registrador_1_bit:inst.CLK
+
+
+|ram|ram1x4:inst26|registrador_4_bits:inst4|registrador_1_bit:inst12
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst26|registrador_4_bits:inst4|registrador_1_bit:inst11
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst26|registrador_4_bits:inst4|registrador_1_bit:inst10
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst26|registrador_4_bits:inst4|registrador_1_bit:inst
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst27
+out[0] <= bus_tristate:inst6.out[0]
+out[1] <= bus_tristate:inst6.out[1]
+out[2] <= bus_tristate:inst6.out[2]
+out[3] <= bus_tristate:inst6.out[3]
+SEL => inst5.IN0
+SEL => inst.IN0
+R0W1 => inst3.IN0
+R0W1 => inst.IN1
+CLK => registrador_4_bits:inst4.CLK
+i[0] => registrador_4_bits:inst4.x[0]
+i[1] => registrador_4_bits:inst4.x[1]
+i[2] => registrador_4_bits:inst4.x[2]
+i[3] => registrador_4_bits:inst4.x[3]
+
+
+|ram|ram1x4:inst27|bus_tristate:inst6
+out[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => inst3.DATAIN
+in[1] => inst2.DATAIN
+in[2] => inst1.DATAIN
+in[3] => inst.DATAIN
+e => inst3.OE
+e => inst2.OE
+e => inst1.OE
+e => inst.OE
+
+
+|ram|ram1x4:inst27|registrador_4_bits:inst4
+q[0] <= registrador_1_bit:inst12.qi
+q[1] <= registrador_1_bit:inst11.qi
+q[2] <= registrador_1_bit:inst10.qi
+q[3] <= registrador_1_bit:inst.qi
+LD => registrador_1_bit:inst12.LD
+LD => registrador_1_bit:inst11.LD
+LD => registrador_1_bit:inst10.LD
+LD => registrador_1_bit:inst.LD
+x[0] => registrador_1_bit:inst12.xi
+x[1] => registrador_1_bit:inst11.xi
+x[2] => registrador_1_bit:inst10.xi
+x[3] => registrador_1_bit:inst.xi
+CLR => registrador_1_bit:inst12.CLR
+CLR => registrador_1_bit:inst11.CLR
+CLR => registrador_1_bit:inst10.CLR
+CLR => registrador_1_bit:inst.CLR
+CLK => registrador_1_bit:inst12.CLK
+CLK => registrador_1_bit:inst11.CLK
+CLK => registrador_1_bit:inst10.CLK
+CLK => registrador_1_bit:inst.CLK
+
+
+|ram|ram1x4:inst27|registrador_4_bits:inst4|registrador_1_bit:inst12
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst27|registrador_4_bits:inst4|registrador_1_bit:inst11
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst27|registrador_4_bits:inst4|registrador_1_bit:inst10
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst27|registrador_4_bits:inst4|registrador_1_bit:inst
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst35
+out[0] <= bus_tristate:inst6.out[0]
+out[1] <= bus_tristate:inst6.out[1]
+out[2] <= bus_tristate:inst6.out[2]
+out[3] <= bus_tristate:inst6.out[3]
+SEL => inst5.IN0
+SEL => inst.IN0
+R0W1 => inst3.IN0
+R0W1 => inst.IN1
+CLK => registrador_4_bits:inst4.CLK
+i[0] => registrador_4_bits:inst4.x[0]
+i[1] => registrador_4_bits:inst4.x[1]
+i[2] => registrador_4_bits:inst4.x[2]
+i[3] => registrador_4_bits:inst4.x[3]
+
+
+|ram|ram1x4:inst35|bus_tristate:inst6
+out[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => inst3.DATAIN
+in[1] => inst2.DATAIN
+in[2] => inst1.DATAIN
+in[3] => inst.DATAIN
+e => inst3.OE
+e => inst2.OE
+e => inst1.OE
+e => inst.OE
+
+
+|ram|ram1x4:inst35|registrador_4_bits:inst4
+q[0] <= registrador_1_bit:inst12.qi
+q[1] <= registrador_1_bit:inst11.qi
+q[2] <= registrador_1_bit:inst10.qi
+q[3] <= registrador_1_bit:inst.qi
+LD => registrador_1_bit:inst12.LD
+LD => registrador_1_bit:inst11.LD
+LD => registrador_1_bit:inst10.LD
+LD => registrador_1_bit:inst.LD
+x[0] => registrador_1_bit:inst12.xi
+x[1] => registrador_1_bit:inst11.xi
+x[2] => registrador_1_bit:inst10.xi
+x[3] => registrador_1_bit:inst.xi
+CLR => registrador_1_bit:inst12.CLR
+CLR => registrador_1_bit:inst11.CLR
+CLR => registrador_1_bit:inst10.CLR
+CLR => registrador_1_bit:inst.CLR
+CLK => registrador_1_bit:inst12.CLK
+CLK => registrador_1_bit:inst11.CLK
+CLK => registrador_1_bit:inst10.CLK
+CLK => registrador_1_bit:inst.CLK
+
+
+|ram|ram1x4:inst35|registrador_4_bits:inst4|registrador_1_bit:inst12
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst35|registrador_4_bits:inst4|registrador_1_bit:inst11
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst35|registrador_4_bits:inst4|registrador_1_bit:inst10
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst35|registrador_4_bits:inst4|registrador_1_bit:inst
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst28
+out[0] <= bus_tristate:inst6.out[0]
+out[1] <= bus_tristate:inst6.out[1]
+out[2] <= bus_tristate:inst6.out[2]
+out[3] <= bus_tristate:inst6.out[3]
+SEL => inst5.IN0
+SEL => inst.IN0
+R0W1 => inst3.IN0
+R0W1 => inst.IN1
+CLK => registrador_4_bits:inst4.CLK
+i[0] => registrador_4_bits:inst4.x[0]
+i[1] => registrador_4_bits:inst4.x[1]
+i[2] => registrador_4_bits:inst4.x[2]
+i[3] => registrador_4_bits:inst4.x[3]
+
+
+|ram|ram1x4:inst28|bus_tristate:inst6
+out[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => inst3.DATAIN
+in[1] => inst2.DATAIN
+in[2] => inst1.DATAIN
+in[3] => inst.DATAIN
+e => inst3.OE
+e => inst2.OE
+e => inst1.OE
+e => inst.OE
+
+
+|ram|ram1x4:inst28|registrador_4_bits:inst4
+q[0] <= registrador_1_bit:inst12.qi
+q[1] <= registrador_1_bit:inst11.qi
+q[2] <= registrador_1_bit:inst10.qi
+q[3] <= registrador_1_bit:inst.qi
+LD => registrador_1_bit:inst12.LD
+LD => registrador_1_bit:inst11.LD
+LD => registrador_1_bit:inst10.LD
+LD => registrador_1_bit:inst.LD
+x[0] => registrador_1_bit:inst12.xi
+x[1] => registrador_1_bit:inst11.xi
+x[2] => registrador_1_bit:inst10.xi
+x[3] => registrador_1_bit:inst.xi
+CLR => registrador_1_bit:inst12.CLR
+CLR => registrador_1_bit:inst11.CLR
+CLR => registrador_1_bit:inst10.CLR
+CLR => registrador_1_bit:inst.CLR
+CLK => registrador_1_bit:inst12.CLK
+CLK => registrador_1_bit:inst11.CLK
+CLK => registrador_1_bit:inst10.CLK
+CLK => registrador_1_bit:inst.CLK
+
+
+|ram|ram1x4:inst28|registrador_4_bits:inst4|registrador_1_bit:inst12
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst28|registrador_4_bits:inst4|registrador_1_bit:inst11
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst28|registrador_4_bits:inst4|registrador_1_bit:inst10
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst28|registrador_4_bits:inst4|registrador_1_bit:inst
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst29
+out[0] <= bus_tristate:inst6.out[0]
+out[1] <= bus_tristate:inst6.out[1]
+out[2] <= bus_tristate:inst6.out[2]
+out[3] <= bus_tristate:inst6.out[3]
+SEL => inst5.IN0
+SEL => inst.IN0
+R0W1 => inst3.IN0
+R0W1 => inst.IN1
+CLK => registrador_4_bits:inst4.CLK
+i[0] => registrador_4_bits:inst4.x[0]
+i[1] => registrador_4_bits:inst4.x[1]
+i[2] => registrador_4_bits:inst4.x[2]
+i[3] => registrador_4_bits:inst4.x[3]
+
+
+|ram|ram1x4:inst29|bus_tristate:inst6
+out[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => inst3.DATAIN
+in[1] => inst2.DATAIN
+in[2] => inst1.DATAIN
+in[3] => inst.DATAIN
+e => inst3.OE
+e => inst2.OE
+e => inst1.OE
+e => inst.OE
+
+
+|ram|ram1x4:inst29|registrador_4_bits:inst4
+q[0] <= registrador_1_bit:inst12.qi
+q[1] <= registrador_1_bit:inst11.qi
+q[2] <= registrador_1_bit:inst10.qi
+q[3] <= registrador_1_bit:inst.qi
+LD => registrador_1_bit:inst12.LD
+LD => registrador_1_bit:inst11.LD
+LD => registrador_1_bit:inst10.LD
+LD => registrador_1_bit:inst.LD
+x[0] => registrador_1_bit:inst12.xi
+x[1] => registrador_1_bit:inst11.xi
+x[2] => registrador_1_bit:inst10.xi
+x[3] => registrador_1_bit:inst.xi
+CLR => registrador_1_bit:inst12.CLR
+CLR => registrador_1_bit:inst11.CLR
+CLR => registrador_1_bit:inst10.CLR
+CLR => registrador_1_bit:inst.CLR
+CLK => registrador_1_bit:inst12.CLK
+CLK => registrador_1_bit:inst11.CLK
+CLK => registrador_1_bit:inst10.CLK
+CLK => registrador_1_bit:inst.CLK
+
+
+|ram|ram1x4:inst29|registrador_4_bits:inst4|registrador_1_bit:inst12
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst29|registrador_4_bits:inst4|registrador_1_bit:inst11
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst29|registrador_4_bits:inst4|registrador_1_bit:inst10
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst29|registrador_4_bits:inst4|registrador_1_bit:inst
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst30
+out[0] <= bus_tristate:inst6.out[0]
+out[1] <= bus_tristate:inst6.out[1]
+out[2] <= bus_tristate:inst6.out[2]
+out[3] <= bus_tristate:inst6.out[3]
+SEL => inst5.IN0
+SEL => inst.IN0
+R0W1 => inst3.IN0
+R0W1 => inst.IN1
+CLK => registrador_4_bits:inst4.CLK
+i[0] => registrador_4_bits:inst4.x[0]
+i[1] => registrador_4_bits:inst4.x[1]
+i[2] => registrador_4_bits:inst4.x[2]
+i[3] => registrador_4_bits:inst4.x[3]
+
+
+|ram|ram1x4:inst30|bus_tristate:inst6
+out[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => inst3.DATAIN
+in[1] => inst2.DATAIN
+in[2] => inst1.DATAIN
+in[3] => inst.DATAIN
+e => inst3.OE
+e => inst2.OE
+e => inst1.OE
+e => inst.OE
+
+
+|ram|ram1x4:inst30|registrador_4_bits:inst4
+q[0] <= registrador_1_bit:inst12.qi
+q[1] <= registrador_1_bit:inst11.qi
+q[2] <= registrador_1_bit:inst10.qi
+q[3] <= registrador_1_bit:inst.qi
+LD => registrador_1_bit:inst12.LD
+LD => registrador_1_bit:inst11.LD
+LD => registrador_1_bit:inst10.LD
+LD => registrador_1_bit:inst.LD
+x[0] => registrador_1_bit:inst12.xi
+x[1] => registrador_1_bit:inst11.xi
+x[2] => registrador_1_bit:inst10.xi
+x[3] => registrador_1_bit:inst.xi
+CLR => registrador_1_bit:inst12.CLR
+CLR => registrador_1_bit:inst11.CLR
+CLR => registrador_1_bit:inst10.CLR
+CLR => registrador_1_bit:inst.CLR
+CLK => registrador_1_bit:inst12.CLK
+CLK => registrador_1_bit:inst11.CLK
+CLK => registrador_1_bit:inst10.CLK
+CLK => registrador_1_bit:inst.CLK
+
+
+|ram|ram1x4:inst30|registrador_4_bits:inst4|registrador_1_bit:inst12
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst30|registrador_4_bits:inst4|registrador_1_bit:inst11
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst30|registrador_4_bits:inst4|registrador_1_bit:inst10
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst30|registrador_4_bits:inst4|registrador_1_bit:inst
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst36
+out[0] <= bus_tristate:inst6.out[0]
+out[1] <= bus_tristate:inst6.out[1]
+out[2] <= bus_tristate:inst6.out[2]
+out[3] <= bus_tristate:inst6.out[3]
+SEL => inst5.IN0
+SEL => inst.IN0
+R0W1 => inst3.IN0
+R0W1 => inst.IN1
+CLK => registrador_4_bits:inst4.CLK
+i[0] => registrador_4_bits:inst4.x[0]
+i[1] => registrador_4_bits:inst4.x[1]
+i[2] => registrador_4_bits:inst4.x[2]
+i[3] => registrador_4_bits:inst4.x[3]
+
+
+|ram|ram1x4:inst36|bus_tristate:inst6
+out[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => inst3.DATAIN
+in[1] => inst2.DATAIN
+in[2] => inst1.DATAIN
+in[3] => inst.DATAIN
+e => inst3.OE
+e => inst2.OE
+e => inst1.OE
+e => inst.OE
+
+
+|ram|ram1x4:inst36|registrador_4_bits:inst4
+q[0] <= registrador_1_bit:inst12.qi
+q[1] <= registrador_1_bit:inst11.qi
+q[2] <= registrador_1_bit:inst10.qi
+q[3] <= registrador_1_bit:inst.qi
+LD => registrador_1_bit:inst12.LD
+LD => registrador_1_bit:inst11.LD
+LD => registrador_1_bit:inst10.LD
+LD => registrador_1_bit:inst.LD
+x[0] => registrador_1_bit:inst12.xi
+x[1] => registrador_1_bit:inst11.xi
+x[2] => registrador_1_bit:inst10.xi
+x[3] => registrador_1_bit:inst.xi
+CLR => registrador_1_bit:inst12.CLR
+CLR => registrador_1_bit:inst11.CLR
+CLR => registrador_1_bit:inst10.CLR
+CLR => registrador_1_bit:inst.CLR
+CLK => registrador_1_bit:inst12.CLK
+CLK => registrador_1_bit:inst11.CLK
+CLK => registrador_1_bit:inst10.CLK
+CLK => registrador_1_bit:inst.CLK
+
+
+|ram|ram1x4:inst36|registrador_4_bits:inst4|registrador_1_bit:inst12
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst36|registrador_4_bits:inst4|registrador_1_bit:inst11
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst36|registrador_4_bits:inst4|registrador_1_bit:inst10
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst36|registrador_4_bits:inst4|registrador_1_bit:inst
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst31
+out[0] <= bus_tristate:inst6.out[0]
+out[1] <= bus_tristate:inst6.out[1]
+out[2] <= bus_tristate:inst6.out[2]
+out[3] <= bus_tristate:inst6.out[3]
+SEL => inst5.IN0
+SEL => inst.IN0
+R0W1 => inst3.IN0
+R0W1 => inst.IN1
+CLK => registrador_4_bits:inst4.CLK
+i[0] => registrador_4_bits:inst4.x[0]
+i[1] => registrador_4_bits:inst4.x[1]
+i[2] => registrador_4_bits:inst4.x[2]
+i[3] => registrador_4_bits:inst4.x[3]
+
+
+|ram|ram1x4:inst31|bus_tristate:inst6
+out[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => inst3.DATAIN
+in[1] => inst2.DATAIN
+in[2] => inst1.DATAIN
+in[3] => inst.DATAIN
+e => inst3.OE
+e => inst2.OE
+e => inst1.OE
+e => inst.OE
+
+
+|ram|ram1x4:inst31|registrador_4_bits:inst4
+q[0] <= registrador_1_bit:inst12.qi
+q[1] <= registrador_1_bit:inst11.qi
+q[2] <= registrador_1_bit:inst10.qi
+q[3] <= registrador_1_bit:inst.qi
+LD => registrador_1_bit:inst12.LD
+LD => registrador_1_bit:inst11.LD
+LD => registrador_1_bit:inst10.LD
+LD => registrador_1_bit:inst.LD
+x[0] => registrador_1_bit:inst12.xi
+x[1] => registrador_1_bit:inst11.xi
+x[2] => registrador_1_bit:inst10.xi
+x[3] => registrador_1_bit:inst.xi
+CLR => registrador_1_bit:inst12.CLR
+CLR => registrador_1_bit:inst11.CLR
+CLR => registrador_1_bit:inst10.CLR
+CLR => registrador_1_bit:inst.CLR
+CLK => registrador_1_bit:inst12.CLK
+CLK => registrador_1_bit:inst11.CLK
+CLK => registrador_1_bit:inst10.CLK
+CLK => registrador_1_bit:inst.CLK
+
+
+|ram|ram1x4:inst31|registrador_4_bits:inst4|registrador_1_bit:inst12
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst31|registrador_4_bits:inst4|registrador_1_bit:inst11
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst31|registrador_4_bits:inst4|registrador_1_bit:inst10
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst31|registrador_4_bits:inst4|registrador_1_bit:inst
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst32
+out[0] <= bus_tristate:inst6.out[0]
+out[1] <= bus_tristate:inst6.out[1]
+out[2] <= bus_tristate:inst6.out[2]
+out[3] <= bus_tristate:inst6.out[3]
+SEL => inst5.IN0
+SEL => inst.IN0
+R0W1 => inst3.IN0
+R0W1 => inst.IN1
+CLK => registrador_4_bits:inst4.CLK
+i[0] => registrador_4_bits:inst4.x[0]
+i[1] => registrador_4_bits:inst4.x[1]
+i[2] => registrador_4_bits:inst4.x[2]
+i[3] => registrador_4_bits:inst4.x[3]
+
+
+|ram|ram1x4:inst32|bus_tristate:inst6
+out[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => inst3.DATAIN
+in[1] => inst2.DATAIN
+in[2] => inst1.DATAIN
+in[3] => inst.DATAIN
+e => inst3.OE
+e => inst2.OE
+e => inst1.OE
+e => inst.OE
+
+
+|ram|ram1x4:inst32|registrador_4_bits:inst4
+q[0] <= registrador_1_bit:inst12.qi
+q[1] <= registrador_1_bit:inst11.qi
+q[2] <= registrador_1_bit:inst10.qi
+q[3] <= registrador_1_bit:inst.qi
+LD => registrador_1_bit:inst12.LD
+LD => registrador_1_bit:inst11.LD
+LD => registrador_1_bit:inst10.LD
+LD => registrador_1_bit:inst.LD
+x[0] => registrador_1_bit:inst12.xi
+x[1] => registrador_1_bit:inst11.xi
+x[2] => registrador_1_bit:inst10.xi
+x[3] => registrador_1_bit:inst.xi
+CLR => registrador_1_bit:inst12.CLR
+CLR => registrador_1_bit:inst11.CLR
+CLR => registrador_1_bit:inst10.CLR
+CLR => registrador_1_bit:inst.CLR
+CLK => registrador_1_bit:inst12.CLK
+CLK => registrador_1_bit:inst11.CLK
+CLK => registrador_1_bit:inst10.CLK
+CLK => registrador_1_bit:inst.CLK
+
+
+|ram|ram1x4:inst32|registrador_4_bits:inst4|registrador_1_bit:inst12
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst32|registrador_4_bits:inst4|registrador_1_bit:inst11
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst32|registrador_4_bits:inst4|registrador_1_bit:inst10
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst32|registrador_4_bits:inst4|registrador_1_bit:inst
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst33
+out[0] <= bus_tristate:inst6.out[0]
+out[1] <= bus_tristate:inst6.out[1]
+out[2] <= bus_tristate:inst6.out[2]
+out[3] <= bus_tristate:inst6.out[3]
+SEL => inst5.IN0
+SEL => inst.IN0
+R0W1 => inst3.IN0
+R0W1 => inst.IN1
+CLK => registrador_4_bits:inst4.CLK
+i[0] => registrador_4_bits:inst4.x[0]
+i[1] => registrador_4_bits:inst4.x[1]
+i[2] => registrador_4_bits:inst4.x[2]
+i[3] => registrador_4_bits:inst4.x[3]
+
+
+|ram|ram1x4:inst33|bus_tristate:inst6
+out[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => inst3.DATAIN
+in[1] => inst2.DATAIN
+in[2] => inst1.DATAIN
+in[3] => inst.DATAIN
+e => inst3.OE
+e => inst2.OE
+e => inst1.OE
+e => inst.OE
+
+
+|ram|ram1x4:inst33|registrador_4_bits:inst4
+q[0] <= registrador_1_bit:inst12.qi
+q[1] <= registrador_1_bit:inst11.qi
+q[2] <= registrador_1_bit:inst10.qi
+q[3] <= registrador_1_bit:inst.qi
+LD => registrador_1_bit:inst12.LD
+LD => registrador_1_bit:inst11.LD
+LD => registrador_1_bit:inst10.LD
+LD => registrador_1_bit:inst.LD
+x[0] => registrador_1_bit:inst12.xi
+x[1] => registrador_1_bit:inst11.xi
+x[2] => registrador_1_bit:inst10.xi
+x[3] => registrador_1_bit:inst.xi
+CLR => registrador_1_bit:inst12.CLR
+CLR => registrador_1_bit:inst11.CLR
+CLR => registrador_1_bit:inst10.CLR
+CLR => registrador_1_bit:inst.CLR
+CLK => registrador_1_bit:inst12.CLK
+CLK => registrador_1_bit:inst11.CLK
+CLK => registrador_1_bit:inst10.CLK
+CLK => registrador_1_bit:inst.CLK
+
+
+|ram|ram1x4:inst33|registrador_4_bits:inst4|registrador_1_bit:inst12
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst33|registrador_4_bits:inst4|registrador_1_bit:inst11
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst33|registrador_4_bits:inst4|registrador_1_bit:inst10
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|ram|ram1x4:inst33|registrador_4_bits:inst4|registrador_1_bit:inst
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+

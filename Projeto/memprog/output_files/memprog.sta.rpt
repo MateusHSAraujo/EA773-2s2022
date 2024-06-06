@@ -1,0 +1,720 @@
+TimeQuest Timing Analyzer report for memprog
+Tue Nov 15 16:16:05 2022
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                      ;
++--------------------+-------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition ;
+; Revision Name      ; memprog                                                           ;
+; Device Family      ; Cyclone II                                                        ;
+; Device Name        ; EP2C20F484C7                                                      ;
+; Timing Models      ; Final                                                             ;
+; Delay Model        ; Combined                                                          ;
+; Rise/Fall Delays   ; Unavailable                                                       ;
++--------------------+-------------------------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 8      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++--------------------------------------------------------------+
+; Propagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; ENABLE     ; drom[0]     ; 20.647 ; 20.647 ; 20.647 ; 20.647 ;
+; ENABLE     ; drom[1]     ; 20.941 ; 20.941 ; 20.941 ; 20.941 ;
+; ENABLE     ; drom[2]     ; 20.921 ; 20.921 ; 20.921 ; 20.921 ;
+; ENABLE     ; drom[3]     ; 20.931 ; 20.931 ; 20.931 ; 20.931 ;
+; ENABLE     ; drom[4]     ; 20.647 ; 20.647 ; 20.647 ; 20.647 ;
+; ENABLE     ; drom[5]     ; 20.945 ; 20.945 ; 20.945 ; 20.945 ;
+; ENABLE     ; drom[6]     ; 20.915 ; 20.915 ; 20.915 ; 20.915 ;
+; ENABLE     ; drom[7]     ; 20.687 ; 20.687 ; 20.687 ; 20.687 ;
+; SELBLCK[0] ; drom[0]     ; 20.276 ; 20.276 ; 20.276 ; 20.276 ;
+; SELBLCK[0] ; drom[1]     ; 20.570 ; 20.570 ; 20.570 ; 20.570 ;
+; SELBLCK[0] ; drom[2]     ; 20.550 ; 20.550 ; 20.550 ; 20.550 ;
+; SELBLCK[0] ; drom[3]     ; 20.560 ; 20.560 ; 20.560 ; 20.560 ;
+; SELBLCK[0] ; drom[4]     ; 20.276 ; 20.276 ; 20.276 ; 20.276 ;
+; SELBLCK[0] ; drom[5]     ; 20.574 ; 20.574 ; 20.574 ; 20.574 ;
+; SELBLCK[0] ; drom[6]     ; 20.544 ; 20.544 ; 20.544 ; 20.544 ;
+; SELBLCK[0] ; drom[7]     ; 20.316 ; 20.316 ; 20.316 ; 20.316 ;
+; SELBLCK[1] ; drom[0]     ; 20.468 ; 20.468 ; 20.468 ; 20.468 ;
+; SELBLCK[1] ; drom[1]     ; 20.762 ; 20.762 ; 20.762 ; 20.762 ;
+; SELBLCK[1] ; drom[2]     ; 20.742 ; 20.742 ; 20.742 ; 20.742 ;
+; SELBLCK[1] ; drom[3]     ; 20.752 ; 20.752 ; 20.752 ; 20.752 ;
+; SELBLCK[1] ; drom[4]     ; 20.468 ; 20.468 ; 20.468 ; 20.468 ;
+; SELBLCK[1] ; drom[5]     ; 20.766 ; 20.766 ; 20.766 ; 20.766 ;
+; SELBLCK[1] ; drom[6]     ; 20.736 ; 20.736 ; 20.736 ; 20.736 ;
+; SELBLCK[1] ; drom[7]     ; 20.508 ; 20.508 ; 20.508 ; 20.508 ;
+; endrom[0]  ; drom[0]     ; 20.992 ; 20.992 ; 20.992 ; 20.992 ;
+; endrom[0]  ; drom[1]     ; 21.286 ; 21.286 ; 21.286 ; 21.286 ;
+; endrom[0]  ; drom[2]     ; 21.266 ; 21.266 ; 21.266 ; 21.266 ;
+; endrom[0]  ; drom[3]     ; 21.276 ; 21.276 ; 21.276 ; 21.276 ;
+; endrom[0]  ; drom[4]     ; 20.992 ; 20.992 ; 20.992 ; 20.992 ;
+; endrom[0]  ; drom[5]     ; 21.290 ; 21.290 ; 21.290 ; 21.290 ;
+; endrom[0]  ; drom[6]     ; 21.260 ; 21.391 ; 21.391 ; 21.260 ;
+; endrom[0]  ; drom[7]     ; 21.032 ; 21.032 ; 21.032 ; 21.032 ;
+; endrom[1]  ; drom[0]     ; 19.736 ; 19.736 ; 19.736 ; 19.736 ;
+; endrom[1]  ; drom[1]     ; 20.030 ; 20.030 ; 20.030 ; 20.030 ;
+; endrom[1]  ; drom[2]     ; 20.010 ; 20.010 ; 20.010 ; 20.010 ;
+; endrom[1]  ; drom[3]     ; 20.020 ; 20.020 ; 20.020 ; 20.020 ;
+; endrom[1]  ; drom[4]     ; 19.736 ; 19.736 ; 19.736 ; 19.736 ;
+; endrom[1]  ; drom[5]     ; 20.034 ; 20.034 ; 20.034 ; 20.034 ;
+; endrom[1]  ; drom[6]     ; 20.135 ; 20.004 ; 20.004 ; 20.135 ;
+; endrom[1]  ; drom[7]     ; 19.776 ; 19.776 ; 19.776 ; 19.776 ;
+; endrom[2]  ; drom[0]     ; 20.397 ; 20.397 ; 20.397 ; 20.397 ;
+; endrom[2]  ; drom[1]     ; 20.691 ; 20.691 ; 20.691 ; 20.691 ;
+; endrom[2]  ; drom[2]     ; 20.671 ; 20.671 ; 20.671 ; 20.671 ;
+; endrom[2]  ; drom[3]     ; 20.681 ; 20.681 ; 20.681 ; 20.681 ;
+; endrom[2]  ; drom[4]     ; 20.397 ; 20.397 ; 20.397 ; 20.397 ;
+; endrom[2]  ; drom[5]     ; 20.695 ; 20.695 ; 20.695 ; 20.695 ;
+; endrom[2]  ; drom[6]     ; 20.665 ; 20.796 ; 20.796 ; 20.665 ;
+; endrom[2]  ; drom[7]     ; 20.437 ; 20.437 ; 20.437 ; 20.437 ;
+; endrom[3]  ; drom[0]     ; 20.005 ; 20.005 ; 20.005 ; 20.005 ;
+; endrom[3]  ; drom[1]     ; 20.299 ; 20.299 ; 20.299 ; 20.299 ;
+; endrom[3]  ; drom[2]     ; 20.279 ; 20.279 ; 20.279 ; 20.279 ;
+; endrom[3]  ; drom[3]     ; 20.289 ; 20.289 ; 20.289 ; 20.289 ;
+; endrom[3]  ; drom[4]     ; 20.005 ; 20.005 ; 20.005 ; 20.005 ;
+; endrom[3]  ; drom[5]     ; 20.303 ; 20.303 ; 20.303 ; 20.303 ;
+; endrom[3]  ; drom[6]     ; 20.404 ; 20.273 ; 20.273 ; 20.404 ;
+; endrom[3]  ; drom[7]     ; 20.045 ; 20.045 ; 20.045 ; 20.045 ;
+; endrom[4]  ; drom[0]     ; 20.391 ; 20.391 ; 20.391 ; 20.391 ;
+; endrom[4]  ; drom[1]     ; 20.685 ; 20.685 ; 20.685 ; 20.685 ;
+; endrom[4]  ; drom[2]     ; 20.665 ; 20.665 ; 20.665 ; 20.665 ;
+; endrom[4]  ; drom[3]     ; 20.675 ; 20.675 ; 20.675 ; 20.675 ;
+; endrom[4]  ; drom[4]     ; 20.391 ; 20.391 ; 20.391 ; 20.391 ;
+; endrom[4]  ; drom[5]     ; 20.689 ; 20.689 ; 20.689 ; 20.689 ;
+; endrom[4]  ; drom[6]     ; 20.659 ; 20.659 ; 20.659 ; 20.659 ;
+; endrom[4]  ; drom[7]     ; 20.431 ; 20.431 ; 20.431 ; 20.431 ;
+; endrom[5]  ; drom[0]     ; 19.820 ; 19.820 ; 19.820 ; 19.820 ;
+; endrom[5]  ; drom[1]     ; 20.114 ; 20.114 ; 20.114 ; 20.114 ;
+; endrom[5]  ; drom[2]     ; 20.094 ; 20.094 ; 20.094 ; 20.094 ;
+; endrom[5]  ; drom[3]     ; 20.104 ; 20.104 ; 20.104 ; 20.104 ;
+; endrom[5]  ; drom[4]     ; 19.820 ; 19.820 ; 19.820 ; 19.820 ;
+; endrom[5]  ; drom[5]     ; 20.118 ; 20.118 ; 20.118 ; 20.118 ;
+; endrom[5]  ; drom[6]     ; 20.088 ; 20.088 ; 20.088 ; 20.088 ;
+; endrom[5]  ; drom[7]     ; 19.860 ; 19.860 ; 19.860 ; 19.860 ;
++------------+-------------+--------+--------+--------+--------+
+
+
++--------------------------------------------------------------+
+; Minimum Propagation Delay                                    ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; ENABLE     ; drom[0]     ; 13.762 ; 12.947 ; 12.947 ; 13.762 ;
+; ENABLE     ; drom[1]     ; 14.056 ; 13.618 ; 13.618 ; 14.056 ;
+; ENABLE     ; drom[2]     ; 14.036 ; 13.737 ; 13.737 ; 14.036 ;
+; ENABLE     ; drom[3]     ; 14.046 ; 13.940 ; 13.940 ; 14.046 ;
+; ENABLE     ; drom[4]     ; 13.762 ; 13.387 ; 13.387 ; 13.762 ;
+; ENABLE     ; drom[5]     ; 14.060 ; 14.060 ; 14.060 ; 14.060 ;
+; ENABLE     ; drom[6]     ; 14.030 ; 13.028 ; 13.028 ; 14.030 ;
+; ENABLE     ; drom[7]     ; 13.802 ; 13.802 ; 13.802 ; 13.802 ;
+; SELBLCK[0] ; drom[0]     ; 13.334 ; 13.334 ; 13.334 ; 13.334 ;
+; SELBLCK[0] ; drom[1]     ; 13.628 ; 13.628 ; 13.628 ; 13.628 ;
+; SELBLCK[0] ; drom[2]     ; 13.412 ; 13.608 ; 13.608 ; 13.412 ;
+; SELBLCK[0] ; drom[3]     ; 13.512 ; 13.618 ; 13.618 ; 13.512 ;
+; SELBLCK[0] ; drom[4]     ; 12.959 ; 13.334 ; 13.334 ; 12.959 ;
+; SELBLCK[0] ; drom[5]     ; 13.632 ; 13.632 ; 13.632 ; 13.632 ;
+; SELBLCK[0] ; drom[6]     ; 13.602 ; 13.602 ; 13.602 ; 13.602 ;
+; SELBLCK[0] ; drom[7]     ; 13.374 ; 13.374 ; 13.374 ; 13.374 ;
+; SELBLCK[1] ; drom[0]     ; 13.583 ; 13.583 ; 13.583 ; 13.583 ;
+; SELBLCK[1] ; drom[1]     ; 13.877 ; 13.877 ; 13.877 ; 13.877 ;
+; SELBLCK[1] ; drom[2]     ; 13.857 ; 13.661 ; 13.661 ; 13.857 ;
+; SELBLCK[1] ; drom[3]     ; 13.867 ; 13.761 ; 13.761 ; 13.867 ;
+; SELBLCK[1] ; drom[4]     ; 13.583 ; 13.208 ; 13.208 ; 13.583 ;
+; SELBLCK[1] ; drom[5]     ; 13.881 ; 13.881 ; 13.881 ; 13.881 ;
+; SELBLCK[1] ; drom[6]     ; 13.851 ; 13.851 ; 13.851 ; 13.851 ;
+; SELBLCK[1] ; drom[7]     ; 13.623 ; 13.623 ; 13.623 ; 13.623 ;
+; endrom[0]  ; drom[0]     ; 14.347 ; 14.347 ; 14.347 ; 14.347 ;
+; endrom[0]  ; drom[1]     ; 14.641 ; 14.641 ; 14.641 ; 14.641 ;
+; endrom[0]  ; drom[2]     ; 14.621 ; 14.594 ; 14.594 ; 14.621 ;
+; endrom[0]  ; drom[3]     ; 14.631 ; 14.631 ; 14.631 ; 14.631 ;
+; endrom[0]  ; drom[4]     ; 14.347 ; 14.347 ; 14.347 ; 14.347 ;
+; endrom[0]  ; drom[5]     ; 14.645 ; 14.645 ; 14.645 ; 14.645 ;
+; endrom[0]  ; drom[6]     ; 14.615 ; 14.615 ; 14.615 ; 14.615 ;
+; endrom[0]  ; drom[7]     ; 14.387 ; 14.387 ; 14.387 ; 14.387 ;
+; endrom[1]  ; drom[0]     ; 13.092 ; 13.092 ; 13.092 ; 13.092 ;
+; endrom[1]  ; drom[1]     ; 13.386 ; 13.386 ; 13.386 ; 13.386 ;
+; endrom[1]  ; drom[2]     ; 13.338 ; 13.366 ; 13.366 ; 13.338 ;
+; endrom[1]  ; drom[3]     ; 13.376 ; 13.376 ; 13.376 ; 13.376 ;
+; endrom[1]  ; drom[4]     ; 13.092 ; 13.092 ; 13.092 ; 13.092 ;
+; endrom[1]  ; drom[5]     ; 13.390 ; 13.390 ; 13.390 ; 13.390 ;
+; endrom[1]  ; drom[6]     ; 13.360 ; 13.360 ; 13.360 ; 13.360 ;
+; endrom[1]  ; drom[7]     ; 13.132 ; 13.132 ; 13.132 ; 13.132 ;
+; endrom[2]  ; drom[0]     ; 13.697 ; 13.697 ; 13.697 ; 13.697 ;
+; endrom[2]  ; drom[1]     ; 13.991 ; 13.991 ; 13.991 ; 13.991 ;
+; endrom[2]  ; drom[2]     ; 13.971 ; 13.971 ; 13.971 ; 13.971 ;
+; endrom[2]  ; drom[3]     ; 13.981 ; 13.981 ; 13.981 ; 13.981 ;
+; endrom[2]  ; drom[4]     ; 13.697 ; 13.697 ; 13.697 ; 13.697 ;
+; endrom[2]  ; drom[5]     ; 13.995 ; 13.995 ; 13.995 ; 13.995 ;
+; endrom[2]  ; drom[6]     ; 13.965 ; 13.965 ; 13.965 ; 13.965 ;
+; endrom[2]  ; drom[7]     ; 13.737 ; 13.737 ; 13.737 ; 13.737 ;
+; endrom[3]  ; drom[0]     ; 13.342 ; 13.342 ; 13.342 ; 13.342 ;
+; endrom[3]  ; drom[1]     ; 13.636 ; 13.636 ; 13.636 ; 13.636 ;
+; endrom[3]  ; drom[2]     ; 13.607 ; 13.616 ; 13.616 ; 13.607 ;
+; endrom[3]  ; drom[3]     ; 13.626 ; 13.626 ; 13.626 ; 13.626 ;
+; endrom[3]  ; drom[4]     ; 13.342 ; 13.342 ; 13.342 ; 13.342 ;
+; endrom[3]  ; drom[5]     ; 13.640 ; 13.640 ; 13.640 ; 13.640 ;
+; endrom[3]  ; drom[6]     ; 13.495 ; 13.495 ; 13.495 ; 13.495 ;
+; endrom[3]  ; drom[7]     ; 13.382 ; 13.382 ; 13.382 ; 13.382 ;
+; endrom[4]  ; drom[0]     ; 13.532 ; 13.465 ; 13.465 ; 13.532 ;
+; endrom[4]  ; drom[1]     ; 13.826 ; 13.782 ; 13.782 ; 13.826 ;
+; endrom[4]  ; drom[2]     ; 13.610 ; 13.806 ; 13.806 ; 13.610 ;
+; endrom[4]  ; drom[3]     ; 13.710 ; 13.816 ; 13.816 ; 13.710 ;
+; endrom[4]  ; drom[4]     ; 13.157 ; 13.391 ; 13.391 ; 13.157 ;
+; endrom[4]  ; drom[5]     ; 13.830 ; 13.830 ; 13.830 ; 13.830 ;
+; endrom[4]  ; drom[6]     ; 13.800 ; 13.800 ; 13.800 ; 13.800 ;
+; endrom[4]  ; drom[7]     ; 13.572 ; 13.572 ; 13.572 ; 13.572 ;
+; endrom[5]  ; drom[0]     ; 12.935 ; 12.935 ; 12.935 ; 12.935 ;
+; endrom[5]  ; drom[1]     ; 13.229 ; 13.229 ; 13.229 ; 13.229 ;
+; endrom[5]  ; drom[2]     ; 13.013 ; 13.209 ; 13.209 ; 13.013 ;
+; endrom[5]  ; drom[3]     ; 13.113 ; 13.219 ; 13.219 ; 13.113 ;
+; endrom[5]  ; drom[4]     ; 12.560 ; 12.935 ; 12.935 ; 12.560 ;
+; endrom[5]  ; drom[5]     ; 13.233 ; 13.233 ; 13.233 ; 13.233 ;
+; endrom[5]  ; drom[6]     ; 13.203 ; 13.203 ; 13.203 ; 13.203 ;
+; endrom[5]  ; drom[7]     ; 12.975 ; 12.975 ; 12.975 ; 12.975 ;
++------------+-------------+--------+--------+--------+--------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++----------------------------------------------------------+
+; Propagation Delay                                        ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; ENABLE     ; drom[0]     ; 9.135 ; 9.135 ; 9.135 ; 9.135 ;
+; ENABLE     ; drom[1]     ; 9.256 ; 9.256 ; 9.256 ; 9.256 ;
+; ENABLE     ; drom[2]     ; 9.236 ; 9.236 ; 9.236 ; 9.236 ;
+; ENABLE     ; drom[3]     ; 9.246 ; 9.246 ; 9.246 ; 9.246 ;
+; ENABLE     ; drom[4]     ; 9.135 ; 9.135 ; 9.135 ; 9.135 ;
+; ENABLE     ; drom[5]     ; 9.264 ; 9.264 ; 9.264 ; 9.264 ;
+; ENABLE     ; drom[6]     ; 9.234 ; 9.234 ; 9.234 ; 9.234 ;
+; ENABLE     ; drom[7]     ; 9.175 ; 9.175 ; 9.175 ; 9.175 ;
+; SELBLCK[0] ; drom[0]     ; 8.989 ; 8.989 ; 8.989 ; 8.989 ;
+; SELBLCK[0] ; drom[1]     ; 9.110 ; 9.110 ; 9.110 ; 9.110 ;
+; SELBLCK[0] ; drom[2]     ; 9.090 ; 9.090 ; 9.090 ; 9.090 ;
+; SELBLCK[0] ; drom[3]     ; 9.100 ; 9.100 ; 9.100 ; 9.100 ;
+; SELBLCK[0] ; drom[4]     ; 8.989 ; 8.989 ; 8.989 ; 8.989 ;
+; SELBLCK[0] ; drom[5]     ; 9.118 ; 9.118 ; 9.118 ; 9.118 ;
+; SELBLCK[0] ; drom[6]     ; 9.088 ; 9.088 ; 9.088 ; 9.088 ;
+; SELBLCK[0] ; drom[7]     ; 9.029 ; 9.029 ; 9.029 ; 9.029 ;
+; SELBLCK[1] ; drom[0]     ; 9.036 ; 9.036 ; 9.036 ; 9.036 ;
+; SELBLCK[1] ; drom[1]     ; 9.157 ; 9.157 ; 9.157 ; 9.157 ;
+; SELBLCK[1] ; drom[2]     ; 9.137 ; 9.137 ; 9.137 ; 9.137 ;
+; SELBLCK[1] ; drom[3]     ; 9.147 ; 9.147 ; 9.147 ; 9.147 ;
+; SELBLCK[1] ; drom[4]     ; 9.036 ; 9.036 ; 9.036 ; 9.036 ;
+; SELBLCK[1] ; drom[5]     ; 9.165 ; 9.165 ; 9.165 ; 9.165 ;
+; SELBLCK[1] ; drom[6]     ; 9.135 ; 9.135 ; 9.135 ; 9.135 ;
+; SELBLCK[1] ; drom[7]     ; 9.076 ; 9.076 ; 9.076 ; 9.076 ;
+; endrom[0]  ; drom[0]     ; 9.297 ; 9.297 ; 9.297 ; 9.297 ;
+; endrom[0]  ; drom[1]     ; 9.418 ; 9.418 ; 9.418 ; 9.418 ;
+; endrom[0]  ; drom[2]     ; 9.398 ; 9.398 ; 9.398 ; 9.398 ;
+; endrom[0]  ; drom[3]     ; 9.408 ; 9.408 ; 9.408 ; 9.408 ;
+; endrom[0]  ; drom[4]     ; 9.297 ; 9.297 ; 9.297 ; 9.297 ;
+; endrom[0]  ; drom[5]     ; 9.426 ; 9.426 ; 9.426 ; 9.426 ;
+; endrom[0]  ; drom[6]     ; 9.396 ; 9.462 ; 9.462 ; 9.396 ;
+; endrom[0]  ; drom[7]     ; 9.337 ; 9.337 ; 9.337 ; 9.337 ;
+; endrom[1]  ; drom[0]     ; 8.797 ; 8.797 ; 8.797 ; 8.797 ;
+; endrom[1]  ; drom[1]     ; 8.918 ; 8.918 ; 8.918 ; 8.918 ;
+; endrom[1]  ; drom[2]     ; 8.898 ; 8.898 ; 8.898 ; 8.898 ;
+; endrom[1]  ; drom[3]     ; 8.908 ; 8.908 ; 8.908 ; 8.908 ;
+; endrom[1]  ; drom[4]     ; 8.797 ; 8.797 ; 8.797 ; 8.797 ;
+; endrom[1]  ; drom[5]     ; 8.926 ; 8.926 ; 8.926 ; 8.926 ;
+; endrom[1]  ; drom[6]     ; 8.960 ; 8.896 ; 8.896 ; 8.960 ;
+; endrom[1]  ; drom[7]     ; 8.837 ; 8.837 ; 8.837 ; 8.837 ;
+; endrom[2]  ; drom[0]     ; 9.023 ; 9.023 ; 9.023 ; 9.023 ;
+; endrom[2]  ; drom[1]     ; 9.144 ; 9.144 ; 9.144 ; 9.144 ;
+; endrom[2]  ; drom[2]     ; 9.124 ; 9.124 ; 9.124 ; 9.124 ;
+; endrom[2]  ; drom[3]     ; 9.134 ; 9.134 ; 9.134 ; 9.134 ;
+; endrom[2]  ; drom[4]     ; 9.023 ; 9.023 ; 9.023 ; 9.023 ;
+; endrom[2]  ; drom[5]     ; 9.152 ; 9.152 ; 9.152 ; 9.152 ;
+; endrom[2]  ; drom[6]     ; 9.122 ; 9.189 ; 9.189 ; 9.122 ;
+; endrom[2]  ; drom[7]     ; 9.063 ; 9.063 ; 9.063 ; 9.063 ;
+; endrom[3]  ; drom[0]     ; 8.898 ; 8.898 ; 8.898 ; 8.898 ;
+; endrom[3]  ; drom[1]     ; 9.019 ; 9.019 ; 9.019 ; 9.019 ;
+; endrom[3]  ; drom[2]     ; 8.999 ; 8.999 ; 8.999 ; 8.999 ;
+; endrom[3]  ; drom[3]     ; 9.009 ; 9.009 ; 9.009 ; 9.009 ;
+; endrom[3]  ; drom[4]     ; 8.898 ; 8.898 ; 8.898 ; 8.898 ;
+; endrom[3]  ; drom[5]     ; 9.027 ; 9.027 ; 9.027 ; 9.027 ;
+; endrom[3]  ; drom[6]     ; 9.064 ; 8.997 ; 8.997 ; 9.064 ;
+; endrom[3]  ; drom[7]     ; 8.938 ; 8.938 ; 8.938 ; 8.938 ;
+; endrom[4]  ; drom[0]     ; 9.027 ; 9.027 ; 9.027 ; 9.027 ;
+; endrom[4]  ; drom[1]     ; 9.148 ; 9.148 ; 9.148 ; 9.148 ;
+; endrom[4]  ; drom[2]     ; 9.128 ; 9.128 ; 9.128 ; 9.128 ;
+; endrom[4]  ; drom[3]     ; 9.138 ; 9.138 ; 9.138 ; 9.138 ;
+; endrom[4]  ; drom[4]     ; 9.027 ; 9.027 ; 9.027 ; 9.027 ;
+; endrom[4]  ; drom[5]     ; 9.156 ; 9.156 ; 9.156 ; 9.156 ;
+; endrom[4]  ; drom[6]     ; 9.126 ; 9.126 ; 9.126 ; 9.126 ;
+; endrom[4]  ; drom[7]     ; 9.067 ; 9.067 ; 9.067 ; 9.067 ;
+; endrom[5]  ; drom[0]     ; 8.786 ; 8.786 ; 8.786 ; 8.786 ;
+; endrom[5]  ; drom[1]     ; 8.907 ; 8.907 ; 8.907 ; 8.907 ;
+; endrom[5]  ; drom[2]     ; 8.887 ; 8.887 ; 8.887 ; 8.887 ;
+; endrom[5]  ; drom[3]     ; 8.897 ; 8.897 ; 8.897 ; 8.897 ;
+; endrom[5]  ; drom[4]     ; 8.786 ; 8.786 ; 8.786 ; 8.786 ;
+; endrom[5]  ; drom[5]     ; 8.915 ; 8.915 ; 8.915 ; 8.915 ;
+; endrom[5]  ; drom[6]     ; 8.885 ; 8.885 ; 8.885 ; 8.885 ;
+; endrom[5]  ; drom[7]     ; 8.826 ; 8.826 ; 8.826 ; 8.826 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------+
+; Minimum Propagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; ENABLE     ; drom[0]     ; 6.635 ; 6.294 ; 6.294 ; 6.635 ;
+; ENABLE     ; drom[1]     ; 6.756 ; 6.555 ; 6.555 ; 6.756 ;
+; ENABLE     ; drom[2]     ; 6.736 ; 6.579 ; 6.579 ; 6.736 ;
+; ENABLE     ; drom[3]     ; 6.746 ; 6.741 ; 6.741 ; 6.746 ;
+; ENABLE     ; drom[4]     ; 6.635 ; 6.513 ; 6.513 ; 6.635 ;
+; ENABLE     ; drom[5]     ; 6.764 ; 6.764 ; 6.764 ; 6.764 ;
+; ENABLE     ; drom[6]     ; 6.734 ; 6.334 ; 6.334 ; 6.734 ;
+; ENABLE     ; drom[7]     ; 6.675 ; 6.675 ; 6.675 ; 6.675 ;
+; SELBLCK[0] ; drom[0]     ; 6.487 ; 6.487 ; 6.487 ; 6.487 ;
+; SELBLCK[0] ; drom[1]     ; 6.608 ; 6.608 ; 6.608 ; 6.608 ;
+; SELBLCK[0] ; drom[2]     ; 6.536 ; 6.588 ; 6.588 ; 6.536 ;
+; SELBLCK[0] ; drom[3]     ; 6.593 ; 6.598 ; 6.598 ; 6.593 ;
+; SELBLCK[0] ; drom[4]     ; 6.365 ; 6.487 ; 6.487 ; 6.365 ;
+; SELBLCK[0] ; drom[5]     ; 6.616 ; 6.616 ; 6.616 ; 6.616 ;
+; SELBLCK[0] ; drom[6]     ; 6.586 ; 6.586 ; 6.586 ; 6.586 ;
+; SELBLCK[0] ; drom[7]     ; 6.527 ; 6.527 ; 6.527 ; 6.527 ;
+; SELBLCK[1] ; drom[0]     ; 6.536 ; 6.536 ; 6.536 ; 6.536 ;
+; SELBLCK[1] ; drom[1]     ; 6.657 ; 6.657 ; 6.657 ; 6.657 ;
+; SELBLCK[1] ; drom[2]     ; 6.637 ; 6.585 ; 6.585 ; 6.637 ;
+; SELBLCK[1] ; drom[3]     ; 6.647 ; 6.642 ; 6.642 ; 6.647 ;
+; SELBLCK[1] ; drom[4]     ; 6.536 ; 6.414 ; 6.414 ; 6.536 ;
+; SELBLCK[1] ; drom[5]     ; 6.665 ; 6.665 ; 6.665 ; 6.665 ;
+; SELBLCK[1] ; drom[6]     ; 6.635 ; 6.635 ; 6.635 ; 6.635 ;
+; SELBLCK[1] ; drom[7]     ; 6.576 ; 6.576 ; 6.576 ; 6.576 ;
+; endrom[0]  ; drom[0]     ; 6.891 ; 6.891 ; 6.891 ; 6.891 ;
+; endrom[0]  ; drom[1]     ; 7.012 ; 7.012 ; 7.012 ; 7.012 ;
+; endrom[0]  ; drom[2]     ; 6.992 ; 6.992 ; 6.992 ; 6.992 ;
+; endrom[0]  ; drom[3]     ; 7.002 ; 7.002 ; 7.002 ; 7.002 ;
+; endrom[0]  ; drom[4]     ; 6.891 ; 6.891 ; 6.891 ; 6.891 ;
+; endrom[0]  ; drom[5]     ; 7.020 ; 7.020 ; 7.020 ; 7.020 ;
+; endrom[0]  ; drom[6]     ; 6.990 ; 6.990 ; 6.990 ; 6.990 ;
+; endrom[0]  ; drom[7]     ; 6.931 ; 6.931 ; 6.931 ; 6.931 ;
+; endrom[1]  ; drom[0]     ; 6.416 ; 6.416 ; 6.416 ; 6.416 ;
+; endrom[1]  ; drom[1]     ; 6.537 ; 6.537 ; 6.537 ; 6.537 ;
+; endrom[1]  ; drom[2]     ; 6.497 ; 6.517 ; 6.517 ; 6.497 ;
+; endrom[1]  ; drom[3]     ; 6.527 ; 6.527 ; 6.527 ; 6.527 ;
+; endrom[1]  ; drom[4]     ; 6.416 ; 6.416 ; 6.416 ; 6.416 ;
+; endrom[1]  ; drom[5]     ; 6.545 ; 6.545 ; 6.545 ; 6.545 ;
+; endrom[1]  ; drom[6]     ; 6.515 ; 6.515 ; 6.515 ; 6.515 ;
+; endrom[1]  ; drom[7]     ; 6.456 ; 6.456 ; 6.456 ; 6.456 ;
+; endrom[2]  ; drom[0]     ; 6.630 ; 6.630 ; 6.630 ; 6.630 ;
+; endrom[2]  ; drom[1]     ; 6.751 ; 6.751 ; 6.751 ; 6.751 ;
+; endrom[2]  ; drom[2]     ; 6.731 ; 6.726 ; 6.726 ; 6.731 ;
+; endrom[2]  ; drom[3]     ; 6.741 ; 6.741 ; 6.741 ; 6.741 ;
+; endrom[2]  ; drom[4]     ; 6.630 ; 6.630 ; 6.630 ; 6.630 ;
+; endrom[2]  ; drom[5]     ; 6.759 ; 6.759 ; 6.759 ; 6.759 ;
+; endrom[2]  ; drom[6]     ; 6.729 ; 6.729 ; 6.729 ; 6.729 ;
+; endrom[2]  ; drom[7]     ; 6.670 ; 6.670 ; 6.670 ; 6.670 ;
+; endrom[3]  ; drom[0]     ; 6.451 ; 6.451 ; 6.451 ; 6.451 ;
+; endrom[3]  ; drom[1]     ; 6.625 ; 6.625 ; 6.625 ; 6.625 ;
+; endrom[3]  ; drom[2]     ; 6.601 ; 6.605 ; 6.605 ; 6.601 ;
+; endrom[3]  ; drom[3]     ; 6.615 ; 6.615 ; 6.615 ; 6.615 ;
+; endrom[3]  ; drom[4]     ; 6.504 ; 6.504 ; 6.504 ; 6.504 ;
+; endrom[3]  ; drom[5]     ; 6.633 ; 6.633 ; 6.633 ; 6.633 ;
+; endrom[3]  ; drom[6]     ; 6.491 ; 6.491 ; 6.491 ; 6.491 ;
+; endrom[3]  ; drom[7]     ; 6.544 ; 6.544 ; 6.544 ; 6.544 ;
+; endrom[4]  ; drom[0]     ; 6.528 ; 6.528 ; 6.528 ; 6.528 ;
+; endrom[4]  ; drom[1]     ; 6.649 ; 6.612 ; 6.612 ; 6.649 ;
+; endrom[4]  ; drom[2]     ; 6.577 ; 6.629 ; 6.629 ; 6.577 ;
+; endrom[4]  ; drom[3]     ; 6.634 ; 6.639 ; 6.639 ; 6.634 ;
+; endrom[4]  ; drom[4]     ; 6.406 ; 6.481 ; 6.481 ; 6.406 ;
+; endrom[4]  ; drom[5]     ; 6.657 ; 6.657 ; 6.657 ; 6.657 ;
+; endrom[4]  ; drom[6]     ; 6.627 ; 6.627 ; 6.627 ; 6.627 ;
+; endrom[4]  ; drom[7]     ; 6.568 ; 6.568 ; 6.568 ; 6.568 ;
+; endrom[5]  ; drom[0]     ; 6.284 ; 6.284 ; 6.284 ; 6.284 ;
+; endrom[5]  ; drom[1]     ; 6.405 ; 6.405 ; 6.405 ; 6.405 ;
+; endrom[5]  ; drom[2]     ; 6.333 ; 6.385 ; 6.385 ; 6.333 ;
+; endrom[5]  ; drom[3]     ; 6.390 ; 6.395 ; 6.395 ; 6.390 ;
+; endrom[5]  ; drom[4]     ; 6.162 ; 6.284 ; 6.284 ; 6.162 ;
+; endrom[5]  ; drom[5]     ; 6.413 ; 6.413 ; 6.413 ; 6.413 ;
+; endrom[5]  ; drom[6]     ; 6.383 ; 6.383 ; 6.383 ; 6.383 ;
+; endrom[5]  ; drom[7]     ; 6.324 ; 6.324 ; 6.324 ; 6.324 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++--------------------------------------------------------------+
+; Progagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; ENABLE     ; drom[0]     ; 20.647 ; 20.647 ; 20.647 ; 20.647 ;
+; ENABLE     ; drom[1]     ; 20.941 ; 20.941 ; 20.941 ; 20.941 ;
+; ENABLE     ; drom[2]     ; 20.921 ; 20.921 ; 20.921 ; 20.921 ;
+; ENABLE     ; drom[3]     ; 20.931 ; 20.931 ; 20.931 ; 20.931 ;
+; ENABLE     ; drom[4]     ; 20.647 ; 20.647 ; 20.647 ; 20.647 ;
+; ENABLE     ; drom[5]     ; 20.945 ; 20.945 ; 20.945 ; 20.945 ;
+; ENABLE     ; drom[6]     ; 20.915 ; 20.915 ; 20.915 ; 20.915 ;
+; ENABLE     ; drom[7]     ; 20.687 ; 20.687 ; 20.687 ; 20.687 ;
+; SELBLCK[0] ; drom[0]     ; 20.276 ; 20.276 ; 20.276 ; 20.276 ;
+; SELBLCK[0] ; drom[1]     ; 20.570 ; 20.570 ; 20.570 ; 20.570 ;
+; SELBLCK[0] ; drom[2]     ; 20.550 ; 20.550 ; 20.550 ; 20.550 ;
+; SELBLCK[0] ; drom[3]     ; 20.560 ; 20.560 ; 20.560 ; 20.560 ;
+; SELBLCK[0] ; drom[4]     ; 20.276 ; 20.276 ; 20.276 ; 20.276 ;
+; SELBLCK[0] ; drom[5]     ; 20.574 ; 20.574 ; 20.574 ; 20.574 ;
+; SELBLCK[0] ; drom[6]     ; 20.544 ; 20.544 ; 20.544 ; 20.544 ;
+; SELBLCK[0] ; drom[7]     ; 20.316 ; 20.316 ; 20.316 ; 20.316 ;
+; SELBLCK[1] ; drom[0]     ; 20.468 ; 20.468 ; 20.468 ; 20.468 ;
+; SELBLCK[1] ; drom[1]     ; 20.762 ; 20.762 ; 20.762 ; 20.762 ;
+; SELBLCK[1] ; drom[2]     ; 20.742 ; 20.742 ; 20.742 ; 20.742 ;
+; SELBLCK[1] ; drom[3]     ; 20.752 ; 20.752 ; 20.752 ; 20.752 ;
+; SELBLCK[1] ; drom[4]     ; 20.468 ; 20.468 ; 20.468 ; 20.468 ;
+; SELBLCK[1] ; drom[5]     ; 20.766 ; 20.766 ; 20.766 ; 20.766 ;
+; SELBLCK[1] ; drom[6]     ; 20.736 ; 20.736 ; 20.736 ; 20.736 ;
+; SELBLCK[1] ; drom[7]     ; 20.508 ; 20.508 ; 20.508 ; 20.508 ;
+; endrom[0]  ; drom[0]     ; 20.992 ; 20.992 ; 20.992 ; 20.992 ;
+; endrom[0]  ; drom[1]     ; 21.286 ; 21.286 ; 21.286 ; 21.286 ;
+; endrom[0]  ; drom[2]     ; 21.266 ; 21.266 ; 21.266 ; 21.266 ;
+; endrom[0]  ; drom[3]     ; 21.276 ; 21.276 ; 21.276 ; 21.276 ;
+; endrom[0]  ; drom[4]     ; 20.992 ; 20.992 ; 20.992 ; 20.992 ;
+; endrom[0]  ; drom[5]     ; 21.290 ; 21.290 ; 21.290 ; 21.290 ;
+; endrom[0]  ; drom[6]     ; 21.260 ; 21.391 ; 21.391 ; 21.260 ;
+; endrom[0]  ; drom[7]     ; 21.032 ; 21.032 ; 21.032 ; 21.032 ;
+; endrom[1]  ; drom[0]     ; 19.736 ; 19.736 ; 19.736 ; 19.736 ;
+; endrom[1]  ; drom[1]     ; 20.030 ; 20.030 ; 20.030 ; 20.030 ;
+; endrom[1]  ; drom[2]     ; 20.010 ; 20.010 ; 20.010 ; 20.010 ;
+; endrom[1]  ; drom[3]     ; 20.020 ; 20.020 ; 20.020 ; 20.020 ;
+; endrom[1]  ; drom[4]     ; 19.736 ; 19.736 ; 19.736 ; 19.736 ;
+; endrom[1]  ; drom[5]     ; 20.034 ; 20.034 ; 20.034 ; 20.034 ;
+; endrom[1]  ; drom[6]     ; 20.135 ; 20.004 ; 20.004 ; 20.135 ;
+; endrom[1]  ; drom[7]     ; 19.776 ; 19.776 ; 19.776 ; 19.776 ;
+; endrom[2]  ; drom[0]     ; 20.397 ; 20.397 ; 20.397 ; 20.397 ;
+; endrom[2]  ; drom[1]     ; 20.691 ; 20.691 ; 20.691 ; 20.691 ;
+; endrom[2]  ; drom[2]     ; 20.671 ; 20.671 ; 20.671 ; 20.671 ;
+; endrom[2]  ; drom[3]     ; 20.681 ; 20.681 ; 20.681 ; 20.681 ;
+; endrom[2]  ; drom[4]     ; 20.397 ; 20.397 ; 20.397 ; 20.397 ;
+; endrom[2]  ; drom[5]     ; 20.695 ; 20.695 ; 20.695 ; 20.695 ;
+; endrom[2]  ; drom[6]     ; 20.665 ; 20.796 ; 20.796 ; 20.665 ;
+; endrom[2]  ; drom[7]     ; 20.437 ; 20.437 ; 20.437 ; 20.437 ;
+; endrom[3]  ; drom[0]     ; 20.005 ; 20.005 ; 20.005 ; 20.005 ;
+; endrom[3]  ; drom[1]     ; 20.299 ; 20.299 ; 20.299 ; 20.299 ;
+; endrom[3]  ; drom[2]     ; 20.279 ; 20.279 ; 20.279 ; 20.279 ;
+; endrom[3]  ; drom[3]     ; 20.289 ; 20.289 ; 20.289 ; 20.289 ;
+; endrom[3]  ; drom[4]     ; 20.005 ; 20.005 ; 20.005 ; 20.005 ;
+; endrom[3]  ; drom[5]     ; 20.303 ; 20.303 ; 20.303 ; 20.303 ;
+; endrom[3]  ; drom[6]     ; 20.404 ; 20.273 ; 20.273 ; 20.404 ;
+; endrom[3]  ; drom[7]     ; 20.045 ; 20.045 ; 20.045 ; 20.045 ;
+; endrom[4]  ; drom[0]     ; 20.391 ; 20.391 ; 20.391 ; 20.391 ;
+; endrom[4]  ; drom[1]     ; 20.685 ; 20.685 ; 20.685 ; 20.685 ;
+; endrom[4]  ; drom[2]     ; 20.665 ; 20.665 ; 20.665 ; 20.665 ;
+; endrom[4]  ; drom[3]     ; 20.675 ; 20.675 ; 20.675 ; 20.675 ;
+; endrom[4]  ; drom[4]     ; 20.391 ; 20.391 ; 20.391 ; 20.391 ;
+; endrom[4]  ; drom[5]     ; 20.689 ; 20.689 ; 20.689 ; 20.689 ;
+; endrom[4]  ; drom[6]     ; 20.659 ; 20.659 ; 20.659 ; 20.659 ;
+; endrom[4]  ; drom[7]     ; 20.431 ; 20.431 ; 20.431 ; 20.431 ;
+; endrom[5]  ; drom[0]     ; 19.820 ; 19.820 ; 19.820 ; 19.820 ;
+; endrom[5]  ; drom[1]     ; 20.114 ; 20.114 ; 20.114 ; 20.114 ;
+; endrom[5]  ; drom[2]     ; 20.094 ; 20.094 ; 20.094 ; 20.094 ;
+; endrom[5]  ; drom[3]     ; 20.104 ; 20.104 ; 20.104 ; 20.104 ;
+; endrom[5]  ; drom[4]     ; 19.820 ; 19.820 ; 19.820 ; 19.820 ;
+; endrom[5]  ; drom[5]     ; 20.118 ; 20.118 ; 20.118 ; 20.118 ;
+; endrom[5]  ; drom[6]     ; 20.088 ; 20.088 ; 20.088 ; 20.088 ;
+; endrom[5]  ; drom[7]     ; 19.860 ; 19.860 ; 19.860 ; 19.860 ;
++------------+-------------+--------+--------+--------+--------+
+
+
++----------------------------------------------------------+
+; Minimum Progagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; ENABLE     ; drom[0]     ; 6.635 ; 6.294 ; 6.294 ; 6.635 ;
+; ENABLE     ; drom[1]     ; 6.756 ; 6.555 ; 6.555 ; 6.756 ;
+; ENABLE     ; drom[2]     ; 6.736 ; 6.579 ; 6.579 ; 6.736 ;
+; ENABLE     ; drom[3]     ; 6.746 ; 6.741 ; 6.741 ; 6.746 ;
+; ENABLE     ; drom[4]     ; 6.635 ; 6.513 ; 6.513 ; 6.635 ;
+; ENABLE     ; drom[5]     ; 6.764 ; 6.764 ; 6.764 ; 6.764 ;
+; ENABLE     ; drom[6]     ; 6.734 ; 6.334 ; 6.334 ; 6.734 ;
+; ENABLE     ; drom[7]     ; 6.675 ; 6.675 ; 6.675 ; 6.675 ;
+; SELBLCK[0] ; drom[0]     ; 6.487 ; 6.487 ; 6.487 ; 6.487 ;
+; SELBLCK[0] ; drom[1]     ; 6.608 ; 6.608 ; 6.608 ; 6.608 ;
+; SELBLCK[0] ; drom[2]     ; 6.536 ; 6.588 ; 6.588 ; 6.536 ;
+; SELBLCK[0] ; drom[3]     ; 6.593 ; 6.598 ; 6.598 ; 6.593 ;
+; SELBLCK[0] ; drom[4]     ; 6.365 ; 6.487 ; 6.487 ; 6.365 ;
+; SELBLCK[0] ; drom[5]     ; 6.616 ; 6.616 ; 6.616 ; 6.616 ;
+; SELBLCK[0] ; drom[6]     ; 6.586 ; 6.586 ; 6.586 ; 6.586 ;
+; SELBLCK[0] ; drom[7]     ; 6.527 ; 6.527 ; 6.527 ; 6.527 ;
+; SELBLCK[1] ; drom[0]     ; 6.536 ; 6.536 ; 6.536 ; 6.536 ;
+; SELBLCK[1] ; drom[1]     ; 6.657 ; 6.657 ; 6.657 ; 6.657 ;
+; SELBLCK[1] ; drom[2]     ; 6.637 ; 6.585 ; 6.585 ; 6.637 ;
+; SELBLCK[1] ; drom[3]     ; 6.647 ; 6.642 ; 6.642 ; 6.647 ;
+; SELBLCK[1] ; drom[4]     ; 6.536 ; 6.414 ; 6.414 ; 6.536 ;
+; SELBLCK[1] ; drom[5]     ; 6.665 ; 6.665 ; 6.665 ; 6.665 ;
+; SELBLCK[1] ; drom[6]     ; 6.635 ; 6.635 ; 6.635 ; 6.635 ;
+; SELBLCK[1] ; drom[7]     ; 6.576 ; 6.576 ; 6.576 ; 6.576 ;
+; endrom[0]  ; drom[0]     ; 6.891 ; 6.891 ; 6.891 ; 6.891 ;
+; endrom[0]  ; drom[1]     ; 7.012 ; 7.012 ; 7.012 ; 7.012 ;
+; endrom[0]  ; drom[2]     ; 6.992 ; 6.992 ; 6.992 ; 6.992 ;
+; endrom[0]  ; drom[3]     ; 7.002 ; 7.002 ; 7.002 ; 7.002 ;
+; endrom[0]  ; drom[4]     ; 6.891 ; 6.891 ; 6.891 ; 6.891 ;
+; endrom[0]  ; drom[5]     ; 7.020 ; 7.020 ; 7.020 ; 7.020 ;
+; endrom[0]  ; drom[6]     ; 6.990 ; 6.990 ; 6.990 ; 6.990 ;
+; endrom[0]  ; drom[7]     ; 6.931 ; 6.931 ; 6.931 ; 6.931 ;
+; endrom[1]  ; drom[0]     ; 6.416 ; 6.416 ; 6.416 ; 6.416 ;
+; endrom[1]  ; drom[1]     ; 6.537 ; 6.537 ; 6.537 ; 6.537 ;
+; endrom[1]  ; drom[2]     ; 6.497 ; 6.517 ; 6.517 ; 6.497 ;
+; endrom[1]  ; drom[3]     ; 6.527 ; 6.527 ; 6.527 ; 6.527 ;
+; endrom[1]  ; drom[4]     ; 6.416 ; 6.416 ; 6.416 ; 6.416 ;
+; endrom[1]  ; drom[5]     ; 6.545 ; 6.545 ; 6.545 ; 6.545 ;
+; endrom[1]  ; drom[6]     ; 6.515 ; 6.515 ; 6.515 ; 6.515 ;
+; endrom[1]  ; drom[7]     ; 6.456 ; 6.456 ; 6.456 ; 6.456 ;
+; endrom[2]  ; drom[0]     ; 6.630 ; 6.630 ; 6.630 ; 6.630 ;
+; endrom[2]  ; drom[1]     ; 6.751 ; 6.751 ; 6.751 ; 6.751 ;
+; endrom[2]  ; drom[2]     ; 6.731 ; 6.726 ; 6.726 ; 6.731 ;
+; endrom[2]  ; drom[3]     ; 6.741 ; 6.741 ; 6.741 ; 6.741 ;
+; endrom[2]  ; drom[4]     ; 6.630 ; 6.630 ; 6.630 ; 6.630 ;
+; endrom[2]  ; drom[5]     ; 6.759 ; 6.759 ; 6.759 ; 6.759 ;
+; endrom[2]  ; drom[6]     ; 6.729 ; 6.729 ; 6.729 ; 6.729 ;
+; endrom[2]  ; drom[7]     ; 6.670 ; 6.670 ; 6.670 ; 6.670 ;
+; endrom[3]  ; drom[0]     ; 6.451 ; 6.451 ; 6.451 ; 6.451 ;
+; endrom[3]  ; drom[1]     ; 6.625 ; 6.625 ; 6.625 ; 6.625 ;
+; endrom[3]  ; drom[2]     ; 6.601 ; 6.605 ; 6.605 ; 6.601 ;
+; endrom[3]  ; drom[3]     ; 6.615 ; 6.615 ; 6.615 ; 6.615 ;
+; endrom[3]  ; drom[4]     ; 6.504 ; 6.504 ; 6.504 ; 6.504 ;
+; endrom[3]  ; drom[5]     ; 6.633 ; 6.633 ; 6.633 ; 6.633 ;
+; endrom[3]  ; drom[6]     ; 6.491 ; 6.491 ; 6.491 ; 6.491 ;
+; endrom[3]  ; drom[7]     ; 6.544 ; 6.544 ; 6.544 ; 6.544 ;
+; endrom[4]  ; drom[0]     ; 6.528 ; 6.528 ; 6.528 ; 6.528 ;
+; endrom[4]  ; drom[1]     ; 6.649 ; 6.612 ; 6.612 ; 6.649 ;
+; endrom[4]  ; drom[2]     ; 6.577 ; 6.629 ; 6.629 ; 6.577 ;
+; endrom[4]  ; drom[3]     ; 6.634 ; 6.639 ; 6.639 ; 6.634 ;
+; endrom[4]  ; drom[4]     ; 6.406 ; 6.481 ; 6.481 ; 6.406 ;
+; endrom[4]  ; drom[5]     ; 6.657 ; 6.657 ; 6.657 ; 6.657 ;
+; endrom[4]  ; drom[6]     ; 6.627 ; 6.627 ; 6.627 ; 6.627 ;
+; endrom[4]  ; drom[7]     ; 6.568 ; 6.568 ; 6.568 ; 6.568 ;
+; endrom[5]  ; drom[0]     ; 6.284 ; 6.284 ; 6.284 ; 6.284 ;
+; endrom[5]  ; drom[1]     ; 6.405 ; 6.405 ; 6.405 ; 6.405 ;
+; endrom[5]  ; drom[2]     ; 6.333 ; 6.385 ; 6.385 ; 6.333 ;
+; endrom[5]  ; drom[3]     ; 6.390 ; 6.395 ; 6.395 ; 6.390 ;
+; endrom[5]  ; drom[4]     ; 6.162 ; 6.284 ; 6.284 ; 6.162 ;
+; endrom[5]  ; drom[5]     ; 6.413 ; 6.413 ; 6.413 ; 6.413 ;
+; endrom[5]  ; drom[6]     ; 6.383 ; 6.383 ; 6.383 ; 6.383 ;
+; endrom[5]  ; drom[7]     ; 6.324 ; 6.324 ; 6.324 ; 6.324 ;
++------------+-------------+-------+-------+-------+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 9     ; 9    ;
+; Unconstrained Input Port Paths  ; 72    ; 72   ;
+; Unconstrained Output Ports      ; 8     ; 8    ;
+; Unconstrained Output Port Paths ; 72    ; 72   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Tue Nov 15 16:16:04 2022
+Info: Command: quartus_sta memprog -c memprog
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'memprog.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4535 megabytes
+    Info: Processing ended: Tue Nov 15 16:16:05 2022
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab1/projeto2/projeto2.bdf
+source_file = 1, C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab1/projeto2/Waveform.vwf
+source_file = 1, C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab1/projeto2/db/projeto2.cbx.xml
+design_name = projeto2
+instance = comp, \SW[4]~I , SW[4], projeto2, 1
+instance = comp, \SW[0]~I , SW[0], projeto2, 1
+instance = comp, \SW[1]~I , SW[1], projeto2, 1
+instance = comp, \SW[6]~I , SW[6], projeto2, 1
+instance = comp, \inst13~1 , inst13~1, projeto2, 1
+instance = comp, \SW[5]~I , SW[5], projeto2, 1
+instance = comp, \SW[3]~I , SW[3], projeto2, 1
+instance = comp, \SW[2]~I , SW[2], projeto2, 1
+instance = comp, \inst13~0 , inst13~0, projeto2, 1
+instance = comp, \inst13~2 , inst13~2, projeto2, 1
+instance = comp, \LEDR[0]~I , LEDR[0], projeto2, 1

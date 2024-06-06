@@ -1,0 +1,102 @@
+Archive Project report for rom_4blocks
+Sun Oct 23 14:53:40 2022
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Sun Oct 23 14:53:40 2022 ;
+; Revision Name          ; rom_4blocks                           ;
+; Top-level Entity Name  ; rom_4blocks                           ;
+; Family                 ; Cyclone II                            ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/rom_4blocks/rom_4blocks.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'rom_4blocks.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/altera/13.0sp1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4449 megabytes
+    Info: Processing ended: Sun Oct 23 14:53:40 2022
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-----------------------------------------------------------------------------------------+
+; Files Archived                                                                          ;
++-----------------------------------------------------------------------------------------+
+; File Name                                                                               ;
++-----------------------------------------------------------------------------------------+
+; c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf                                 ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/decoderBIN_ONEH/decoderBIN_ONEH.bdf ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/rom16x4_0.bdf               ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/rom16x8_0.bdf               ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/rom32x8_0.bdf               ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/rom64x8_0.bdf               ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo1/rom16x4_1.bdf               ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo1/rom16x8_1.bdf               ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo1/rom32x8_1.bdf               ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo1/rom64x8_1.bdf               ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo2/rom16x4_2ls.bdf             ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo2/rom16x4_2ms.bdf             ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo2/rom16x8_2.bdf               ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo2/rom32x8_2.bdf               ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo2/rom64x8_2.bdf               ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo3/rom16x4_3ls.bdf             ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo3/rom16x4_3ms.bdf             ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo3/rom16x8_3.bdf               ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo3/rom32x8_3.bdf               ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo3/rom64x8_3.bdf               ;
+; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/rom_4blocks/WaveformMod3.vwf        ;
+; incremental_db/compiled_partitions/rom_4blocks.db_info                                  ;
+; rom_4blocks.bdf                                                                         ;
+; rom_4blocks.qpf                                                                         ;
+; rom_4blocks.qsf                                                                         ;
+; WaveformBASE.vwf                                                                        ;
+; WaveformMod0.vwf                                                                        ;
+; WaveformMod1.vwf                                                                        ;
+; WaveformMod2.vwf                                                                        ;
+; WaveformMod3.vwf                                                                        ;
++-----------------------------------------------------------------------------------------+
+
+

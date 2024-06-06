@@ -1,0 +1,241 @@
+|ULA_teste
+LEDR[0] <= ULA:inst.s[0]
+LEDR[1] <= ULA:inst.s[1]
+LEDR[2] <= ULA:inst.s[2]
+LEDR[3] <= ULA:inst.s[3]
+LEDR[4] <= ULA:inst.C
+LEDR[5] <= ULA:inst.V
+LEDR[6] <= ULA:inst.N
+LEDR[7] <= ULA:inst.Z
+SW[0] => ULA:inst.x[0]
+SW[1] => ULA:inst.x[1]
+SW[2] => ULA:inst.x[2]
+SW[3] => ULA:inst.x[3]
+SW[4] => ULA:inst.y[0]
+SW[5] => ULA:inst.y[1]
+SW[6] => ULA:inst.y[2]
+SW[7] => ULA:inst.y[3]
+SW[8] => ULA:inst.ci
+KEY[0] => ULA:inst.f[0]
+KEY[1] => ULA:inst.f[1]
+KEY[2] => ULA:inst.f[2]
+KEY[3] => ULA:inst.f[3]
+
+
+|ULA_teste|ULA:inst
+C <= somador_4_bits:inst4.C
+ci => decodificador_ULA:inst5.ci
+f[0] => decodificador_ULA:inst5.f[0]
+f[1] => decodificador_ULA:inst5.f[1]
+f[2] => decodificador_ULA:inst5.f[2]
+f[3] => decodificador_ULA:inst5.f[3]
+x[0] => complementa:inst.i[0]
+x[1] => complementa:inst.i[1]
+x[2] => complementa:inst.i[2]
+x[3] => complementa:inst.i[3]
+y[0] => zera:inst3.i[0]
+y[1] => zera:inst3.i[1]
+y[2] => zera:inst3.i[2]
+y[3] => zera:inst3.i[3]
+V <= somador_4_bits:inst4.V
+N <= somador_4_bits:inst4.N
+Z <= somador_4_bits:inst4.Z
+s[0] <= somador_4_bits:inst4.s[0]
+s[1] <= somador_4_bits:inst4.s[1]
+s[2] <= somador_4_bits:inst4.s[2]
+s[3] <= somador_4_bits:inst4.s[3]
+
+
+|ULA_teste|ULA:inst|somador_4_bits:inst4
+C <= somador_completo:inst3.cout
+x[0] => somador_completo:inst.xi
+x[1] => somador_completo:inst1.xi
+x[2] => somador_completo:inst2.xi
+x[3] => somador_completo:inst3.xi
+x[3] => inst12.IN0
+x[3] => inst9.IN0
+y[0] => somador_completo:inst.yi
+y[1] => somador_completo:inst1.yi
+y[2] => somador_completo:inst2.yi
+y[3] => somador_completo:inst3.yi
+y[3] => inst12.IN1
+y[3] => inst10.IN0
+ci => somador_completo:inst.cin
+N <= somador_completo:inst3.zi
+s[0] <= somador_completo:inst.zi
+s[1] <= somador_completo:inst1.zi
+s[2] <= somador_completo:inst2.zi
+s[3] <= somador_completo:inst3.zi
+Z <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+V <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_teste|ULA:inst|somador_4_bits:inst4|somador_completo:inst3
+zi <= meio_somador:inst1.pi
+xi => meio_somador:inst.xi
+yi => meio_somador:inst.yi
+cin => meio_somador:inst1.yi
+cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_teste|ULA:inst|somador_4_bits:inst4|somador_completo:inst3|meio_somador:inst1
+gi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+xi => inst.IN0
+xi => inst2.IN1
+yi => inst.IN1
+yi => inst2.IN0
+pi <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_teste|ULA:inst|somador_4_bits:inst4|somador_completo:inst3|meio_somador:inst
+gi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+xi => inst.IN0
+xi => inst2.IN1
+yi => inst.IN1
+yi => inst2.IN0
+pi <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_teste|ULA:inst|somador_4_bits:inst4|somador_completo:inst2
+zi <= meio_somador:inst1.pi
+xi => meio_somador:inst.xi
+yi => meio_somador:inst.yi
+cin => meio_somador:inst1.yi
+cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_teste|ULA:inst|somador_4_bits:inst4|somador_completo:inst2|meio_somador:inst1
+gi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+xi => inst.IN0
+xi => inst2.IN1
+yi => inst.IN1
+yi => inst2.IN0
+pi <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_teste|ULA:inst|somador_4_bits:inst4|somador_completo:inst2|meio_somador:inst
+gi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+xi => inst.IN0
+xi => inst2.IN1
+yi => inst.IN1
+yi => inst2.IN0
+pi <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_teste|ULA:inst|somador_4_bits:inst4|somador_completo:inst1
+zi <= meio_somador:inst1.pi
+xi => meio_somador:inst.xi
+yi => meio_somador:inst.yi
+cin => meio_somador:inst1.yi
+cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_teste|ULA:inst|somador_4_bits:inst4|somador_completo:inst1|meio_somador:inst1
+gi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+xi => inst.IN0
+xi => inst2.IN1
+yi => inst.IN1
+yi => inst2.IN0
+pi <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_teste|ULA:inst|somador_4_bits:inst4|somador_completo:inst1|meio_somador:inst
+gi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+xi => inst.IN0
+xi => inst2.IN1
+yi => inst.IN1
+yi => inst2.IN0
+pi <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_teste|ULA:inst|somador_4_bits:inst4|somador_completo:inst
+zi <= meio_somador:inst1.pi
+xi => meio_somador:inst.xi
+yi => meio_somador:inst.yi
+cin => meio_somador:inst1.yi
+cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_teste|ULA:inst|somador_4_bits:inst4|somador_completo:inst|meio_somador:inst1
+gi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+xi => inst.IN0
+xi => inst2.IN1
+yi => inst.IN1
+yi => inst2.IN0
+pi <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_teste|ULA:inst|somador_4_bits:inst4|somador_completo:inst|meio_somador:inst
+gi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+xi => inst.IN0
+xi => inst2.IN1
+yi => inst.IN1
+yi => inst2.IN0
+pi <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_teste|ULA:inst|decodificador_ULA:inst5
+cmpx <= f[3].DB_MAX_OUTPUT_PORT_TYPE
+f[0] => inst5.IN0
+f[0] => inst15.IN0
+f[1] => inst1.IN0
+f[1] => inst7.IN0
+f[1] => inst14.IN0
+f[1] => inst19.IN2
+f[2] => inst.IN0
+f[2] => inst7.IN1
+f[2] => inst13.IN0
+f[2] => inst18.IN0
+f[2] => inst4.IN0
+f[3] => cmpx.DATAIN
+f[3] => inst9.IN1
+f[3] => inst17.IN0
+f[3] => inst4.IN1
+cmpy <= inst.DB_MAX_OUTPUT_PORT_TYPE
+zry <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+cci <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+ci => inst19.IN3
+
+
+|ULA_teste|ULA:inst|complementa:inst
+o[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+o[1] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+o[2] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+o[3] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+i[0] => inst.IN0
+i[1] => inst1.IN0
+i[2] => inst5.IN0
+i[3] => inst4.IN0
+cmp => inst1.IN1
+cmp => inst4.IN1
+cmp => inst5.IN1
+cmp => inst.IN1
+
+
+|ULA_teste|ULA:inst|complementa:inst2
+o[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+o[1] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+o[2] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+o[3] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+i[0] => inst.IN0
+i[1] => inst1.IN0
+i[2] => inst5.IN0
+i[3] => inst4.IN0
+cmp => inst1.IN1
+cmp => inst4.IN1
+cmp => inst5.IN1
+cmp => inst.IN1
+
+
+|ULA_teste|ULA:inst|zera:inst3
+o[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+o[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+o[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+o[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+i[0] => inst3.IN0
+i[1] => inst2.IN0
+i[2] => inst1.IN0
+i[3] => inst.IN0
+zera => inst4.IN0
+
+

@@ -1,0 +1,23 @@
+Quartus II Archive log --	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod256/contador_mod_256.qarlog
+
+Archive:	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod256/contador_mod_256.qar
+Date:		Sun Oct 02 18:13:56 2022
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod16_restored/contador_mod16.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod16_restored/transmite_entrada.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod256/WaveformContagemComClear.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod256/WaveformContagemComLoad.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod256/WaveformContagemNormal.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod256/WaveformTESTE.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod256/contador_mod_256.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod256/contador_mod_256.qpf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod256/contador_mod_256.qsf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod256/contador_mod_256_TESTE.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod256/incremental_db/compiled_partitions/contador_mod_256.db_info
+c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 12 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,28 @@
+Quartus II Archive log --	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/bus_ula/bus_ula.qarlog
+
+Archive:	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/bus_ula/bus_ula.qar
+Date:		Wed Oct 05 11:50:09 2022
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/ULA.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/complementa.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/decodificador_ULA.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/meio_somador.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/somador_4_bits.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/somador_completo.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/zera.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_1_bit.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_4_bits.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/bus_tristate/bus_tristate.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/bus_ula/WaveformDEC_NEG_CMPL.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/bus_ula/bus_ula.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/bus_ula/bus_ula.qpf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/bus_ula/bus_ula.qsf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/bus_ula/incremental_db/compiled_partitions/bus_ula.db_info
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/decodificador_7seg/bus_decodificador_7seg.bdf
+c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 17 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

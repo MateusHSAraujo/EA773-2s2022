@@ -1,0 +1,17 @@
+Quartus II Archive log --	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/decoderBIN_ONEH/decoderBIN_ONEH.qarlog
+
+Archive:	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/decoderBIN_ONEH/decoderBIN_ONEH.qar
+Date:		Sun Oct 23 14:51:42 2022
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/decoderBIN_ONEH/WaveformDecoder.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/decoderBIN_ONEH/decoderBIN_ONEH.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/decoderBIN_ONEH/decoderBIN_ONEH.qpf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/decoderBIN_ONEH/decoderBIN_ONEH.qsf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/decoderBIN_ONEH/incremental_db/compiled_partitions/decoderBIN_ONEH.db_info
+c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 6 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

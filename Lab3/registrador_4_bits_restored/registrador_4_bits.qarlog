@@ -1,0 +1,21 @@
+Quartus II Archive log --	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_4_bits.qarlog
+
+Archive:	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_4_bits.qar
+Date:		Sun Oct 02 18:08:35 2022
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/WaveformRG1.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/WaveformRG4.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/assignment_defaults.qdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/db/registrador_4_bits.sim.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/incremental_db/compiled_partitions/registrador_4_bits.db_info
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_1_bit.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_4_bits.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_4_bits.qpf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_4_bits.qsf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_4_bits_teste.bdf
+	======= Total: 10 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mateu\Documentos Unicamp\2022-2\EA772\Lab1\projeto1\simulation\qsim
+vprojeto1
+Z1 IOjeDcEjn<Lo4iB7@Bn0_o3
+Z2 V@<]N_Nm_zeng71N3A9B951
+Z3 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab1\projeto1\simulation\qsim
+Z4 w1661644005
+Z5 8projeto1.vo
+Z6 Fprojeto1.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|projeto1.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 6nZRLkPW?10fgJefoO8511
+!s85 0
+Z11 !s108 1661644006.279000
+Z12 !s107 projeto1.vo|
+!s101 -O0
+vprojeto1_vlg_check_tst
+!i10b 1
+!s100 nK<LC28^OF^AeF]QS_Rz`3
+I1L^:BFcXIYb2V]I:DS4Eo3
+Z13 V19A]bmH8P]AX0QT8X<HcZ3
+R3
+Z14 w1661644004
+Z15 8projeto1.vt
+Z16 Fprojeto1.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z17 !s108 1661644006.333000
+Z18 !s107 projeto1.vt|
+Z19 !s90 -work|work|projeto1.vt|
+!s101 -O0
+R9
+vprojeto1_vlg_sample_tst
+!i10b 1
+Z20 !s100 MGN]VTP[9MbeWE@kRDAa31
+Z21 Il7Sh:WfYTZilOIU@7QD:I1
+Z22 VMYY:^bna]2CU5@LXFkHNe0
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+vprojeto1_vlg_vec_tst
+!i10b 1
+!s100 [`]iJ]XGYE1dCiGf9Focg3
+IGBmJASbM1UE0azJ=Cc6H@3
+Z23 VG`bg2c]>OLFE3T`KZ;o:U1
+R3
+R14
+R15
+R16
+Z24 L0 153
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9

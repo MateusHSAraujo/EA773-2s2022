@@ -1,0 +1,1053 @@
+Analysis & Synthesis report for memprog
+Tue Nov 15 16:15:58 2022
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Elapsed Time Per Partition
+ 10. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Tue Nov 15 16:15:58 2022           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; memprog                                         ;
+; Top-level Entity Name              ; memprog                                         ;
+; Family                             ; Cyclone II                                      ;
+; Total logic elements               ; 183                                             ;
+;     Total combinational functions  ; 183                                             ;
+;     Dedicated logic registers      ; 0                                               ;
+; Total registers                    ; 0                                               ;
+; Total pins                         ; 17                                              ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP2C20F484C7       ;                    ;
+; Top-level entity name                                                      ; memprog            ; memprog            ;
+; Family name                                                                ; Cyclone II         ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; Off                ; Off                ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 8      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                            ;
++----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                            ; Library ;
++----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------------------------------------+---------+
+; rom16x8_00.bdf                   ; yes             ; User Block Diagram/Schematic File        ; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_00.bdf           ;         ;
+; rom16x8_zerada.bdf               ; yes             ; User Block Diagram/Schematic File        ; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_zerada.bdf       ;         ;
+; rom64x8_0.bdf                    ; yes             ; User Block Diagram/Schematic File        ; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom64x8_0.bdf            ;         ;
+; rom16x8_10.bdf                   ; yes             ; User Block Diagram/Schematic File        ; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_10.bdf           ;         ;
+; rom16x8_11.bdf                   ; yes             ; User Block Diagram/Schematic File        ; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_11.bdf           ;         ;
+; rom64x8_1.bdf                    ; yes             ; User Block Diagram/Schematic File        ; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom64x8_1.bdf            ;         ;
+; rom16x8_20.bdf                   ; yes             ; User Block Diagram/Schematic File        ; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_20.bdf           ;         ;
+; rom16x8_21.bdf                   ; yes             ; User Block Diagram/Schematic File        ; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_21.bdf           ;         ;
+; rom16x8_22.bdf                   ; yes             ; User Block Diagram/Schematic File        ; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_22.bdf           ;         ;
+; rom16x8_23.bdf                   ; yes             ; User Block Diagram/Schematic File        ; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_23.bdf           ;         ;
+; rom64x8_2.bdf                    ; yes             ; User Block Diagram/Schematic File        ; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom64x8_2.bdf            ;         ;
+; rom16x8_30.bdf                   ; yes             ; User Block Diagram/Schematic File        ; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_30.bdf           ;         ;
+; rom16x8_31.bdf                   ; yes             ; User Block Diagram/Schematic File        ; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_31.bdf           ;         ;
+; rom16x8_32.bdf                   ; yes             ; User Block Diagram/Schematic File        ; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_32.bdf           ;         ;
+; rom16x8_33.bdf                   ; yes             ; User Block Diagram/Schematic File        ; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_33.bdf           ;         ;
+; rom64x8_3.bdf                    ; yes             ; User Block Diagram/Schematic File        ; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom64x8_3.bdf            ;         ;
+; memprog.bdf                      ; yes             ; User Block Diagram/Schematic File        ; C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/memprog.bdf              ;         ;
+; decoderbin_oneh.bdf              ; yes             ; Auto-Found Block Diagram/Schematic File  ; c:/users/mateu/documentos unicamp/2022-2/ea773/lab5/decoderbin_oneh/decoderbin_oneh.bdf ;         ;
++----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimated Total logic elements              ; 183       ;
+;                                             ;           ;
+; Total combinational functions               ; 183       ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 142       ;
+;     -- 3 input functions                    ; 30        ;
+;     -- <=2 input functions                  ; 11        ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 183       ;
+;     -- arithmetic mode                      ; 0         ;
+;                                             ;           ;
+; Total registers                             ; 0         ;
+;     -- Dedicated logic registers            ; 0         ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 17        ;
+; Embedded Multiplier 9-bit elements          ; 0         ;
+; Maximum fan-out node                        ; endrom[4] ;
+; Maximum fan-out                             ; 36        ;
+; Total fan-out                               ; 696       ;
+; Average fan-out                             ; 3.48      ;
++---------------------------------------------+-----------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                         ;
++---------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node      ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                            ; Library Name ;
++---------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------+--------------+
+; |memprog                        ; 183 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 17   ; 0            ; |memprog                                                       ; work         ;
+;    |rom64x8_0:inst|             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |memprog|rom64x8_0:inst                                        ; work         ;
+;    |rom64x8_1:inst2|            ; 54 (4)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |memprog|rom64x8_1:inst2                                       ; work         ;
+;       |rom16x8_10:0a15|         ; 17 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |memprog|rom64x8_1:inst2|rom16x8_10:0a15                       ; work         ;
+;          |decoderBIN_ONEH:inst| ; 17 (17)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |memprog|rom64x8_1:inst2|rom16x8_10:0a15|decoderBIN_ONEH:inst  ; work         ;
+;       |rom16x8_11:16a31|        ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |memprog|rom64x8_1:inst2|rom16x8_11:16a31                      ; work         ;
+;          |decoderBIN_ONEH:inst| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |memprog|rom64x8_1:inst2|rom16x8_11:16a31|decoderBIN_ONEH:inst ; work         ;
+;       |rom16x8_zerada:32a47|    ; 31 (31)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |memprog|rom64x8_1:inst2|rom16x8_zerada:32a47                  ; work         ;
+;    |rom64x8_2:inst3|            ; 123 (7)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |memprog|rom64x8_2:inst3                                       ; work         ;
+;       |rom16x8_20:0a15|         ; 60 (59)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |memprog|rom64x8_2:inst3|rom16x8_20:0a15                       ; work         ;
+;          |decoderBIN_ONEH:inst| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |memprog|rom64x8_2:inst3|rom16x8_20:0a15|decoderBIN_ONEH:inst  ; work         ;
+;       |rom16x8_21:16a31|        ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |memprog|rom64x8_2:inst3|rom16x8_21:16a31                      ; work         ;
+;          |decoderBIN_ONEH:inst| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |memprog|rom64x8_2:inst3|rom16x8_21:16a31|decoderBIN_ONEH:inst ; work         ;
+;       |rom16x8_22:32a47|        ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |memprog|rom64x8_2:inst3|rom16x8_22:32a47                      ; work         ;
+;          |decoderBIN_ONEH:inst| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |memprog|rom64x8_2:inst3|rom16x8_22:32a47|decoderBIN_ONEH:inst ; work         ;
+;       |rom16x8_23:48a63|        ; 54 (53)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |memprog|rom64x8_2:inst3|rom16x8_23:48a63                      ; work         ;
+;          |decoderBIN_ONEH:inst| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |memprog|rom64x8_2:inst3|rom16x8_23:48a63|decoderBIN_ONEH:inst ; work         ;
+;    |rom64x8_3:inst4|            ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |memprog|rom64x8_3:inst4                                       ; work         ;
++---------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Tue Nov 15 16:15:56 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off memprog -c memprog
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 1 design units, including 1 entities, in source file rom16x8_00.bdf
+    Info (12023): Found entity 1: rom16x8_00
+Info (12021): Found 1 design units, including 1 entities, in source file rom16x8_zerada.bdf
+    Info (12023): Found entity 1: rom16x8_zerada
+Info (12021): Found 1 design units, including 1 entities, in source file rom64x8_0.bdf
+    Info (12023): Found entity 1: rom64x8_0
+Info (12021): Found 1 design units, including 1 entities, in source file rom16x8_10.bdf
+    Info (12023): Found entity 1: rom16x8_10
+Info (12021): Found 1 design units, including 1 entities, in source file rom16x8_11.bdf
+    Info (12023): Found entity 1: rom16x8_11
+Info (12021): Found 1 design units, including 1 entities, in source file rom64x8_1.bdf
+    Info (12023): Found entity 1: rom64x8_1
+Info (12021): Found 1 design units, including 1 entities, in source file rom16x8_20.bdf
+    Info (12023): Found entity 1: rom16x8_20
+Info (12021): Found 1 design units, including 1 entities, in source file rom16x8_21.bdf
+    Info (12023): Found entity 1: rom16x8_21
+Info (12021): Found 1 design units, including 1 entities, in source file rom16x8_22.bdf
+    Info (12023): Found entity 1: rom16x8_22
+Info (12021): Found 1 design units, including 1 entities, in source file rom16x8_23.bdf
+    Info (12023): Found entity 1: rom16x8_23
+Info (12021): Found 1 design units, including 1 entities, in source file rom64x8_2.bdf
+    Info (12023): Found entity 1: rom64x8_2
+Info (12021): Found 1 design units, including 1 entities, in source file rom16x8_30.bdf
+    Info (12023): Found entity 1: rom16x8_30
+Info (12021): Found 1 design units, including 1 entities, in source file rom16x8_31.bdf
+    Info (12023): Found entity 1: rom16x8_31
+Info (12021): Found 1 design units, including 1 entities, in source file rom16x8_32.bdf
+    Info (12023): Found entity 1: rom16x8_32
+Info (12021): Found 1 design units, including 1 entities, in source file rom16x8_33.bdf
+    Info (12023): Found entity 1: rom16x8_33
+Info (12021): Found 1 design units, including 1 entities, in source file rom64x8_3.bdf
+    Info (12023): Found entity 1: rom64x8_3
+Info (12021): Found 1 design units, including 1 entities, in source file memprog.bdf
+    Info (12023): Found entity 1: memprog
+Info (12127): Elaborating entity "memprog" for the top level hierarchy
+Info (12128): Elaborating entity "rom64x8_2" for hierarchy "rom64x8_2:inst3"
+Info (12128): Elaborating entity "rom16x8_23" for hierarchy "rom64x8_2:inst3|rom16x8_23:48a63"
+Warning (275011): Block or symbol "TRI" of instance "inst770" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst772" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst777" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst779" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst782" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst784" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst785" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst788" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst790" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst801" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst803" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst808" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst810" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst813" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst814" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst815" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst816" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst819" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst820" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst821" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst831" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst833" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst837" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst839" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst842" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst844" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst848" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst849" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst850" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst851" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst861" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst862" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst863" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst867" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst868" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst869" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst871" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst873" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst878" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst880" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst891" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst892" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst893" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst896" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst897" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst899" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst901" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst903" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst904" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst908" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst910" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst927" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst928" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst929" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst938" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst940" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst410" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst426" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst442" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst458" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst474" overlaps another block or symbol
+Warning (12125): Using design file /users/mateu/documentos unicamp/2022-2/ea773/lab5/decoderbin_oneh/decoderbin_oneh.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: decoderBIN_ONEH
+Info (12128): Elaborating entity "decoderBIN_ONEH" for hierarchy "rom64x8_2:inst3|rom16x8_23:48a63|decoderBIN_ONEH:inst"
+Info (12128): Elaborating entity "rom16x8_22" for hierarchy "rom64x8_2:inst3|rom16x8_22:32a47"
+Warning (275011): Block or symbol "TRI" of instance "inst514" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst516" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst521" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst523" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst526" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst528" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst529" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst532" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst534" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst545" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst547" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst552" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst554" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst557" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst558" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst559" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst563" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst564" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst565" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst575" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst577" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst581" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst583" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst586" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst588" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst592" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst593" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst595" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst605" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst606" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst607" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst611" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst612" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst613" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst615" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst617" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst622" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst624" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst635" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst636" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst637" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst640" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst641" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst643" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst645" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst647" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst652" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst654" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst665" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst667" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst671" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst673" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst675" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst677" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst682" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst684" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst695" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst697" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst702" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst704" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst707" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst708" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst709" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst712" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst713" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst715" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst725" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst726" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst727" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst728" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst730" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst732" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst735" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst736" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst737" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst738" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst740" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst741" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst742" overlaps another block or symbol
+Info (12128): Elaborating entity "rom16x8_20" for hierarchy "rom64x8_2:inst3|rom16x8_20:0a15"
+Warning (275011): Block or symbol "TRI" of instance "inst50" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst52" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst58" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst59" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst61" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst54" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst68" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst69" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst73" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst75" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst63" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst66" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst76" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst79" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst82" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst84" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst87" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst88" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst89" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst90" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst93" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst94" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst95" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst96" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst99" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst101" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst105" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst106" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst108" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst111" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst113" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst114" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst117" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst118" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst119" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst120" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst123" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst124" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst125" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst126" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst130" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst131" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst132" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst135" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst136" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst137" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst141" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst142" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst143" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst144" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst147" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst148" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst149" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst150" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst153" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst154" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst156" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst159" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst160" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst161" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst162" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst165" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst166" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst167" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst168" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst171" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst173" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst174" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst177" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst178" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst179" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst180" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst183" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst184" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst185" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst186" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst189" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst190" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst191" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst192" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst195" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst197" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst201" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst202" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst204" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst207" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst208" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst209" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst210" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst213" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst214" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst215" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst216" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst227" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst228" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst229" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst230" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst232" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst234" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst237" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst238" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst239" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst240" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst242" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst243" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst244" overlaps another block or symbol
+Info (12128): Elaborating entity "rom16x8_21" for hierarchy "rom64x8_2:inst3|rom16x8_21:16a31"
+Warning (275011): Block or symbol "TRI" of instance "inst65" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst260" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst265" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst267" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst270" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst272" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst276" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst278" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst289" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst291" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst296" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst298" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst301" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst302" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst303" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst307" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst309" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst319" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst321" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst325" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst327" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst330" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst332" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst336" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst337" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst339" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst349" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst350" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst351" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst355" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst356" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst357" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst359" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst361" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst366" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst368" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst379" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst380" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst381" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst384" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst385" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst387" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst389" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst391" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst396" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst398" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst409" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst411" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst412" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst415" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst416" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst417" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst419" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst421" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst422" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst426" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst428" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst439" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst441" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst446" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst448" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst451" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst452" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst453" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst454" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst456" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst457" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst459" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst469" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst470" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst471" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst472" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst474" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst476" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst479" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst480" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst481" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst482" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst484" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst485" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst486" overlaps another block or symbol
+Info (12128): Elaborating entity "rom64x8_1" for hierarchy "rom64x8_1:inst2"
+Info (12128): Elaborating entity "rom16x8_zerada" for hierarchy "rom64x8_1:inst2|rom16x8_zerada:32a47"
+Warning (275011): Block or symbol "TRI" of instance "inst234" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst246" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst266" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst282" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst298" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst314" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst330" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst346" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst362" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst378" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst394" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst410" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst426" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst442" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst458" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst474" overlaps another block or symbol
+Warning (275002): No superset bus at connection
+Info (12128): Elaborating entity "rom16x8_11" for hierarchy "rom64x8_1:inst2|rom16x8_11:16a31"
+Warning (275011): Block or symbol "TRI" of instance "inst65" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst260" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst267" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst270" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst272" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst276" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst289" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst291" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst298" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst301" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst307" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst309" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst319" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst321" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst327" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst330" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst332" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst337" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst349" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst351" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst357" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst359" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst379" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst381" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst387" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst389" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst391" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst398" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst409" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst411" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst415" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst426" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst428" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst439" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst441" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst446" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst453" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst457" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst470" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst471" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst472" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst474" overlaps another block or symbol
+Info (12128): Elaborating entity "rom16x8_10" for hierarchy "rom64x8_1:inst2|rom16x8_10:0a15"
+Warning (275011): Block or symbol "TRI" of instance "inst50" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst51" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst52" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst59" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst60" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst61" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst54" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst68" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst69" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst73" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst74" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst75" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst63" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst66" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst82" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst84" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst87" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst88" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst89" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst90" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst94" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst95" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst96" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst99" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst101" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst106" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst108" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst111" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst113" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst117" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst118" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst120" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst123" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst124" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst125" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst126" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst130" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst131" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst132" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst135" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst137" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst142" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst143" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst144" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst147" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst148" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst149" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst150" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst153" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst154" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst156" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst159" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst161" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst162" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst165" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst166" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst168" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst171" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst173" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst174" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst178" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst179" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst180" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst183" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst184" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst185" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst189" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst190" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst191" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst192" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst195" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst197" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst202" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst204" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst207" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst208" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst209" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst210" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst213" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst214" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst215" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst216" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst227" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst228" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst229" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst230" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst232" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst234" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst237" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst238" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst239" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst240" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst241" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst242" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst243" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst244" overlaps another block or symbol
+Info (12128): Elaborating entity "rom64x8_0" for hierarchy "rom64x8_0:inst"
+Info (12128): Elaborating entity "rom16x8_00" for hierarchy "rom64x8_0:inst|rom16x8_00:0a15"
+Warning (275011): Block or symbol "TRI" of instance "inst50" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst52" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst59" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst61" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst54" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst68" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst69" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst73" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst75" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst63" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst66" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst82" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst84" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst87" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst88" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst89" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst90" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst94" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst95" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst96" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst99" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst101" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst106" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst108" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst111" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst113" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst117" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst118" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst120" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst123" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst124" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst125" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst126" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst130" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst131" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst132" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst135" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst137" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst142" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst143" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst144" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst147" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst148" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst149" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst150" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst153" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst154" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst156" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst159" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst161" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst165" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst166" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst168" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst171" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst173" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst174" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst178" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst179" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst180" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst183" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst184" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst185" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst189" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst190" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst191" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst192" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst195" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst197" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst202" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst204" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst207" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst208" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst209" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst210" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst213" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst214" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst216" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst221" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst234" overlaps another block or symbol
+Info (12128): Elaborating entity "rom64x8_3" for hierarchy "rom64x8_3:inst4"
+Info (12128): Elaborating entity "rom16x8_33" for hierarchy "rom64x8_3:inst4|rom16x8_33:48a63"
+Warning (275011): Block or symbol "TRI" of instance "inst234" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst246" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst266" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst282" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst298" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst314" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst330" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst346" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst362" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst378" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst394" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst410" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst426" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst442" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst458" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst474" overlaps another block or symbol
+Warning (275002): No superset bus at connection
+Info (12128): Elaborating entity "rom16x8_32" for hierarchy "rom64x8_3:inst4|rom16x8_32:32a47"
+Warning (275011): Block or symbol "TRI" of instance "inst52" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst59" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst75" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst63" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst66" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst99" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst101" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst108" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst111" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst113" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst117" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst124" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst125" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst130" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst131" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst132" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst135" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst142" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst148" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst154" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst156" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst161" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst162" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst166" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst171" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst173" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst174" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst179" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst180" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst189" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst192" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst197" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst208" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst210" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst216" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst229" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst232" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst234" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst238" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst243" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst244" overlaps another block or symbol
+Info (12128): Elaborating entity "rom16x8_31" for hierarchy "rom64x8_3:inst4|rom16x8_31:16a31"
+Warning (275011): Block or symbol "TRI" of instance "inst50" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst52" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst59" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst63" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst66" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst84" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst99" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst101" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst108" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst111" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst113" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst114" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst117" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst120" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst124" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst131" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst132" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst144" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst148" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst150" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst156" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst171" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst173" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst174" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst179" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst180" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst189" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst192" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst197" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst208" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst229" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst230" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst232" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst238" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst242" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst243" overlaps another block or symbol
+Info (12128): Elaborating entity "rom16x8_30" for hierarchy "rom64x8_3:inst4|rom16x8_30:0a15"
+Warning (275011): Block or symbol "TRI" of instance "inst50" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst52" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst59" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst69" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst75" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst63" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst66" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst84" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst94" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst99" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst101" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst108" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst111" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst113" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst114" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst117" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst120" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst124" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst125" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst130" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst131" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst132" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst135" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst137" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst142" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst143" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst144" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst148" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst150" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst154" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst156" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst159" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst161" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst166" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst171" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst173" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst174" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst179" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst180" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst185" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst189" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst190" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst192" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst197" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst202" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst207" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst208" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst209" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst210" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst213" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst216" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst229" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst230" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst232" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst234" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst238" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst242" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst243" overlaps another block or symbol
+Warning (275011): Block or symbol "TRI" of instance "inst244" overlaps another block or symbol
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 200 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 9 input pins
+    Info (21059): Implemented 8 output pins
+    Info (21061): Implemented 183 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 716 warnings
+    Info: Peak virtual memory: 4597 megabytes
+    Info: Processing ended: Tue Nov 15 16:15:58 2022
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+

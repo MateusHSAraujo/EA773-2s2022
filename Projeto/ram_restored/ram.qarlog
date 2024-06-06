@@ -1,0 +1,24 @@
+Quartus II Archive log --	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/ram_restored/ram.qarlog
+
+Archive:	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/ram_restored/ram.qar
+Date:		Fri Nov 18 10:14:12 2022
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_1_bit.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_4_bits.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/bus_tristate/bus_tristate.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/decoderBIN_ONEH/decoderBIN_ONEH.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/ram_restored/WaveformRam16x4.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/ram_restored/WaveformRam1x4.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/ram_restored/WaveformRam1x41.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/ram_restored/assignment_defaults.qdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/ram_restored/incremental_db/compiled_partitions/ram.db_info
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/ram_restored/ram.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/ram_restored/ram.qpf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/ram_restored/ram.qsf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/ram_restored/ram1x4.bdf
+	======= Total: 13 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

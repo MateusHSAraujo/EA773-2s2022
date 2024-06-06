@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab3\registrador_4_bits_restored\simulation\qsim
+vregistrador_4_bits
+Z1 Inib<lcYc1Cf3V1h7TzzD12
+Z2 VEiX@joWAmckbENfez]dQ93
+Z3 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab3\registrador_4_bits_restored\simulation\qsim
+Z4 w1664585965
+Z5 8registrador_4_bits.vo
+Z6 Fregistrador_4_bits.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 <R<=Y323]kgUW7ZS?^g`B3
+!s85 0
+Z10 !s108 1664585966.603000
+Z11 !s107 registrador_4_bits.vo|
+Z12 !s90 -work|work|registrador_4_bits.vo|
+!s101 -O0
+vregistrador_4_bits_vlg_check_tst
+!i10b 1
+!s100 h@P8kkCfZe?Kj>=;][z?e2
+Ic:4D<[EWFY5:PV[PCG1jT3
+V93;k:2Lc<390=5@z3lZle3
+R3
+Z13 w1664585964
+Z14 8registrador_4_bits.vt
+Z15 Fregistrador_4_bits.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z16 !s108 1664585966.665000
+Z17 !s107 registrador_4_bits.vt|
+Z18 !s90 -work|work|registrador_4_bits.vt|
+!s101 -O0
+R8
+vregistrador_4_bits_vlg_sample_tst
+!i10b 1
+!s100 L[mRegKII8DUUoa>l`CZ30
+IYePl2`ke78VBbzH=:m5W;3
+V8C_1Hcn2<OeUo6?ngO8TR3
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vregistrador_4_bits_vlg_vec_tst
+!i10b 1
+!s100 ikz<40@hjF=f6kW@aoC7d2
+I603NiG_ZPb?INW4nQR<gc3
+V6<6<7:DS0oae@`5aU_OVV1
+R3
+R13
+R14
+R15
+L0 215
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

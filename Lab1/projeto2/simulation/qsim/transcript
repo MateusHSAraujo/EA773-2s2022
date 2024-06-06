@@ -1,0 +1,38 @@
+# do projeto2.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module projeto2
+# 
+# Top level modules:
+# 	projeto2
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module projeto2_vlg_sample_tst
+# -- Compiling module projeto2_vlg_check_tst
+# -- Compiling module projeto2_vlg_vec_tst
+# 
+# Top level modules:
+# 	projeto2_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.projeto2_vlg_vec_tst 
+# Loading work.projeto2_vlg_vec_tst
+# Loading work.projeto2
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading work.projeto2_vlg_sample_tst
+# Loading work.projeto2_vlg_check_tst
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from projeto2_v.sdo
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# Loading timing data from projeto2_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /projeto2_vlg_vec_tst File: projeto2.vt
+# ERROR! Vector Mismatch for output port LEDR :: @time = 4125000.000 ps
+#      Expected value = 0
+#      Real value = 1
+#           1 mismatched vectors : Simulation failed !
+# ** Note: $finish    : projeto2.vt(149)
+#    Time: 8005 ns  Iteration: 0  Instance: /projeto2_vlg_vec_tst/tb_out

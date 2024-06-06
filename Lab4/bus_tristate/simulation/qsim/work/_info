@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab4\bus_tristate\simulation\qsim
+vbus_tristate
+Z1 ImBCX`FF`UZ3bV<HC9=1]_0
+Z2 VefCjBBhOTNYZSEM:KRBE53
+Z3 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab4\bus_tristate\simulation\qsim
+Z4 w1664919452
+Z5 8bus_tristate.vo
+Z6 Fbus_tristate.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|bus_tristate.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 Zg9KlYkImI?6GMH>5a4lm0
+!s85 0
+Z11 !s108 1664919452.766000
+Z12 !s107 bus_tristate.vo|
+!s101 -O0
+vbus_tristate_vlg_check_tst
+!i10b 1
+!s100 _YEbYQ59L4B7Q0jP2oZTH0
+IDdaE3X3iPKJ]hR_co=EiT3
+Z13 VLk00nZhg:6BE2O9YMA@i_3
+R3
+Z14 w1664919451
+Z15 8bus_tristate.vt
+Z16 Fbus_tristate.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z17 !s108 1664919452.871000
+Z18 !s107 bus_tristate.vt|
+Z19 !s90 -work|work|bus_tristate.vt|
+!s101 -O0
+R9
+vbus_tristate_vlg_sample_tst
+!i10b 1
+Z20 !s100 <mTW3N3@WA[NEO_4N2l9D2
+Z21 I]1D[B9=BknEVS<5Y`kC<?2
+Z22 VZ]d3g0LM<]K3z:^N]imN=3
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+vbus_tristate_vlg_vec_tst
+!i10b 1
+!s100 D1b8eV:jihlmM3H3M>AYV2
+I7Q>3U=E[A;69LFo]=MT^e2
+Z23 VjS3_mc@2XCc9KicYH4TY93
+R3
+R14
+R15
+R16
+L0 211
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9

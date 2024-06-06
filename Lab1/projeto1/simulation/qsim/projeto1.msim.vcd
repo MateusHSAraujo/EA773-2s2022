@@ -1,0 +1,181 @@
+$comment
+	File created using the following command:
+		vcd file projeto1.msim.vcd -direction
+$end
+$date
+	Sat Aug 27 20:46:46 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module projeto1_vlg_vec_tst $end
+$var reg 4 ! SW [3:0] $end
+$var wire 1 " LEDR [0] $end
+$var wire 1 # sampler $end
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * inst~0_combout $end
+$var wire 1 + SW~combout [3] $end
+$var wire 1 , SW~combout [2] $end
+$var wire 1 - SW~combout [1] $end
+$var wire 1 . SW~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+x"
+x#
+0$
+1%
+x&
+1'
+1(
+1)
+x*
+0.
+0-
+0,
+z+
+$end
+#912
+1*
+#4642
+1"
+#62500
+b1 !
+0#
+#63526
+1.
+#125000
+b11 !
+b10 !
+1#
+#126026
+1-
+0.
+#126938
+0*
+#130668
+0"
+#187500
+b11 !
+0#
+#188526
+1.
+#250000
+b111 !
+b101 !
+b100 !
+1#
+#251026
+0-
+0.
+#251036
+1,
+#251938
+1*
+#255668
+1"
+#312500
+b101 !
+0#
+#313526
+1.
+#314287
+0*
+#318017
+0"
+#375000
+b111 !
+b110 !
+1#
+#376026
+1-
+0.
+#437500
+b111 !
+0#
+#438526
+1.
+#500000
+b1111 !
+b1011 !
+b1001 !
+b1000 !
+1#
+#501026
+0-
+0.
+#501036
+0,
+#501938
+1*
+#505668
+1"
+#562500
+b1001 !
+0#
+#563526
+1.
+#625000
+b1011 !
+b1010 !
+1#
+#626026
+1-
+0.
+#626938
+0*
+#630668
+0"
+#687500
+b1011 !
+0#
+#688526
+1.
+#750000
+b1111 !
+b1101 !
+b1100 !
+1#
+#751026
+0-
+0.
+#751036
+1,
+#751938
+1*
+#755668
+1"
+#812500
+b1101 !
+0#
+#813526
+1.
+#814287
+0*
+#818017
+0"
+#875000
+b1111 !
+b1110 !
+1#
+#876026
+1-
+0.
+#937500
+b1111 !
+0#
+#938526
+1.
+#1000000

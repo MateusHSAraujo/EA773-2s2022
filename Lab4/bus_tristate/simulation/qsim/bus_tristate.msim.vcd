@@ -1,0 +1,213 @@
+$comment
+	File created using the following command:
+		vcd file bus_tristate.msim.vcd -direction
+$end
+$date
+	Tue Oct 04 18:37:33 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module bus_tristate_vlg_vec_tst $end
+$var reg 1 ! e $end
+$var reg 4 " in [3:0] $end
+$var wire 1 # out [3] $end
+$var wire 1 $ out [2] $end
+$var wire 1 % out [1] $end
+$var wire 1 & out [0] $end
+$var wire 1 ' sampler $end
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var tri1 1 + devclrn $end
+$var tri1 1 , devpor $end
+$var tri1 1 - devoe $end
+$var wire 1 . e~combout $end
+$var wire 1 / in~combout [3] $end
+$var wire 1 0 in~combout [2] $end
+$var wire 1 1 in~combout [1] $end
+$var wire 1 2 in~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b0 "
+z&
+z%
+z$
+z#
+x'
+0(
+1)
+x*
+1+
+1,
+1-
+0.
+02
+01
+00
+0/
+$end
+#250000
+b1 "
+12
+0'
+#500000
+b11 "
+b10 "
+02
+11
+1'
+#750000
+1!
+b11 "
+1.
+12
+0'
+1&
+1%
+0$
+0#
+#1000000
+b111 "
+b101 "
+b100 "
+02
+01
+10
+1'
+0&
+0%
+1$
+#1250000
+0!
+b101 "
+0.
+12
+0'
+z&
+z%
+z$
+z#
+#1500000
+b111 "
+b110 "
+02
+11
+1'
+#1750000
+1!
+b111 "
+1.
+12
+0'
+1&
+1%
+1$
+0#
+#2000000
+b1111 "
+b1011 "
+b1001 "
+b1000 "
+02
+01
+00
+1/
+1'
+0&
+0%
+0$
+1#
+#2250000
+b1001 "
+12
+0'
+1&
+#2500000
+0!
+b1011 "
+b1010 "
+0.
+02
+11
+1'
+z&
+z%
+z$
+z#
+#2750000
+b1011 "
+12
+0'
+#3000000
+b1111 "
+b1101 "
+b1100 "
+02
+01
+10
+1'
+#3250000
+b1101 "
+12
+0'
+#3500000
+1!
+b1111 "
+b1110 "
+1.
+02
+11
+1'
+0&
+1%
+1$
+1#
+#3750000
+b1111 "
+12
+0'
+1&
+#4000000
+b111 "
+b11 "
+b1 "
+b0 "
+02
+01
+00
+0/
+1'
+0&
+0%
+0$
+0#
+#4250000
+0!
+b1 "
+0.
+12
+0'
+z&
+z%
+z$
+z#
+#4500000
+b11 "
+b10 "
+02
+11
+1'
+#4750000
+b11 "
+12
+0'
+#5000000

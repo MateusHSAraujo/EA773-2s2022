@@ -1,0 +1,59 @@
+|registrador_4_bits
+q[0] <= registrador_1_bit:inst12.qi
+q[1] <= registrador_1_bit:inst11.qi
+q[2] <= registrador_1_bit:inst10.qi
+q[3] <= registrador_1_bit:inst.qi
+LD => registrador_1_bit:inst12.LD
+LD => registrador_1_bit:inst11.LD
+LD => registrador_1_bit:inst10.LD
+LD => registrador_1_bit:inst.LD
+x[0] => registrador_1_bit:inst12.xi
+x[1] => registrador_1_bit:inst11.xi
+x[2] => registrador_1_bit:inst10.xi
+x[3] => registrador_1_bit:inst.xi
+CLR => registrador_1_bit:inst12.CLR
+CLR => registrador_1_bit:inst11.CLR
+CLR => registrador_1_bit:inst10.CLR
+CLR => registrador_1_bit:inst.CLR
+CLK => registrador_1_bit:inst12.CLK
+CLK => registrador_1_bit:inst11.CLK
+CLK => registrador_1_bit:inst10.CLK
+CLK => registrador_1_bit:inst.CLK
+
+
+|registrador_4_bits|registrador_1_bit:inst12
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|registrador_4_bits|registrador_1_bit:inst11
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|registrador_4_bits|registrador_1_bit:inst10
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+
+|registrador_4_bits|registrador_1_bit:inst
+qi <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+LD => inst9.IN0
+LD => inst5.IN0
+xi => inst9.IN1
+CLR => inst4.IN0
+
+

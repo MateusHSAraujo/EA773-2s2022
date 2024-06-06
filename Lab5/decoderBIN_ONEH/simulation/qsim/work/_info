@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab5\decoderBIN_ONEH\simulation\qsim
+vdecoderBIN_ONEH
+Z1 !s100 PnY9O@N3?aN_e?dFRYcP<0
+Z2 I4F[SIQ>bf>S;VLWXlka@D1
+Z3 VIzVOJC;C?=LcEI1oVRn6G3
+Z4 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab5\decoderBIN_ONEH\simulation\qsim
+Z5 w1666465592
+Z6 8decoderBIN_ONEH.vo
+Z7 FdecoderBIN_ONEH.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|decoderBIN_ONEH.vo|
+Z10 o-work work -O0
+Z11 ndecoder@b@i@n_@o@n@e@h
+!i10b 1
+!s85 0
+Z12 !s108 1666465592.746000
+Z13 !s107 decoderBIN_ONEH.vo|
+!s101 -O0
+vdecoderBIN_ONEH_vlg_check_tst
+!i10b 1
+Z14 !s100 5eUnd6oJYWfAZ?zBC_7Wo2
+Z15 IP05:8`79n0li7EgGXXc>_2
+Z16 V:Z_DGz_78kCJG2FkZ^WYk2
+R4
+Z17 w1666465591
+Z18 8decoderBIN_ONEH.vt
+Z19 FdecoderBIN_ONEH.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z20 !s108 1666465592.846000
+Z21 !s107 decoderBIN_ONEH.vt|
+Z22 !s90 -work|work|decoderBIN_ONEH.vt|
+!s101 -O0
+R10
+Z23 ndecoder@b@i@n_@o@n@e@h_vlg_check_tst
+vdecoderBIN_ONEH_vlg_sample_tst
+!i10b 1
+Z24 !s100 fzMn>S7BkLE9;5AH13a4]2
+Z25 ISz_M8>z<F@Iz=LfWd6X4^0
+Z26 Vk8P3=V1NTAOAN6@ZV7SgH2
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 ndecoder@b@i@n_@o@n@e@h_vlg_sample_tst
+vdecoderBIN_ONEH_vlg_vec_tst
+!i10b 1
+!s100 cd4=_FA5i7l@YZf=Bzd0B2
+ImLHMRQ>YL0B9QHM<:<YIV2
+Z28 VMC`A_[hJ6lAS9W^o44XkL1
+R4
+R17
+R18
+R19
+Z29 L0 439
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 ndecoder@b@i@n_@o@n@e@h_vlg_vec_tst

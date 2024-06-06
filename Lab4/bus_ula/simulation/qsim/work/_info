@@ -1,0 +1,161 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab4\bus_ula\simulation\qsim
+vBlock1
+Z1 IQTeMadfPnS6]GZUCVm@O;0
+Z2 V>h=9C^KZb?ImF1XKiE`Ue3
+Z3 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab4\bus_ula\simulation\qsim
+Z4 w1667424826
+Z5 8bus_ula.vo
+Z6 Fbus_ula.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|bus_ula.vo|
+Z9 o-work work -O0
+Z10 n@block1
+!i10b 1
+Z11 !s100 ::BR<m03Hl=NfN>VkKg@]1
+!s85 0
+Z12 !s108 1667424827.353000
+Z13 !s107 bus_ula.vo|
+!s101 -O0
+vBlock1_vlg_check_tst
+!i10b 1
+!s100 d<HLkQQMh=G>_AH@_9FDg1
+IXLYoNeG3LO6B8G6aGk8>b0
+Vi=3gfoYiA^Ve7137=Qjf`1
+R3
+Z14 w1667424825
+Z15 8bus_ula.vt
+Z16 Fbus_ula.vt
+L0 65
+R7
+r1
+!s85 0
+31
+Z17 !s108 1667424827.400000
+Z18 !s107 bus_ula.vt|
+Z19 !s90 -work|work|bus_ula.vt|
+!s101 -O0
+R9
+n@block1_vlg_check_tst
+vBlock1_vlg_sample_tst
+!i10b 1
+!s100 GhmE>=[X3FZQN2C;GUmaP2
+IiTOjA=An7?dYFK4KMkHL71
+V`N`E]QL2Ha<`oCO@O7no?2
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+n@block1_vlg_sample_tst
+vBlock1_vlg_vec_tst
+!i10b 1
+!s100 =>m5eS2Wcg33X_5eQJT_80
+IL=nJODzQHHe5Z^UOn3M]Q2
+V8EbEX^g@9e0ZUXjTWSm=l2
+R3
+R14
+R15
+R16
+L0 213
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+n@block1_vlg_vec_tst
+vbus_ula
+Z20 !s100 HK>k6jHV:F2HAz:?4CJ[V1
+Z21 IH[XRBJ`iXKoe@gb9MM>C_2
+Z22 V?L2U7J:TohZ9^N<N^:C@P3
+R3
+Z23 w1664919147
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z24 !s108 1664919147.909000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vbus_ula_vlg_check_tst
+Z25 IlJh0UG1EWnRJY]nj^0TIO2
+Z26 VjKH56``[1NZWnJ7m8?0j=2
+R3
+Z27 w1664919146
+R15
+R16
+L0 83
+R7
+r1
+31
+Z28 !s108 1664919148.040000
+Z29 !s107 bus_ula.vt|
+R19
+R9
+Z30 !s100 DOh>WF5Q9L<DonTRlai:]2
+!i10b 1
+!s85 0
+!s101 -O0
+vbus_ula_vlg_sample_tst
+Z31 !s100 >S9JYomZUMaG:fSJ0GY^J0
+Z32 IJQ9lV07bNa[I08kD`B8b11
+Z33 V6EI_b_hOa1eH<NU1CfPeG2
+R3
+R27
+R15
+R16
+L0 29
+R7
+r1
+31
+R28
+R29
+R19
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vbus_ula_vlg_vec_tst
+Z34 I7=XB=2aYP=6Dkal@H1^O90
+Z35 V;R:a^H3hZ21kCE]Y;1^0m3
+R3
+R27
+R15
+R16
+Z36 L0 883
+R7
+r1
+31
+R28
+R29
+R19
+R9
+Z37 !s100 698EGLo<G_QaM?8j6flDg0
+!i10b 1
+!s85 0
+!s101 -O0

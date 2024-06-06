@@ -1,0 +1,64 @@
+Quartus II Archive log --	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/computador_simplificado/computador_simplificado.qarlog
+
+Archive:	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/computador_simplificado/computador_simplificado.qar
+Date:		Fri Nov 18 10:13:28 2022
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/ULA.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/complementa.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/decodificador_ULA.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/meio_somador.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/somador_4_bits.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/somador_completo.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/zera.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod16_restored/contador_mod16.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod16_restored/transmite_entrada.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod256/contador_mod_256.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_1_bit.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_4_bits.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/bus_tristate/bus_tristate.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/bus_ula/bus_ula.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/decodificador_7seg/bus_decodificador_7seg.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/decoderBIN_ONEH/decoderBIN_ONEH.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/computador_simplificado/WaveformPA.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/computador_simplificado/WaveformPB.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/computador_simplificado/WaveformPC.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/computador_simplificado/computador_simplificado.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/computador_simplificado/computador_simplificado.qpf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/computador_simplificado/computador_simplificado.qsf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/computador_simplificado/incremental_db/compiled_partitions/computador_simplificado.db_info
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/cpu.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/decod_inst_art.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/decod_inst_dsv.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/decod_inst_dsv_calc_LDCNT.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/decod_inst_signal_register.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/decod_inst_trf.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/decod_inst_trf_interno.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/mux16x4.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/mux16x8.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/mux8x4.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/memprog.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_00.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_10.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_11.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_20.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_21.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_22.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_23.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_30.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_31.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_32.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_33.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom16x8_zerada.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom64x8_0.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom64x8_1.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom64x8_2.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/memprog/rom64x8_3.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/ram_restored/ram.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/ram_restored/ram1x4.bdf
+c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 53 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

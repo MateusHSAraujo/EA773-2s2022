@@ -1,0 +1,68 @@
+Quartus II Archive log --	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/cpu.qarlog
+
+Archive:	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/cpu.qar
+Date:		Fri Nov 18 10:15:24 2022
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/ULA.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/complementa.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/decodificador_ULA.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/meio_somador.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/somador_4_bits.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/somador_completo.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab2/ULA_restored/zera.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod16_restored/contador_mod16.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod16_restored/transmite_entrada.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod256/contador_mod_256.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_1_bit.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_4_bits.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/bus_tristate/bus_tristate.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/bus_ula/bus_ula.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/decodificador_7seg/bus_decodificador_7seg.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/decoderBIN_ONEH/decoderBIN_ONEH.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/Testemux16x4.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/Testemux16x8.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/Testemux8x4.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_art.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_dsv.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_dsv0000.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_dsv0001.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_dsv0010.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_dsv0011.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_dsv0100.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_dsv0101.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_dsv0110.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_dsv0111.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_dsv1000.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_dsv1001.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_dsv1010.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_dsv1011.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_dsv1100.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_dsv1101.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_dsv1110.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_dsv1111.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_trf.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformDecod_inst_trf_interno.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformMux16x4.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformMux16x8.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformMux8x4.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/WaveformTESTE.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/cpu.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/cpu.qpf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/cpu.qsf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/decod_inst_art.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/decod_inst_dsv.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/decod_inst_dsv_calc_LDCNT.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/decod_inst_signal_register.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/decod_inst_trf.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/decod_inst_trf_interno.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/incremental_db/compiled_partitions/cpu.db_info
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/mux16x4.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/mux16x8.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Projeto/cpu/mux8x4.bdf
+c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 57 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

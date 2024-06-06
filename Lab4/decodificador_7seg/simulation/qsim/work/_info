@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab4\decodificador_7seg\simulation\qsim
+vbus_decodificador_7seg
+Z1 !s100 `XS?9oSlQKEm<DMhDbjT63
+Z2 I8W`WU`fNKgAnja`CRd2Hn1
+Z3 VBm1Go<ODLH=i4ICX25cUI0
+Z4 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab4\decodificador_7seg\simulation\qsim
+Z5 w1664919558
+Z6 8bus_decodificador_7seg.vo
+Z7 Fbus_decodificador_7seg.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|bus_decodificador_7seg.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1664919559.166000
+Z12 !s107 bus_decodificador_7seg.vo|
+!s101 -O0
+vbus_decodificador_7seg_vlg_check_tst
+!i10b 1
+Z13 !s100 URDVbijW@HHMN1;mG1Hf52
+Z14 Ihkfd:RZ4<jUNGQNiCS7Zb0
+Z15 V>RCD<4@?_OlHZLg=zD`Q12
+R4
+Z16 w1664919557
+Z17 8bus_decodificador_7seg.vt
+Z18 Fbus_decodificador_7seg.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z19 !s108 1664919559.266000
+Z20 !s107 bus_decodificador_7seg.vt|
+Z21 !s90 -work|work|bus_decodificador_7seg.vt|
+!s101 -O0
+R10
+vbus_decodificador_7seg_vlg_sample_tst
+!i10b 1
+Z22 !s100 e;bL4LK]D^?[]kmOTDM4T1
+Z23 I_`ZoIQPV4L`Ie6BSG:GKE2
+Z24 VM`B0X7H=23V[M[o2Gj7kV0
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vbus_decodificador_7seg_vlg_vec_tst
+!i10b 1
+Z25 !s100 ]o2S>YnEm4QhEE0<5XWXJ0
+Z26 IIoBTL4dj7gK;GFA3@BB4i2
+Z27 VF>??cUJI7cS8X8>Y578i32
+R4
+R16
+R17
+R18
+Z28 L0 266
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

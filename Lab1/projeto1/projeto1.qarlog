@@ -1,0 +1,19 @@
+Quartus II Archive log --	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab1/projeto1/projeto1.qarlog
+
+Archive:	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab1/projeto1/projeto1.qar
+Date:		Thu Sep 01 17:05:33 2022
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab1/projeto1/Waveform(withoutDummy).vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab1/projeto1/Waveform.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab1/projeto1/Waveform2.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab1/projeto1/incremental_db/compiled_partitions/projeto1.db_info
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab1/projeto1/projeto1.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab1/projeto1/projeto1.qpf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab1/projeto1/projeto1.qsf
+c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

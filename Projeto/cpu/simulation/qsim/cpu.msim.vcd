@@ -1,0 +1,521 @@
+$comment
+	File created using the following command:
+		vcd file cpu.msim.vcd -direction
+$end
+$date
+	Fri Nov 18 09:36:26 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module decod_inst_dsv_vlg_vec_tst $end
+$var reg 1 ! CLK $end
+$var reg 4 " flags [3:0] $end
+$var reg 4 # op [3:0] $end
+$var reg 1 $ RESET $end
+$var reg 1 % SEL $end
+$var wire 1 & BOP $end
+$var wire 1 ' LDCNT $end
+$var wire 1 ( SXCPC $end
+$var wire 1 ) sampler $end
+$scope module i1 $end
+$var wire 1 * gnd $end
+$var wire 1 + vcc $end
+$var wire 1 , unknown $end
+$var tri1 1 - devclrn $end
+$var tri1 1 . devpor $end
+$var tri1 1 / devoe $end
+$var wire 1 0 inst2|inst8~combout $end
+$var wire 1 1 inst2|LDCNT~2_combout $end
+$var wire 1 2 CLK~combout $end
+$var wire 1 3 CLK~clkctrl_outclk $end
+$var wire 1 4 inst|inst5~0_combout $end
+$var wire 1 5 SEL~combout $end
+$var wire 1 6 RESET~combout $end
+$var wire 1 7 inst4|inst5~combout $end
+$var wire 1 8 inst4|inst~regout $end
+$var wire 1 9 inst3|inst7~combout $end
+$var wire 1 : inst2|LDCNT~4_combout $end
+$var wire 1 ; inst2|LDCNT~3_combout $end
+$var wire 1 < inst2|LDCNT~5_combout $end
+$var wire 1 = inst2|inst9~combout $end
+$var wire 1 > inst2|LDCNT~6_combout $end
+$var wire 1 ? inst2|LDCNT~0_combout $end
+$var wire 1 @ inst2|LDCNT~1_combout $end
+$var wire 1 A inst2|LDCNT~7_combout $end
+$var wire 1 B inst3|inst5~0_combout $end
+$var wire 1 C inst3|inst~regout $end
+$var wire 1 D inst3|inst9~0_combout $end
+$var wire 1 E inst4|inst9~0_combout $end
+$var wire 1 F inst|inst5~1_combout $end
+$var wire 1 G op~combout [3] $end
+$var wire 1 H op~combout [2] $end
+$var wire 1 I op~combout [1] $end
+$var wire 1 J op~combout [0] $end
+$var wire 1 K flags~combout [3] $end
+$var wire 1 L flags~combout [2] $end
+$var wire 1 M flags~combout [1] $end
+$var wire 1 N flags~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b0 "
+b1111 #
+0$
+1%
+0&
+1'
+1(
+x)
+0*
+1+
+x,
+1-
+1.
+1/
+10
+01
+02
+03
+14
+15
+06
+07
+08
+09
+0:
+0;
+1<
+0=
+1>
+1?
+1@
+1A
+1B
+0C
+1D
+0E
+1F
+1J
+1I
+1H
+1G
+0N
+0M
+0L
+0K
+$end
+#62500
+1!
+12
+13
+0)
+1C
+#125000
+0!
+02
+03
+1)
+#187500
+1!
+12
+13
+0)
+#250000
+b1 "
+0!
+1N
+02
+03
+1)
+#312500
+1!
+12
+13
+0)
+#375000
+0!
+02
+03
+1)
+#437500
+1!
+12
+13
+0)
+#500000
+b11 "
+b10 "
+0!
+0N
+1M
+02
+03
+1)
+1=
+0@
+#562500
+1!
+12
+13
+0)
+#625000
+0!
+02
+03
+1)
+#687500
+1!
+12
+13
+0)
+#750000
+b11 "
+0!
+1N
+02
+03
+1)
+#812500
+1!
+12
+13
+0)
+#875000
+0!
+02
+03
+1)
+#937500
+1!
+12
+13
+0)
+#1000000
+b111 "
+b101 "
+b100 "
+0!
+0N
+0M
+1L
+02
+03
+1)
+11
+1;
+#1062500
+1!
+12
+13
+0)
+#1125000
+0!
+02
+03
+1)
+#1187500
+1!
+12
+13
+0)
+#1250000
+0%
+b101 "
+0!
+05
+1N
+02
+03
+1)
+0F
+0D
+0B
+0(
+0'
+#1312500
+1!
+12
+13
+0)
+0C
+#1375000
+0!
+02
+03
+1)
+#1437500
+1!
+12
+13
+0)
+#1500000
+b111 "
+b110 "
+0!
+0N
+1M
+02
+03
+1)
+0=
+1@
+#1562500
+1!
+12
+13
+0)
+#1625000
+0!
+02
+03
+1)
+#1687500
+1!
+12
+13
+0)
+#1750000
+b111 "
+0!
+1N
+02
+03
+1)
+#1812500
+1!
+12
+13
+0)
+#1875000
+0!
+02
+03
+1)
+#1937500
+1!
+12
+13
+0)
+#2000000
+b1111 "
+b1011 "
+b1001 "
+b1000 "
+0!
+0N
+0M
+0L
+1K
+02
+03
+1)
+1:
+00
+01
+0;
+#2062500
+1!
+12
+13
+0)
+#2125000
+0!
+02
+03
+1)
+#2187500
+1!
+12
+13
+0)
+#2250000
+b1001 "
+0!
+1N
+02
+03
+1)
+10
+#2312500
+1!
+12
+13
+0)
+#2375000
+0!
+02
+03
+1)
+#2437500
+1!
+12
+13
+0)
+#2500000
+b1011 "
+b1010 "
+0!
+0N
+1M
+02
+03
+1)
+00
+1=
+0@
+#2562500
+1!
+12
+13
+0)
+#2625000
+0!
+02
+03
+1)
+#2687500
+1!
+12
+13
+0)
+#2750000
+1%
+b1011 "
+0!
+15
+1N
+02
+03
+1)
+1F
+1D
+1B
+10
+1(
+1'
+#2812500
+1!
+12
+13
+0)
+1C
+#2875000
+0!
+02
+03
+1)
+#2937500
+1!
+12
+13
+0)
+#3000000
+b1111 "
+b1101 "
+b1100 "
+0!
+0N
+0M
+1L
+02
+03
+1)
+00
+11
+1;
+#3062500
+1!
+12
+13
+0)
+#3125000
+0!
+02
+03
+1)
+#3187500
+1!
+12
+13
+0)
+#3250000
+b1101 "
+0!
+1N
+02
+03
+1)
+10
+#3312500
+1!
+12
+13
+0)
+#3375000
+0!
+02
+03
+1)
+#3437500
+1!
+12
+13
+0)
+#3500000
+b1111 "
+b1110 "
+0!
+0N
+1M
+02
+03
+1)
+00
+0=
+1@
+#3562500
+1!
+12
+13
+0)
+#3625000
+0!
+02
+03
+1)
+#3687500
+1!
+12
+13
+0)
+#3750000
+b1111 "
+0!
+1N
+02
+03
+1)
+10
+#3812500
+1!
+12
+13
+0)
+#3875000
+0!
+02
+03
+1)
+#3937500
+1!
+12
+13
+0)
+#4000000

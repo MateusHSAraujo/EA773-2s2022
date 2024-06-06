@@ -1,0 +1,157 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab5\ram16x4\simulation\qsim
+vram
+Z1 !s100 QBJZMN`nS@PWo_6FMD6le3
+Z2 I;co5]7lQ8QMgl4M<NFCZ_1
+Z3 V9n_fR><RIRcNO:N_lSeSd0
+Z4 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab5\ram16x4\simulation\qsim
+Z5 w1666546683
+Z6 8ram.vo
+Z7 Fram.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|ram.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1666546684.329000
+Z12 !s107 ram.vo|
+!s101 -O0
+vram1x4
+Z13 !s100 EIcJQ_i4oZ1^dG4<IB:Oe3
+Z14 IalmZJogDUzNmf4[4eX9150
+Z15 VazHYMi1SAj`QIiDP[4gJ@1
+R4
+Z16 w1666544949
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z17 !s108 1666544950.551000
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vram1x4_vlg_check_tst
+Z18 !s100 4_CAzH2FbfKSW?;?1`E3V2
+Z19 I:;jnRc`JE]eQ<@1dPgOHj2
+Z20 VTJ>R`:T__BZX8HoVklzgJ2
+R4
+R16
+Z21 8ram.vt
+Z22 Fram.vt
+L0 63
+R8
+r1
+31
+Z23 !s108 1666544950.600000
+Z24 !s107 ram.vt|
+Z25 !s90 -work|work|ram.vt|
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vram1x4_vlg_sample_tst
+Z26 !s100 OO_I7Gg@SUUNS3?UTHjkJ2
+Z27 I5]9mMjQncHc?Yi_>o4AV]2
+Z28 VQ>:@4FU_XkcC2YEPaM;7I1
+R4
+R16
+R21
+R22
+L0 29
+R8
+r1
+31
+R23
+R24
+R25
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vram1x4_vlg_vec_tst
+Z29 IZ=7X4`5RS?HfiHFgDhXX:2
+Z30 VMEbYH6Aj2O690BgbaZADY0
+R4
+R16
+R21
+R22
+Z31 L0 215
+R8
+r1
+31
+R23
+R24
+R25
+R10
+Z32 !s100 YT><Vdko;D`W>Gg1;J6aP1
+!i10b 1
+!s85 0
+!s101 -O0
+vram_vlg_check_tst
+!i10b 1
+Z33 !s100 ]V>Ga[O@]V<97zGm[LhRZ3
+Z34 IL<JX;Y7gFU8j5D6Z]9X3E2
+Z35 VNn=?0=lAl5aNfl8aa>EFa3
+R4
+Z36 w1666546682
+R21
+R22
+L0 65
+R8
+r1
+!s85 0
+31
+Z37 !s108 1666546684.392000
+Z38 !s107 ram.vt|
+R25
+!s101 -O0
+R10
+vram_vlg_sample_tst
+!i10b 1
+Z39 !s100 X;PK98<SBa@8HXi=T4I9i3
+Z40 IRcDig?IiXzYo9V:ac=nlc2
+Z41 V7c>46nLo3Di[I0>f`W9:g0
+R4
+R36
+R21
+R22
+L0 29
+R8
+r1
+!s85 0
+31
+R37
+R38
+R25
+!s101 -O0
+R10
+vram_vlg_vec_tst
+!i10b 1
+!s100 @UfCcVLGKJMNBdk>JkQc72
+IhaS<aTbohNXdI08BKF?Wh3
+Z42 VO7EWmSHZlGJZ7?JZl5j2J0
+R4
+R36
+R21
+R22
+Z43 L0 217
+R8
+r1
+!s85 0
+31
+R37
+R38
+R25
+!s101 -O0
+R10

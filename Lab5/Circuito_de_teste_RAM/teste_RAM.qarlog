@@ -1,0 +1,26 @@
+Quartus II Archive log --	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/Circuito_de_teste_RAM/teste_RAM.qarlog
+
+Archive:	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/Circuito_de_teste_RAM/teste_RAM.qar
+Date:		Sun Oct 23 14:50:31 2022
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod16_restored/contador_mod16.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/contador_mod16_restored/transmite_entrada.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_1_bit.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab3/registrador_4_bits_restored/registrador_4_bits.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/bus_tristate/bus_tristate.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab4/decodificador_7seg/bus_decodificador_7seg.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/Circuito_de_teste_RAM/WaveformTesteRAM.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/Circuito_de_teste_RAM/incremental_db/compiled_partitions/teste_RAM.db_info
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/Circuito_de_teste_RAM/teste_RAM.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/Circuito_de_teste_RAM/teste_RAM.qpf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/Circuito_de_teste_RAM/teste_RAM.qsf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/decoderBIN_ONEH/decoderBIN_ONEH.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/ram16x4/ram.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/ram16x4/ram1x4.bdf
+c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 15 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

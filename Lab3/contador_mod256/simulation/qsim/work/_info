@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab3\contador_mod256\simulation\qsim
+vcontador_mod_256
+Z1 !s100 d<fa=;^L;BSgUU?mn2MCJ0
+Z2 I<8EG_FaSVI=bmMGhj3?TE3
+Z3 VES6_N<[a2Ma_:NgmTjzaf3
+Z4 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab3\contador_mod256\simulation\qsim
+Z5 w1664658398
+Z6 8contador_mod_256.vo
+Z7 Fcontador_mod_256.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|contador_mod_256.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1664658398.806000
+Z12 !s107 contador_mod_256.vo|
+!s101 -O0
+vcontador_mod_256_vlg_check_tst
+!i10b 1
+Z13 !s100 8V:iM`elhEgO6ElIoUYX12
+Z14 I4:JKJjdN5gOGi>65DeBj91
+Z15 VFQ<fzK^fXAhEAMOYZGBo^0
+R4
+Z16 w1664658397
+Z17 8contador_mod_256.vt
+Z18 Fcontador_mod_256.vt
+L0 65
+R8
+r1
+!s85 0
+31
+Z19 !s108 1664658398.922000
+Z20 !s107 contador_mod_256.vt|
+Z21 !s90 -work|work|contador_mod_256.vt|
+!s101 -O0
+R10
+vcontador_mod_256_vlg_sample_tst
+!i10b 1
+Z22 !s100 8cB[ZzM;l3^GZL8?HQmkK0
+Z23 IKR:=WPFAH6[@BGRQ5LY@[0
+Z24 VHU4nVg@nKV:acTP;:F[DU1
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vcontador_mod_256_vlg_vec_tst
+!i10b 1
+!s100 F0_ZUg`>z2>3]:>d^KZ?=1
+IVjbb5P7BMm5EPlKKSeYiC3
+Z25 V>K:bNcI4f=o1oZlG]c^kf3
+R4
+R16
+R17
+R18
+Z26 L0 321
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

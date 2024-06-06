@@ -1,0 +1,24 @@
+Quartus II Archive log --	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/rom64x8_0.qarlog
+
+Archive:	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/rom64x8_0.qar
+Date:		Sun Oct 23 14:52:08 2022
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/decoderBIN_ONEH/decoderBIN_ONEH.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/Waveform16x4_par0impar1.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/Waveform16x8_par0impar1.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/Waveform32x8_par0impar1.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/Waveform64x8_0.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/incremental_db/compiled_partitions/rom64x8_0.db_info
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/rom16x4_0.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/rom16x8_0.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/rom32x8_0.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/rom64x8_0.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/rom64x8_0.qpf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/rom64x8_0.qsf
+c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 13 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

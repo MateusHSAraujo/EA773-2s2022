@@ -1,0 +1,90 @@
+# do computador_simplificado.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module computador_simplificado
+# 
+# Top level modules:
+# 	computador_simplificado
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module computador_simplificado_vlg_sample_tst
+# -- Compiling module computador_simplificado_vlg_check_tst
+# -- Compiling module computador_simplificado_vlg_vec_tst
+# 
+# Top level modules:
+# 	computador_simplificado_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.computador_simplificado_vlg_vec_tst 
+# Loading work.computador_simplificado_vlg_vec_tst
+# Loading work.computador_simplificado
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading work.computador_simplificado_vlg_sample_tst
+# Loading work.computador_simplificado_vlg_check_tst
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# ERROR! Vector Mismatch for output port HEX0[0] :: @time = 1000000.000 ps
+#      Expected value = 0000000
+#      Real value = 0011001
+# ERROR! Vector Mismatch for output port HEX0[3] :: @time = 1000000.000 ps
+#      Expected value = 0000000
+#      Real value = 0011001
+# ERROR! Vector Mismatch for output port HEX0[4] :: @time = 1000000.000 ps
+#      Expected value = 0000000
+#      Real value = 0011001
+# ERROR! Vector Mismatch for output port HEX1[6] :: @time = 1000000.000 ps
+#      Expected value = 0000000
+#      Real value = 1000000
+# ERROR! Vector Mismatch for output port HEX2[4] :: @time = 1000000.000 ps
+#      Expected value = 0000000
+#      Real value = 0110000
+# ERROR! Vector Mismatch for output port HEX2[5] :: @time = 1000000.000 ps
+#      Expected value = 0000000
+#      Real value = 0110000
+# ERROR! Vector Mismatch for output port HEX3[1] :: @time = 1000000.000 ps
+#      Expected value = 0000000
+#      Real value = 0010010
+# ERROR! Vector Mismatch for output port HEX3[4] :: @time = 1000000.000 ps
+#      Expected value = 0000000
+#      Real value = 0010010
+# ERROR! Vector Mismatch for output port HEX0[1] :: @time = 1250000.000 ps
+#      Expected value = 0000000
+#      Real value = 0000010
+# ERROR! Vector Mismatch for output port HEX1[2] :: @time = 1250000.000 ps
+#      Expected value = 0000000
+#      Real value = 0100100
+# ERROR! Vector Mismatch for output port HEX1[5] :: @time = 1250000.000 ps
+#      Expected value = 0000000
+#      Real value = 0100100
+# ERROR! Vector Mismatch for output port HEX0[5] :: @time = 1500000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111000
+# ERROR! Vector Mismatch for output port HEX0[6] :: @time = 1500000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111000
+# ERROR! Vector Mismatch for output port HEX1[1] :: @time = 1500000.000 ps
+#      Expected value = 0000000
+#      Real value = 0000010
+# ERROR! Vector Mismatch for output port HEX1[0] :: @time = 1750000.000 ps
+#      Expected value = 0000000
+#      Real value = 0011001
+# ERROR! Vector Mismatch for output port HEX1[3] :: @time = 1750000.000 ps
+#      Expected value = 0000000
+#      Real value = 0011001
+# ERROR! Vector Mismatch for output port HEX1[4] :: @time = 1750000.000 ps
+#      Expected value = 0000000
+#      Real value = 0011001
+# ERROR! Vector Mismatch for output port HEX3[6] :: @time = 2500000.000 ps
+#      Expected value = 0000000
+#      Real value = 1000000
+# ERROR! Vector Mismatch for output port HEX0[2] :: @time = 2750000.000 ps
+#      Expected value = 0000000
+#      Real value = 1000110
+# ERROR! Vector Mismatch for output port HEX2[6] :: @time = 2750000.000 ps
+#      Expected value = 0000000
+#      Real value = 1000000
+#          20 mismatched vectors : Simulation failed !
+# ** Note: $finish    : computador_simplificado.vt(1045)
+#    Time: 4 us  Iteration: 0  Instance: /computador_simplificado_vlg_vec_tst/tb_out

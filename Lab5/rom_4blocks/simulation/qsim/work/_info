@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab5\rom_4blocks\simulation\qsim
+vrom_4blocks
+Z1 !s100 UA_kjIZ@WA7FLccUGid211
+Z2 Ii8DHHgWAljTnX:zTh@j1g0
+Z3 VK3UQe<1IC31Fo41K5M@AU1
+Z4 dC:\Users\mateu\Documentos Unicamp\2022-2\EA773\Lab5\rom_4blocks\simulation\qsim
+Z5 w1666536206
+Z6 8rom_4blocks.vo
+Z7 From_4blocks.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|rom_4blocks.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1666536207.376000
+Z12 !s107 rom_4blocks.vo|
+!s101 -O0
+vrom_4blocks_vlg_check_tst
+!i10b 1
+Z13 !s100 <kz4VeD8_19]6enkBX6Fa3
+Z14 IW3l?hkRJ0N5l5Lgl`D@Jl2
+Z15 VKTJKV]CRI?7lJAT6G>O2E1
+R4
+R5
+Z16 8rom_4blocks.vt
+Z17 From_4blocks.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z18 !s108 1666536207.455000
+Z19 !s107 rom_4blocks.vt|
+Z20 !s90 -work|work|rom_4blocks.vt|
+!s101 -O0
+R10
+vrom_4blocks_vlg_sample_tst
+!i10b 1
+Z21 !s100 i@0hULOHI[Wm7eVzoGWb10
+Z22 I;MKjb?SCid:l_gUGYaWj<1
+Z23 VHSZ@ZFOzAVOWQ:z:RZLSK3
+R4
+R5
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+vrom_4blocks_vlg_vec_tst
+!i10b 1
+!s100 0]RhCJ6^j>X]0VRSP^cOH2
+ISBhJ9:5>P8kZT7MS1KMF@0
+Z24 VU0_HAao;7?7]_[KZKYRhV1
+R4
+R5
+R16
+R17
+Z25 L0 289
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10

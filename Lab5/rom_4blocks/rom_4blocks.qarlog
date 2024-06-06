@@ -1,0 +1,40 @@
+Quartus II Archive log --	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/rom_4blocks/rom_4blocks.qarlog
+
+Archive:	C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/rom_4blocks/rom_4blocks.qar
+Date:		Sun Oct 23 14:53:40 2022
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/decoderBIN_ONEH/decoderBIN_ONEH.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/rom16x4_0.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/rom16x8_0.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/rom32x8_0.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo0/rom64x8_0.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo1/rom16x4_1.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo1/rom16x8_1.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo1/rom32x8_1.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo1/rom64x8_1.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo2/rom16x4_2ls.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo2/rom16x4_2ms.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo2/rom16x8_2.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo2/rom32x8_2.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo2/rom64x8_2.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo3/rom16x4_3ls.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo3/rom16x4_3ms.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo3/rom16x8_3.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo3/rom32x8_3.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/modulo3/rom64x8_3.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/rom_4blocks/WaveformBASE.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/rom_4blocks/WaveformMod0.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/rom_4blocks/WaveformMod1.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/rom_4blocks/WaveformMod2.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/rom_4blocks/WaveformMod3.vwf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/rom_4blocks/incremental_db/compiled_partitions/rom_4blocks.db_info
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/rom_4blocks/rom_4blocks.bdf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/rom_4blocks/rom_4blocks.qpf
+C:/Users/mateu/Documentos Unicamp/2022-2/EA773/Lab5/rom_4blocks/rom_4blocks.qsf
+c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 29 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

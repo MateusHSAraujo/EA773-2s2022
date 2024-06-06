@@ -1,0 +1,229 @@
+|contador_mod_256_TESTE
+LEDG[0] <= contador_mod_256:inst.TC
+SW[0] => contador_mod_256:inst.x[0]
+SW[1] => contador_mod_256:inst.x[1]
+SW[2] => contador_mod_256:inst.x[2]
+SW[3] => contador_mod_256:inst.x[3]
+SW[4] => contador_mod_256:inst.x[4]
+SW[5] => contador_mod_256:inst.x[5]
+SW[6] => contador_mod_256:inst.x[6]
+SW[7] => contador_mod_256:inst.x[7]
+SW[8] => contador_mod_256:inst.LD
+SW[9] => contador_mod_256:inst.CLR
+KEY[0] => contador_mod_256:inst.CLK
+LEDR[0] <= contador_mod_256:inst.q[0]
+LEDR[1] <= contador_mod_256:inst.q[1]
+LEDR[2] <= contador_mod_256:inst.q[2]
+LEDR[3] <= contador_mod_256:inst.q[3]
+LEDR[4] <= contador_mod_256:inst.q[4]
+LEDR[5] <= contador_mod_256:inst.q[5]
+LEDR[6] <= contador_mod_256:inst.q[6]
+LEDR[7] <= contador_mod_256:inst.q[7]
+
+
+|contador_mod_256_TESTE|contador_mod_256:inst
+TC <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+LD => contador_mod16:inst.LD
+LD => contador_mod16:inst1.LD
+LD => inst9.IN2
+CLR => contador_mod16:inst.CLR
+CLR => contador_mod16:inst1.CLR
+CLR => inst9.IN0
+CLK => contador_mod16:inst.CLK
+CLK => contador_mod16:inst1.CLK
+E => contador_mod16:inst.E
+E => inst6.IN0
+x[0] => contador_mod16:inst.x[0]
+x[1] => contador_mod16:inst.x[1]
+x[2] => contador_mod16:inst.x[2]
+x[3] => contador_mod16:inst.x[3]
+x[4] => contador_mod16:inst1.x[0]
+x[5] => contador_mod16:inst1.x[1]
+x[6] => contador_mod16:inst1.x[2]
+x[7] => contador_mod16:inst1.x[3]
+q[0] <= contador_mod16:inst.q[0]
+q[1] <= contador_mod16:inst.q[1]
+q[2] <= contador_mod16:inst.q[2]
+q[3] <= contador_mod16:inst.q[3]
+q[4] <= contador_mod16:inst1.q[0]
+q[5] <= contador_mod16:inst1.q[1]
+q[6] <= contador_mod16:inst1.q[2]
+q[7] <= contador_mod16:inst1.q[3]
+
+
+|contador_mod_256_TESTE|contador_mod_256:inst|contador_mod16:inst
+TC <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+x[0] => transmite_entrada:inst12.xi
+x[1] => transmite_entrada:inst11.xi
+x[2] => transmite_entrada:inst18.xi
+x[3] => transmite_entrada:inst17.xi
+LD => transmite_entrada:inst18.LD
+LD => transmite_entrada:inst11.LD
+LD => transmite_entrada:inst12.LD
+LD => transmite_entrada:inst17.LD
+CLR => transmite_entrada:inst18.CLR
+CLR => transmite_entrada:inst11.CLR
+CLR => transmite_entrada:inst12.CLR
+CLR => transmite_entrada:inst17.CLR
+E => transmite_entrada:inst18.E
+E => transmite_entrada:inst11.E
+E => transmite_entrada:inst12.E
+E => transmite_entrada:inst17.E
+CLK => inst1.CLK
+CLK => inst2.CLK
+CLK => inst3.CLK
+CLK => inst.CLK
+
+
+|contador_mod_256_TESTE|contador_mod_256:inst|contador_mod16:inst|transmite_entrada:inst18
+oj <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+LD => inst1.IN0
+LD => inst4.IN0
+LD => inst7.IN0
+xi => inst1.IN1
+xi => inst6.IN0
+R => inst.IN1
+CLR => inst5.IN0
+CLR => inst10.IN1
+E => inst3.IN2
+E => inst9.IN1
+ok <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|contador_mod_256_TESTE|contador_mod_256:inst|contador_mod16:inst|transmite_entrada:inst11
+oj <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+LD => inst1.IN0
+LD => inst4.IN0
+LD => inst7.IN0
+xi => inst1.IN1
+xi => inst6.IN0
+R => inst.IN1
+CLR => inst5.IN0
+CLR => inst10.IN1
+E => inst3.IN2
+E => inst9.IN1
+ok <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|contador_mod_256_TESTE|contador_mod_256:inst|contador_mod16:inst|transmite_entrada:inst12
+oj <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+LD => inst1.IN0
+LD => inst4.IN0
+LD => inst7.IN0
+xi => inst1.IN1
+xi => inst6.IN0
+R => inst.IN1
+CLR => inst5.IN0
+CLR => inst10.IN1
+E => inst3.IN2
+E => inst9.IN1
+ok <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|contador_mod_256_TESTE|contador_mod_256:inst|contador_mod16:inst|transmite_entrada:inst17
+oj <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+LD => inst1.IN0
+LD => inst4.IN0
+LD => inst7.IN0
+xi => inst1.IN1
+xi => inst6.IN0
+R => inst.IN1
+CLR => inst5.IN0
+CLR => inst10.IN1
+E => inst3.IN2
+E => inst9.IN1
+ok <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|contador_mod_256_TESTE|contador_mod_256:inst|contador_mod16:inst1
+TC <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+x[0] => transmite_entrada:inst12.xi
+x[1] => transmite_entrada:inst11.xi
+x[2] => transmite_entrada:inst18.xi
+x[3] => transmite_entrada:inst17.xi
+LD => transmite_entrada:inst18.LD
+LD => transmite_entrada:inst11.LD
+LD => transmite_entrada:inst12.LD
+LD => transmite_entrada:inst17.LD
+CLR => transmite_entrada:inst18.CLR
+CLR => transmite_entrada:inst11.CLR
+CLR => transmite_entrada:inst12.CLR
+CLR => transmite_entrada:inst17.CLR
+E => transmite_entrada:inst18.E
+E => transmite_entrada:inst11.E
+E => transmite_entrada:inst12.E
+E => transmite_entrada:inst17.E
+CLK => inst1.CLK
+CLK => inst2.CLK
+CLK => inst3.CLK
+CLK => inst.CLK
+
+
+|contador_mod_256_TESTE|contador_mod_256:inst|contador_mod16:inst1|transmite_entrada:inst18
+oj <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+LD => inst1.IN0
+LD => inst4.IN0
+LD => inst7.IN0
+xi => inst1.IN1
+xi => inst6.IN0
+R => inst.IN1
+CLR => inst5.IN0
+CLR => inst10.IN1
+E => inst3.IN2
+E => inst9.IN1
+ok <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|contador_mod_256_TESTE|contador_mod_256:inst|contador_mod16:inst1|transmite_entrada:inst11
+oj <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+LD => inst1.IN0
+LD => inst4.IN0
+LD => inst7.IN0
+xi => inst1.IN1
+xi => inst6.IN0
+R => inst.IN1
+CLR => inst5.IN0
+CLR => inst10.IN1
+E => inst3.IN2
+E => inst9.IN1
+ok <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|contador_mod_256_TESTE|contador_mod_256:inst|contador_mod16:inst1|transmite_entrada:inst12
+oj <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+LD => inst1.IN0
+LD => inst4.IN0
+LD => inst7.IN0
+xi => inst1.IN1
+xi => inst6.IN0
+R => inst.IN1
+CLR => inst5.IN0
+CLR => inst10.IN1
+E => inst3.IN2
+E => inst9.IN1
+ok <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|contador_mod_256_TESTE|contador_mod_256:inst|contador_mod16:inst1|transmite_entrada:inst17
+oj <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+LD => inst1.IN0
+LD => inst4.IN0
+LD => inst7.IN0
+xi => inst1.IN1
+xi => inst6.IN0
+R => inst.IN1
+CLR => inst5.IN0
+CLR => inst10.IN1
+E => inst3.IN2
+E => inst9.IN1
+ok <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
